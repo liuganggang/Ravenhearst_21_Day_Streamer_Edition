@@ -82,6 +82,7 @@
 	<!-- Basic Survival 10 - Craft a Spear /> -->
 	<quest id="quest_BasicSurvival10" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival10" subtitle="Craft A Spear" subtitle_key="quest_BasicSurvival10_subtitle" description_key="quest_BasicSurvival10_description" 	icon="ui_game_symbol_knife" category_key="quest" difficulty="veryeasy">
 		<objective type="FetchKeep" id="wood" value="20"/>
+		<objective type="Craft" id="stick" value="60"/>
 		<objective type="Craft" id="woodtippedSpear" value="1"/>
 		<reward type="Quest" id="quest_BasicSurvival11"/>
 	</quest>
@@ -120,7 +121,7 @@
 	<!-- CHALLENGES -->
 	<quest id="challenge_silenceofthelambs" name_key="challenge_silenceofthelambs" subtitle_key="challenge_silenceofthelambs_subtitle" description_key="challenge_silenceofthelambs_offer" icon="ui_game_symbol_zombie" 	repeatable="true" category_key="challenge" offer_key="challenge_silenceofthelambs_offer" difficulty="insane">
 		<objective type="Time" value="1200" optional="true"/>
-		<objective type="ZombieKill" id="zombieScreamer,zombieScreamerFeral" value="3"/>
+		<objective type="ZombieKill" id="zombieScreamer,zombieScreamerFeral,zombieScreamer5,zombieScreamer6,zombieScreamer7" value="3"/>
 		<reward type="SkillPoints" value="2"/>
 		<reward type="Exp" value="800"/>
 		<reward type="SkillPoints" value="5" optional="true"/>
@@ -146,7 +147,7 @@
 	</quest>
 	<quest id="challenge_copanattitude" name_key="challenge_copanattitude" subtitle_key="challenge_copanattitude_subtitle" description_key="challenge_copanattitude_offer" icon="ui_game_symbol_zombie"	repeatable="true" category_key="challenge" offer_key="challenge_copanattitude_offer" difficulty="hard">
 		<objective type="Time" value="1500" optional="true"/>
-		<objective type="ZombieKill" id="zombieFatCop,zombieFatCopFeral,zombieFatCopFeralRadiated" value="2"/>
+		<objective type="ZombieKill" id="zombieFatCop,zombieFatCopFeral,zombieFatCopFeralRadiated,zombieFatCop3,zombieFatCop5" value="2"/>
 		<reward type="SkillPoints" value="2"/>
 		<reward type="Exp" value="800"/>
 		<reward type="SkillPoints" value="5" optional="true"/>
@@ -189,20 +190,23 @@
 	<quest id="challenge_yournothingspecial" name_key="challenge_yournothingspecial" subtitle_key="challenge_yournothingspecial_subtitle" description_key="challenge_yournothingspecial_offer" icon="ui_game_symbol_zombie"	repeatable="true" category_key="challenge" offer_key="challenge_yournothingspecial_offer" difficulty="insane">
 		<objective type="Time" value="1800" optional="true"/>
 		<objective type="ZombieKill" id="zombieSpider,zombieSpiderFeral,zombieSpiderFeralRadiated" value="1"/>
-		<objective type="ZombieKill" id="zombieFatCop,zombieFatCopFeral,zombieFatCopFeralRadiated" value="1"/>
+		<objective type="ZombieKill" id="zombieFatCop,zombieFatCopFeral,zombieFatCopFeralRadiated,zombieFatCop3,zombieFatCop5" value="1"/>
 		<objective type="ZombieKill" id="zombieWightFeral,zombieWightFeralRadiated" value="1"/>
-		<objective type="ZombieKill" id="zombieScreamer,zombieScreamerFeral" value="1"/>
-		<objective type="ZombieKill" id="zombieBurnt" value="1"/>
+		<objective type="ZombieKill" id="zombieScreamer,zombieScreamerFeral,zombieScreamer5,zombieScreamer6,zombieScreamer7" value="1"/>
+		<objective type="ZombieKill" id="zombieBurnt,zombieBurnt3,zombieBurnt4,zombieBurnt5,zombieBurnt6" value="1"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="1000"/>
 		<reward type="SkillPoints" value="5" optional="true"/>
 	</quest>
 	<quest id="challenge_imalumberjackandimokay" name_key="challenge_imalumberjackandimokay" subtitle_key="challenge_imalumberjackandimokay_subtitle" description_key="challenge_imalumberjackandimokay_offer" icon="ui_game_symbol_zombie"	repeatable="true" category_key="challenge" offer_key="challenge_imalumberjackandimokay_offer" difficulty="hard">
 		<objective type="Time" value="900" optional="true"/>
-		<objective type="ZombieKill" id="zombieSnow,zombieSnowFeral" value="3"/>
+		<objective type="ZombieKill" id="zombieSnow,zombieSnowFeral,zombieSnow1,zombieSnow3,zombieSnow5,zombieSnow6" value="3"/>
 		<requirement type="Group" id="requirementGroupFireaxe" value="OR">
 			<requirement type="Holding" id="fireaxeIron"/>
 			<requirement type="Holding" id="fireaxeSteel"/>
+			<requirement type="Holding" id="legendaryFireaxe"/>
+			<requirement type="Holding" id="battleAxe"/>
+			<requirement type="Holding" id="FireaxeDiamond"/>
 		</requirement>
 		<reward type="SkillPoints" value="2"/>
 		<reward type="Exp" value="800"/>
@@ -213,6 +217,8 @@
 		<requirement type="Group" id="requirementGroupShotgun" value="OR">
 			<requirement type="Holding" id="gunSawedOffPumpShotgun"/>
 			<requirement type="Holding" id="gunPumpShotgun"/>
+			<requirement type="Holding" id="DoubleBarrel"/>
+			<requirement type="Holding" id="gunBoomstick"/>
 		</requirement>
 		<reward type="SkillPoints" value="2"/>
 		<reward type="Exp" value="800"/>
@@ -470,14 +476,14 @@
 		<reward type="Quest" id="quest_HandgunExpert05"/>
 	</quest>
 	<quest id="quest_HandgunExpert05" group_name_key="Handgun Expert" name_key="Handgun Expert 5/8" subtitle_key="Assemble a Silenced Pistol" description_key="To assemble a Weapon or upgrade it with better parts you must have all the parts in your inventory and have unlocked the recipe. Build it by selecting the part in your inventory and clicking on the “Assemble” action. These recipes will not appear in Crafting menus." icon="ui_game_symbol_assemble" category_key="Quest">
-		<objective type="Assemble" id="gunPistolSilenced1" value="1"/>
+		<objective type="Assemble" id="PistolSilenced" value="1"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="500"/>
 		<reward type="Quest" id="quest_HandgunExpert06"/>
 	</quest>
 	<quest id="quest_HandgunExpert06" group_name_key="Handgun Expert" name_key="Handgun Expert 6/8" subtitle_key="Kill 100 zombies" description_key="Kill 100 zombies with a Silenced Pistol." icon="ui_game_symbol_zombie"  	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="100"/>
-		<requirement type="Holding" id="gunPistolSilenced1"/>
+		<requirement type="Holding" id="PistolSilenced"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_HandgunExpert07"/>
@@ -620,7 +626,7 @@
 	</quest>
 	<!--Armor Crafting-->
 	<quest id="quest_Armored01" group_name_key="Armor Crafting" name_key="Hide Armor 1/2" subtitle_key="Craft Hide Armor" description_key="To craft this you must be in the Tailor Station." icon="ui_game_symbol_armor_leather" category_key="Quest">
-		<objective type="FetchKeep" id="animalHide" value="60"/>
+		<objective type="FetchKeep" id="animalHide" value="65"/>
 		<objective type="FetchKeep" id="Twine" value="25"/>
 		<objective type="Craft" id="animalHideLegArmor" value="1"/>
 		<objective type="Craft" id="animalHideChestArmor" value="1"/>
@@ -694,7 +700,7 @@
 		<reward type="Quest" id="quest_Armored07"/>
 	</quest>
 	<quest id="quest_Armored07" group_name_key="Armor Crafting" name_key="Iron Armor 1/2" subtitle_key="Craft Iron Armor" description_key="To craft this you must be in the Tailor Station." icon="armor_iron" category_key="Quest">
-		<objective type="FetchKeep" id="forgedIron" value="76"/>
+		<objective type="FetchKeep" id="forgedIron" value="120"/>
 		<objective type="FetchKeep" id="leather" value="19"/>
 		<objective type="Craft" id="ironLegArmor" value="1"/>
 		<objective type="Craft" id="ironChestArmor" value="1"/>
@@ -717,7 +723,7 @@
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_Armored09"/>
 	</quest>
-	<quest id="quest_Armored09" group_name_key="Armor Crafting" name_key="Steel Armor 1/2" subtitle_key="Craft Military Armor" description_key="To craft this you must be in the Tailor Station" icon="ui_game_symbol_armor_leather" category_key="Quest">
+	<quest id="quest_Armored09" group_name_key="Armor Crafting" name_key="Steel Armor 1/2" subtitle_key="Craft Steel Armor" description_key="To craft this you must be in the Tailor Station" icon="ui_game_symbol_armor_leather" category_key="Quest">
 		<objective type="FetchKeep" id="forgedSteel" value="120"/>
 		<objective type="FetchKeep" id="leather" value="17"/>
 		<objective type="Craft" id="steelBoots" value="1"/>
@@ -729,7 +735,7 @@
 		<reward type="Exp" value="300"/>
 		<reward type="Quest" id="quest_Armored10"/>
 	</quest>
-	<quest id="quest_Armored10" group_name_key="Armor Crafting" name_key="Steel Armor 2/2" subtitle_key="Wear Military Armor" description_key="To wear your steel armor, access the Inventory and select an article of clothing, then select Wear in the Action window. Once dressed, access the Character menu to see the insulation and defense your worn clothing provides in the top left of the Character window." icon="ui_game_symbol_armor_leather" category_key="Quest">
+	<quest id="quest_Armored10" group_name_key="Armor Crafting" name_key="Steel Armor 2/2" subtitle_key="Wear Steel Armor" description_key="To wear your steel armor, access the Inventory and select an article of clothing, then select Wear in the Action window. Once dressed, access the Character menu to see the insulation and defense your worn clothing provides in the top left of the Character window." icon="ui_game_symbol_armor_leather" category_key="Quest">
 		<objective type="Wear" id="steelBoots"/>
 		<objective type="Wear" id="steelLegs"/>
 		<objective type="Wear" id="steelChestplate"/>
@@ -998,17 +1004,16 @@
 		<reward type="Exp" value="300"/>
 	</quest>
 	<quest id="challenge_junkhunt1" group_name_key="Hunt For Junk" name_key="Scavenging For Orphans 1/2" subtitle_key="Scavenging For Orphans" offer_key="A little orphan girl showed up at the tradingpost and won't stop crying about her lost teddy.  Find her a teddy bear and you will be rewarded!" description_key="Find a teddy bear and you will be rewarded!!" icon="ui_game_symbol_rubberDoll" category_key="challenge" difficulty="medium">
-		<objective type="FetchKeep" id="clothTeddyBear" value="1"/>
+		<objective type="Fetch" id="clothTeddyBear" value="1"/>
 		<reward type="Exp" value="400"/>
 		<reward type="SkillPoints" value="1"/>
 		<reward type="Quest" id="challenge_junkhunt2"/>
 	</quest>
 	<quest id="challenge_junkhunt2" group_name_key="Hunt For Junk" name_key="Scavenging For Orphans 2/2" subtitle_key="Scavenging For Orphans" offer_key="That girl's brother just showed up.  All he talks about is becoming a zombie killing soldier and is missing his toy soldier collection.  Collect some toy soldiers and you will be rewarded!  Are you up for this one too?" description_key="Collect some toy soldiers and you will be rewarded!" icon="ui_game_symbol_plasticSoldier" category_key="challenge" difficulty="medium">
-		<objective type="FetchKeep" id="plasticSoldier" value="1"/>
-		<objective type="FetchKeep" id="woodSoldier" value="1"/>
-		<objective type="FetchKeep" id="ironSoldier" value="1"/>
-		<objective type="FetchKeep" id="leadSoldier" value="1"/>
-		<reward type="Item" id="gunHuntingRifle" value="350"/>
+		<objective type="Fetch" id="plasticSoldier" value="1"/>
+		<objective type="Fetch" id="woodSoldier" value="1"/>
+		<objective type="Fetch" id="ironSoldier" value="1"/>
+		<objective type="Fetch" id="leadSoldier" value="1"/>
 		<reward type="Exp" value="800"/>
 		<reward type="SkillPoints" value="2"/>
 	</quest>
@@ -1023,7 +1028,7 @@
 	</quest>
 	<quest id="challenge_feedthemole1" group_name_key="Feeding the Clubhouse"  name_key="Feeding the Clubhouse 2/3" subtitle_key="Feeding the Clubhouse" description_key="Gather some raw meat for the boys to cook up on the campfire." icon="ui_game_symbol_fork" 	repeatable="true" category_key="challenge" offer_key="Jax and the boys are hungry and need a day's worth of food. Fetch him some and he might reward you Prospect." difficulty="easy">
 		<action type="TrackQuest"/>
-		<objective type="FetchKeep" id="rawMeat" value="6"/>
+		<objective type="Fetch" id="rawMeat" value="6"/>
 		<reward type="Item" id="cookingGrill" value="1"/>
 		<reward type="Exp" value="400"/>
 		<reward type="SkillPoints" value="3"/>
@@ -1031,7 +1036,7 @@
 	</quest>
 	<quest id="challenge_feedthemole2"  group_name_key="Feeding the Clubhouse" name_key="Feeding the Clubhouse 3/3" subtitle_key="Feeding the Clubhouse" description_key="The guys are thirsty. Fetch some cans and water and cook them up.." icon="ui_game_symbol_fork" 	repeatable="true" category_key="challenge" offer_key="Jax and the boys are hungry and need a day's worth of food. Fetch him some and he might reward you Prospect." difficulty="easy">
 		<action type="TrackQuest"/>
-		<objective type="FetchKeep" id="canMurkyWater" value="2"/>
+		<objective type="Fetch" id="canMurkyWater" value="2"/>
 		<reward type="Item" id="cookingPot" value="1"/>
 		<reward type="Item" id="MRE" value="2"/>
 		<reward type="Item" id="PurifiedWater" value="2"/>
@@ -1039,8 +1044,6 @@
 		<reward type="SkillPoints" value="5"/>
 	</quest>
 	<!-- Notes and Skills -->
-
-
 	<quest id="skill1" name_key="1 Skill Points" subtitle_key="1 Skill Points" description_key="Read for 1 Skill Point!" icon="misc_crafting"  repeatable="true" category_key="challenge" difficulty="easy">
 		<reward type="SkillPoints" value="1"/>
 	</quest>
@@ -1081,16 +1084,16 @@
 		<reward type="SkillPoints" value="50"/>
 	</quest>
 	<!-- Classes -->
-	<quest id="riflesclass1" 	name_key="Rifles Class" 	group_name="SurvivalClasses" 	subtitle_key="Rifles Class" 	offer_key="Accepting this will give you a hunting rifle 150 bullets and a hunting rifle schematic" 	description_key="Become an expert in Rifles" 	icon="classMarksmanLevel1Icon" 	repeatable="false" 	category_key="Quest" 	difficulty="easy">
+	<quest id="riflesclass1" 	name_key="Rifles Class" 	group_name="SurvivalClasses" 	subtitle_key="Rifles Class" 	offer_key="Accepting this will give you an SMG 150 bullets and an SMG schematic" 	description_key="Become an expert in Rifles" 	icon="classMarksmanLevel1Icon" 	repeatable="false" 	category_key="Quest" 	difficulty="easy">
 		<reward type="Skill" id="RiflesClass" value="1"/>
 		<reward type="Skill" id="AmmoClass" value="1"/>
 		<reward type="Skill" id="Homemade Rifle Bullet" value="1"/>
 		<reward type="Skill" id="Rifle Exclusive" value="1"/>
-		<reward type="Skill" id="762mm Round Crafting" value="1"/>
+		<reward type="Skill" id="9mm Round Crafting" value="1"/>
 		<reward type="Skill" id="Rifles" value="15"/>
-		<reward type="Item" id="gunHuntingRifle" value="250"/>
+		<reward type="Item" id="gunMP5" value="250"/>
 		<reward type="Item" id="homemadeRifleBullet" value="150"/>
-		<reward type="Item" id="huntingRifleSchematic"/>
+		<reward type="Item" id="smgSchematics"/>
 		<reward type="Quest" id="quest_RiflesExpert01"/>
 	</quest>
 	<quest id="handgunsclass1" 	name_key="Handguns Class" 	group_name="SurvivalClasses" 	subtitle_key="Handguns Class" 	offer_key="Accepting this will give you a pistol 200 bullets and a pistol schematic" 	description_key="Become an expert in Handguns" 	icon="classMarksmanLevel1Icon" 	repeatable="false" 	category_key="Quest" 	difficulty="easy">
@@ -1120,9 +1123,10 @@
 	<quest id="survivalclass1" 	name_key="Survival Class" 	group_name="SurvivalClasses" 	subtitle_key="Survival Class" 	offer_key="Accepting this will give you a claw hammer skills in medicine, cooking and Traps and extra supplies" 	description_key="Become an expert in Survival" 	icon="classMarksmanLevel1Icon" 	repeatable="false" 	category_key="Quest" 	difficulty="easy">
 		<reward type="Skill" id="SurvivorClass" value="1"/>
 		<reward type="Skill" id="Survival Skills" value="1"/>
-		<reward type="Skill" id="Traps" value="1"/>
 		<reward type="Item" id="clawHammer" value="250"/>
+		<reward type="Item" id="stoneAxe" value="300"/>
 		<reward type="Item" id="skinningKnife2" value="250"/>
+		<reward type="Item" id="butcherKnife" value="250"/>
 		<reward type="Item" id="firstAidKit" value="1"/>
 		<reward type="Item" id="antibiotics" value="1"/>
 		<reward type="Item" id="PurifiedWater" value="1"/>
@@ -1160,12 +1164,16 @@
 		<reward type="Skill" id="MedicalClass" value="1"/>
 		<reward type="Skill" id="Medicine" value="15"/>
 		<reward type="Skill" id="Medical Skills" value="1"/>
-		<reward type="Item" id="firstAidBandage" value="5"/>
+		<reward type="Item" id="clubWood" value="300"/>
+		<reward type="Item" id="firstAidBandage" value="3"/>
 		<reward type="Item" id="splint" value="3"/>
-		<reward type="Item" id="firstAidKit" value="5"/>
-		<reward type="Item" id="antibiotics" value="5"/>
+		<reward type="Item" id="firstAidKit" value="3"/>
+		<reward type="Item" id="beaker" value="1"/>
+		<reward type="Item" id="antibiotics" value="3"/>
 		<reward type="Item" id="Peroxide" value="10"/>
 		<reward type="Item" id="painkillers" value="10"/>
+		<reward type="Item" id="firstAidKitSchematic" value="1"/>
+		<reward type="Item" id="herbalAntibioticsRecipe" value="1"/>
 	</quest>
 	<quest id="farmingclass1" 	name_key="Farmer Class" 	group_name="SurvivalClasses" 	subtitle_key="Farmer Class" 	offer_key="Accepting this will give you some seeds and access to a Composter and fertilizer" 	description_key="Become an expert in Farming" 	icon="classMarksmanLevel1Icon" 	repeatable="false" 	category_key="Quest" 	difficulty="easy">
 		<reward type="Skill" id="FarmerClass" value="1"/>
@@ -1175,6 +1183,7 @@
 		<reward type="Item" id="blunderbussAmmo" value="150"/>
 		<reward type="Item" id="fertilizer" value="10"/>
 		<reward type="Item" id="mortarAndPestle" value="1"/>
+		<reward type="Item" id="recipebookGardenTools" value="1"/>
 		<reward type="Item" id="seedPack" value="10"/>
 		<reward type="Item" id="hoeIron" value="250"/>
 	</quest>

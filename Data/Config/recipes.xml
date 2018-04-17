@@ -23,7 +23,7 @@
 	<recipe name="clayLump" count="1" craft_area="BigForge" material_based="true" craft_time = "1" craft_exp_gain="0">
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
-		<recipe name="clayLump" count="1" craft_area="anvilBlock" material_based="true" craft_time = "1" craft_exp_gain="0">
+	<recipe name="clayLump" count="1" craft_area="anvilBlock" material_based="true" craft_time = "1" craft_exp_gain="0">
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
 	<recipe name="cloth" count="1" tooltip="ttScrapMetalBrass">
@@ -44,9 +44,6 @@
 	<recipe name="rockSmall" count="1" craft_area="BigForge" material_based="true" craft_time = "1" craft_exp_gain="0">
 		<ingredient name="unit_stone" count="5"/>
 	</recipe>
-		<recipe name="rockSmall" count="1" craft_area="anvilBlock" material_based="true" craft_time = "1" craft_exp_gain="0">
-		<ingredient name="unit_stone" count="5"/>
-	</recipe>
 	<recipe name="rockSmall" count="1" tooltip="ttScrapMetalBrass">
 		<wildcard_forge_category />
 	</recipe>
@@ -59,7 +56,7 @@
 	<recipe name="scrapIron" count="1" craft_area="BigForge" material_based="true" craft_time = "1" craft_exp_gain="0">
 		<ingredient name="unit_iron" count="1"/>
 	</recipe>
-		<recipe name="scrapIron" count="1" craft_area="anvilBlock" material_based="true" craft_time = "1" craft_exp_gain="0">
+	<recipe name="scrapIron" count="1" craft_area="anvilBlock" material_based="true" craft_time = "1" craft_exp_gain="0">
 		<ingredient name="unit_iron" count="1"/>
 	</recipe>
 	<recipe name="scrapIron" count="1" tooltip="ttScrapMetalIron">
@@ -117,8 +114,18 @@
 		<ingredient name="gunPowder" count="2"/>
 		<ingredient name="bulletCasing" count="1"/>
 	</recipe>
+	<recipe name="32mmHPBullet" count="1"  craft_area="ammunitionTable" craft_tool="calipers">
+		<ingredient name="hollowpointbulletTip" count="1"/>
+		<ingredient name="gunPowder" count="2"/>
+		<ingredient name="bulletCasing" count="1"/>
+	</recipe>
 	<recipe name="556mmBullet" count="1"  craft_area="ammunitionTable" craft_tool="calipers">
 		<ingredient name="bulletTip" count="1"/>
+		<ingredient name="gunPowder" count="2"/>
+		<ingredient name="bulletCasing" count="1"/>
+	</recipe>
+	<recipe name="556mmHPBullet" count="1"  craft_area="ammunitionTable" craft_tool="calipers">
+		<ingredient name="hollowpointbulletTip" count="1"/>
 		<ingredient name="gunPowder" count="2"/>
 		<ingredient name="bulletCasing" count="1"/>
 	</recipe>
@@ -132,7 +139,7 @@
 		<ingredient name="gunPowder" count="1"/>
 		<ingredient name="paper" count="1"/>
 	</recipe>
-	<recipe name="burningBarrelPlayer" count="1" craft_time = "4"  craft_area="NewWorkBench">
+	<recipe name="burningBarrelPlayer" count="1" craft_time = "4"  craft_area="decoStation">
 		<ingredient name="scrapIronPlating" count="1"/>
 		<ingredient name="wood" count="20"/>
 		<ingredient name="gasCan" count="1"/>
@@ -209,41 +216,41 @@
 		<ingredient name="partsAuger_blade" count="1"/>
 	</recipe>
 	<recipe name="partsAuger_blade" count="1"    craft_area="gunStation" craft_tool="chisel">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 		<ingredient name="oil" count="2"/>
 	</recipe>
-	<recipe name="awningBlock" count="1">
-		<ingredient name="wood" count="4"/>
-		<ingredient name="cloth" count="10"/>
+	<recipe name="awningBlock" count="1" craft_area="decoStation">
+		<ingredient name="polishedWood" count="4"/>
+		<ingredient name="textile" count="10"/>
 	</recipe>
-	<recipe name="awningRamp" count="1">
-		<ingredient name="wood" count="4"/>
-		<ingredient name="cloth" count="10"/>
+	<recipe name="awningRamp" count="1" craft_area="decoStation">
+		<ingredient name="polishedWood" count="4"/>
+		<ingredient name="textile" count="10"/>
 	</recipe>
-	<recipe name="awningCNRFull" count="1">
-		<ingredient name="wood" count="4"/>
-		<ingredient name="cloth" count="10"/>
+	<recipe name="awningCNRFull" count="1" craft_area="decoStation">
+		<ingredient name="polishedWood" count="4"/>
+		<ingredient name="textile" count="10"/>
 	</recipe>
-	<recipe name="awningCNRInside" count="1">
-		<ingredient name="wood" count="4"/>
-		<ingredient name="cloth" count="10"/>
+	<recipe name="awningCNRInside" count="1" craft_area="decoStation">
+		<ingredient name="polishedWood" count="4"/>
+		<ingredient name="textile" count="10"/>
 	</recipe>
-	<recipe name="awningGable" count="1">
-		<ingredient name="wood" count="4"/>
-		<ingredient name="cloth" count="10"/>
+	<recipe name="awningGable" count="1" craft_area="decoStation">
+		<ingredient name="polishedWood" count="4"/>
+		<ingredient name="textile" count="10"/>
 	</recipe>
-	<recipe name="awningPyramid" count="1">
-		<ingredient name="wood" count="4"/>
-		<ingredient name="cloth" count="10"/>
+	<recipe name="awningPyramid" count="1" craft_area="decoStation">
+		<ingredient name="polishedWood" count="4"/>
+		<ingredient name="textile" count="10"/>
 	</recipe>
-	<recipe name="awningCNRRound" count="1">
-		<ingredient name="wood" count="4"/>
-		<ingredient name="cloth" count="10"/>
+	<recipe name="awningCNRRound" count="1" craft_area="decoStation">
+		<ingredient name="polishedWood" count="4"/>
+		<ingredient name="textile" count="10"/>
 	</recipe>
-	<recipe name="awningCNRRoundTop" count="1">
-		<ingredient name="wood" count="4"/>
-		<ingredient name="cloth" count="10"/>
+	<recipe name="awningCNRRoundTop" count="1" craft_area="decoStation">
+		<ingredient name="polishedWood" count="4"/>
+		<ingredient name="textile" count="10"/>
 	</recipe>
 	<recipe name="bacon" count="1" craft_area="BigCampFire">
 		<ingredient name="slicedrawMeat" count="2"/>
@@ -255,28 +262,28 @@
 		<ingredient name="cloth" count="2"/>
 	</recipe>
 	<recipe name="bandana" count="1">
-		<ingredient name="cloth" count="4"/>
+		<ingredient name="textile" count="4"/>
 	</recipe>
 	<recipe name="barbedFence" count="1">
 		<!-- trap -->
 		<ingredient name="scrapIron" count="8"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="polishedWood" count="10"/>
 	</recipe>
 	<recipe name="barbedWireSheet" count="1">
 		<!-- trap -->
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="bed01" count="1"  craft_area="NewWorkBench">
+	<recipe name="bed01" count="1"  craft_area="decoStation">
 		<ingredient name="cloth" count="20"/>
 		<ingredient name="cottonPlant" count="20"/>
 		<ingredient name="spring" count="10"/>
 		<ingredient name="shortMetalPipe" count="10"/>
 	</recipe>
-	<recipe name="bed02" count="1"  craft_area="NewWorkBench">
+	<recipe name="bed02" count="1"  craft_area="decoStation">
 		<ingredient name="cloth" count="40"/>
 		<ingredient name="cottonPlant" count="40"/>
 		<ingredient name="spring" count="20"/>
-		<ingredient name="wood" count="20"/>
+		<ingredient name="polishedWood" count="20"/>
 		<ingredient name="shortMetalPipe" count="10"/>
 	</recipe>
 	<recipe name="bedroll" count="1">
@@ -286,13 +293,6 @@
 		<ingredient name="wood" count="6"/>
 		<ingredient name="leather" count="20"/>
 		<ingredient name="shortMetalPipe" count="1"/>
-	</recipe>
-	<!--<recipe name="bioFuel" count="1" craft_area="chemistryStation"><ingredient name="animalFat" count="1"/></recipe><recipe name="bioFuel" count="1" craft_area="BigCampFire" craft_tool="beaker"><ingredient name="animalFat" count="1"/></recipe>-->
-	<recipe name="blueberryPie" count="1" craft_area="BigCampFire">
-		<ingredient name="blueberries" count="1"/>
-		<ingredient name="egg" count="1"/>
-		<ingredient name="Flour" count="1"/>
-		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="blunderbuss" count="1">
 		<ingredient name="forgedIron" count="16"/>
@@ -308,7 +308,7 @@
 		<ingredient name="bottledRiverWater" count="1"/>
 	</recipe>
 	<recipe name="bottledRiverWater" count="1" craft_area="BigCampFire">
-		<ingredient name="snowBall" count="1"/>
+		<ingredient name="snow" count="3"/>
 		<ingredient name="emptyJar" count="1"/>
 	</recipe>
 	<recipe name="chemistryStation" count="1" craft_area="NewWorkBench">
@@ -366,27 +366,27 @@
 	<recipe name="burntForestGround" count="1" craft_time="6">
 		<ingredient name="dirtFragment" count="8"/>
 	</recipe>
-	<recipe name="camoNetBlock" count="1">
-		<ingredient name="cloth" count="10"/>
+	<recipe name="camoNetBlock" count="1" craft_area="decoStation">
+		<ingredient name="textile" count="10"/>
 	</recipe>
-	<recipe name="camoNetRamp" count="1">
-		<ingredient name="cloth" count="10"/>
+	<recipe name="camoNetRamp" count="1" craft_area="decoStation">
+		<ingredient name="textile" count="10"/>
 	</recipe>
-	<recipe name="camoNetCNRFull" count="1">
-		<ingredient name="cloth" count="10"/>
+	<recipe name="camoNetCNRFull" count="1" craft_area="decoStation">
+		<ingredient name="textile" count="10"/>
 	</recipe>
-	<recipe name="camoNetSheet" count="1">
-		<ingredient name="cloth" count="10"/>
+	<recipe name="camoNetSheet" count="1" craft_area="decoStation">
+		<ingredient name="textile" count="10"/>
 	</recipe>
 	<recipe name="canBoiledWater" count="1" craft_area="BigCampFire">
 		<ingredient name="canMurkyWater" count="1"/>
 	</recipe>
 	<recipe name="canMurkyWater" count="1" craft_area="BigCampFire">
-		<ingredient name="snowBall" count="1"/>
+		<ingredient name="snow" count="3"/>
 		<ingredient name="canEmpty" count="1"/>
 	</recipe>
 	<recipe name="canMurkyWater" count="1" craft_area="campfire">
-		<ingredient name="snowBall" count="1"/>
+		<ingredient name="snow" count="3"/>
 		<ingredient name="canEmpty" count="1"/>
 	</recipe>
 	<recipe name="candle" count="1">
@@ -412,7 +412,7 @@
 		<ingredient name="partsChainsaw_blade" count="1"/>
 	</recipe>
 	<recipe name="partsChainsaw_blade" count="1"    craft_area="gunStation" craft_tool="chisel">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 		<ingredient name="oil" count="2"/>
 	</recipe>
@@ -633,10 +633,10 @@
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="endTable" count="1" craft_area="decoStation">
-		<ingredient name="wood" count="5"/>
+		<ingredient name="polishedWood" count="5"/>
 	</recipe>
 	<recipe name="endTableLamp" count="1"  craft_area="decoStation">
-		<ingredient name="wood" count="5"/>
+		<ingredient name="polishedWood" count="5"/>
 		<ingredient name="headlight" count="1"/>
 		<ingredient name="electricParts" count="3"/>
 		<ingredient name="ductTape" count="4"/>
@@ -984,8 +984,9 @@
 		<ingredient name="leather" count="10"/>
 		<ingredient name="Twine" count="3"/>
 	</recipe>
-	<recipe name="macheteBlade" count="1"  craft_area="NewWorkBench" craft_time="30">
-		<ingredient name="forgedSteel" count="20"/>
+	<recipe name="macheteBlade" count="1"  craft_area="anvilBlock" craft_time="30">
+		<ingredient name="unit_iron" count="400"/>
+		<ingredient name="unit_clay" count="200"/>
 	</recipe>
 	<recipe name="machete" count="1" craft_area="NewWorkBench" craft_time="60">
 		<ingredient name="macheteBlade" count="1"/>
@@ -1004,82 +1005,82 @@
 		<ingredient name="spring" count="20"/>
 		<ingredient name="mechanicalParts" count="30"/>
 	</recipe>
-	<recipe name="metalSignLetter_a" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_a" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="metalSignLetter_b" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_b" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="metalSignLetter_c" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_c" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="metalSignLetter_d" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_d" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="metalSignLetter_e" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_e" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="metalSignLetter_f" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_f" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="metalSignLetter_g" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_g" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="metalSignLetter_h" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_h" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="metalSignLetter_i" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_i" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="metalSignLetter_j" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_j" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="metalSignLetter_k" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_k" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="metalSignLetter_l" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_l" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="metalSignLetter_m" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_m" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="metalSignLetter_n" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_n" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="metalSignLetter_o" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_o" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="metalSignLetter_p" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_p" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="metalSignLetter_q" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_q" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="metalSignLetter_r" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_r" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="metalSignLetter_s" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_s" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="metalSignLetter_t" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_t" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="metalSignLetter_u" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_u" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="metalSignLetter_v" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_v" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="metalSignLetter_w" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_w" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="metalSignLetter_x" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_x" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="metalSignLetter_y" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_y" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
-	<recipe name="metalSignLetter_z" count="1" craft_area="NewWorkBench">
+	<recipe name="metalSignLetter_z" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="15"/>
 	</recipe>
 	<recipe name="mineCandyTin" count="1"  craft_area="ammunitionTable" craft_tool="toolAndDieSet">
@@ -1171,7 +1172,7 @@
 	</recipe>
 	<recipe name="oldChair" count="1" craft_area="decoStation">
 		<ingredient name="nail" count="10"/>
-		<ingredient name="wood" count="6"/>
+		<ingredient name="polishedWood" count="6"/>
 	</recipe>
 	<recipe name="paper" count="25" craft_area="chemistryStation">
 		<ingredient name="wood" count="10"/>
@@ -1179,15 +1180,15 @@
 		<ingredient name="bottledRiverWater" count="1"/>
 	</recipe>
 	<recipe name="pew_segment01" count="1" craft_area="decoStation">
-		<ingredient name="wood" count="10"/>
+		<ingredient name="polishedWood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="pew_segment02" count="1"  craft_area="decoStation">
-		<ingredient name="wood" count="10"/>
+		<ingredient name="polishedWood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="pew_segment03" count="1"  craft_area="decoStation">
-		<ingredient name="wood" count="10"/>
+		<ingredient name="polishedWood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="paintTool" count="1">
@@ -1266,17 +1267,17 @@
 		<ingredient name="forgedSteel" count="4"/>
 		<ingredient name="coal" count="4"/>
 	</recipe>
-	<recipe name="scrapBoots" count="1">
+	<recipe name="scrapBoots" count="1" craft_area="tailorStation" craft_tool="weldingTorch">
 		<ingredient name="scrapIron" count="100"/>
 		<ingredient name="leather" count="2"/>
 		<ingredient name="ductTape" count="1"/>
 	</recipe>
-	<recipe name="scrapChestArmor" count="1">
+	<recipe name="scrapChestArmor" count="1" craft_area="tailorStation" craft_tool="weldingTorch">
 		<ingredient name="scrapIron" count="150"/>
 		<ingredient name="leather" count="5"/>
 		<ingredient name="ductTape" count="3"/>
 	</recipe>
-	<recipe name="scrapGloves" count="1">
+	<recipe name="scrapGloves" count="1" craft_area="tailorStation" craft_tool="weldingTorch">
 		<ingredient name="scrapIron" count="100"/>
 		<ingredient name="leather" count="2"/>
 		<ingredient name="ductTape" count="1"/>
@@ -1295,12 +1296,12 @@
 		<ingredient name="ductTape" count="5"/>
 		<ingredient name="scrapPlastics" count="4"/>
 	</recipe>
-	<recipe name="scrapHelmet" count="1">
+	<recipe name="scrapHelmet" count="1" craft_area="tailorStation" craft_tool="weldingTorch">
 		<ingredient name="scrapIron" count="100"/>
 		<ingredient name="leather" count="2"/>
 		<ingredient name="ductTape" count="1"/>
 	</recipe>
-	<recipe name="scrapLegArmor" count="1">
+	<recipe name="scrapLegArmor" count="1" craft_area="tailorStation" craft_tool="weldingTorch">
 		<ingredient name="scrapIron" count="150"/>
 		<ingredient name="leather" count="5"/>
 		<ingredient name="ductTape" count="3"/>
@@ -1342,34 +1343,34 @@
 		<ingredient name="scrapIron" count="40"/>
 	</recipe>
 	<recipe name="sectionalPlaidCouchSofaArm" count="1" craft_area="decoStation">
-		<ingredient name="cloth" count="5"/>
+		<ingredient name="textile" count="5"/>
 		<ingredient name="nail" count="10"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="polishedWood" count="10"/>
 	</recipe>
 	<recipe name="sectionalLeatherCouchSofaArm" count="1" craft_area="decoStation">
 		<ingredient name="leather" count="5"/>
 		<ingredient name="nail" count="10"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="polishedWood" count="10"/>
 	</recipe>
 	<recipe name="sectionalPlaidCouchSofaCorner" count="1" craft_area="decoStation">
-		<ingredient name="cloth" count="5"/>
+		<ingredient name="textile" count="5"/>
 		<ingredient name="nail" count="10"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="polishedWood" count="10"/>
 	</recipe>
 	<recipe name="sectionalLeatherCouchSofaCorner" count="1" craft_area="decoStation">
 		<ingredient name="leather" count="5"/>
 		<ingredient name="nail" count="10"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="polishedWood" count="10"/>
 	</recipe>
 	<recipe name="sectionalPlaidCouchSofaMiddle" count="1" craft_area="decoStation">
-		<ingredient name="cloth" count="5"/>
+		<ingredient name="textile" count="5"/>
 		<ingredient name="nail" count="10"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="polishedWood" count="10"/>
 	</recipe>
 	<recipe name="sectionalLeatherCouchSofaMiddle" count="1" craft_area="decoStation">
 		<ingredient name="leather" count="5"/>
 		<ingredient name="nail" count="10"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="polishedWood" count="10"/>
 	</recipe>
 	<recipe name="secureDoorWooden" count="1">
 		<ingredient name="wood" count="4"/>
@@ -1399,7 +1400,7 @@
 	</recipe>
 	<recipe name="splint" count="1">
 		<ingredient name="cloth" count="2"/>
-		<ingredient name="wood" count="2"/>
+		<ingredient name="stick" count="6"/>
 		<ingredient name="ductTape" count="1"/>
 	</recipe>
 	<recipe name="steelArrow" count="1" craft_area="ammunitionTable">
@@ -1495,16 +1496,16 @@
 		<ingredient name="bowlWater" count="1"/>
 	</recipe>
 	<recipe name="whitePicketFenceSheet" count="1">
-		<ingredient name="wood" count="3"/>
+		<ingredient name="polishedWood" count="3"/>
 	</recipe>
 	<recipe name="window03Wood" count="1">
 		<ingredient name="wood" count="4"/>
 	</recipe>
 	<recipe name="woodFenceFarmSheet" count="1">
-		<ingredient name="wood" count="3"/>
+		<ingredient name="polishedWood" count="3"/>
 	</recipe>
 	<recipe name="woodFenceSheet" count="1">
-		<ingredient name="wood" count="3"/>
+		<ingredient name="polishedWood" count="3"/>
 	</recipe>
 	<recipe name="woodFrameBlock" count="1">
 		<ingredient name="wood" count="2"/>
@@ -1545,7 +1546,7 @@
 	</recipe>
 	<recipe name="woodTable" count="1" craft_area="decoStation">
 		<ingredient name="nail" count="10"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="polishedWood" count="10"/>
 	</recipe>
 	<recipe name="woodenBow" count="1">
 		<ingredient name="wood" count="8"/>
@@ -1583,7 +1584,7 @@
 	</recipe>
 	<recipe name="signShopColdBeer" count="1" craft_area="decoStation">
 		<ingredient name="nail" count="4"/>
-		<ingredient name="wood" count="4"/>
+		<ingredient name="polishedWood" count="4"/>
 	</recipe>
 	<recipe name="workbench" count="1">
 		<ingredient name="forgedIron" count="15"/>
@@ -1927,33 +1928,6 @@
 		<ingredient name="leather" count="5"/>
 		<ingredient name="wood" count="50"/>
 	</recipe>
-	<recipe name="emptyJar" count="1">
-		<ingredient name="bottledWater" count="1"/>
-	</recipe>
-	<recipe name="emptyJar" count="1">
-		<ingredient name="bottledRiverWater" count="1"/>
-	</recipe>
-	<recipe name="emptyJar" count="1">
-		<ingredient name="beer" count="1"/>
-	</recipe>
-	<recipe name="emptyJar" count="1">
-		<ingredient name="coffee" count="1"/>
-	</recipe>
-	<recipe name="emptyJar" count="1">
-		<ingredient name="goldenRodTea" count="1"/>
-	</recipe>
-	<recipe name="emptyJar" count="1">
-		<ingredient name="grainAlcohol" count="1"/>
-	</recipe>
-	<recipe name="emptyJar" count="1">
-		<ingredient name="redTea" count="1"/>
-	</recipe>
-	<recipe name="emptyJar" count="1">
-		<ingredient name="snowberryJuice" count="1"/>
-	</recipe>
-	<recipe name="friedEggs" count="1" craft_area="BigCampFire">
-		<ingredient name="egg" count="2"/>
-	</recipe>
 	<recipe name="crossbowRepeater" count="1"    craft_area="NewWorkBench">
 		<ingredient name="crossbow" count="1"/>
 		<ingredient name="spring" count="5"/>
@@ -1973,90 +1947,90 @@
 		<ingredient name="ductTape" count="1"/>
 	</recipe>
 	<!-- Expanded Player Storage Mod -->
-	<recipe name="cntEPSMunitionsBox" count="1"   craft_area="NewWorkBench">
+	<recipe name="cntEPSMunitionsBox" count="1"   craft_area="decoStation">
 		<ingredient name="forgedIron" count="6"/>
 	</recipe>
 	<recipe name="cntEPSCardboardBox" count="1">
 		<ingredient name="paper" count="16"/>
 		<ingredient name="ductTape" count="1"/>
 	</recipe>
-	<recipe name="cntEPSFileCabinet" count="1"   craft_area="NewWorkBench">
+	<recipe name="cntEPSFileCabinet" count="1"   craft_area="decoStation">
 		<ingredient name="forgedIron" count="10"/>
 		<ingredient name="mechanicalParts" count="10"/>
 	</recipe>
-	<recipe name="cntEPSLockers" count="1"   craft_area="NewWorkBench">
+	<recipe name="cntEPSLockers" count="1"   craft_area="decoStation">
 		<ingredient name="scrapIronPlating" count="4"/>
 		<ingredient name="mechanicalParts" count="8"/>
 	</recipe>
-	<recipe name="cntEPSFridge" count="1"   craft_area="NewWorkBench">
+	<recipe name="cntEPSFridge" count="1"   craft_area="decoStation">
 		<ingredient name="forgedIron" count="10"/>
 		<ingredient name="shortMetalPipe" count="2"/>
 		<ingredient name="mechanicalParts" count="2"/>
 		<ingredient name="electricParts" count="8"/>
 		<ingredient name="electronicParts" count="2"/>
 	</recipe>
-	<recipe name="cntEPSFridgeBottom" count="1"   craft_area="NewWorkBench">
+	<recipe name="cntEPSFridgeBottom" count="1"   craft_area="decoStation">
 		<ingredient name="forgedIron" count="4"/>
 		<ingredient name="shortMetalPipe" count="2"/>
 		<ingredient name="mechanicalParts" count="1"/>
 		<ingredient name="electricParts" count="4"/>
 		<ingredient name="electronicParts" count="1"/>
 	</recipe>
-	<recipe name="cntEPSFridgeTop" count="1"   craft_area="NewWorkBench">
+	<recipe name="cntEPSFridgeTop" count="1"  craft_area="decoStation">
 		<ingredient name="forgedIron" count="4"/>
 		<ingredient name="shortMetalPipe" count="2"/>
 		<ingredient name="mechanicalParts" count="1"/>
 		<ingredient name="electricParts" count="4"/>
 		<ingredient name="electronicParts" count="1"/>
 	</recipe>
-	<recipe name="cntEPSBookcase" count="1"     craft_area="NewWorkBench">
-		<ingredient name="wood" count="20"/>
+	<recipe name="cntEPSBookcase" count="1"    craft_area="decoStation">
+		<ingredient name="polishedWood" count="20"/>
 		<ingredient name="nail" count="10"/>
 	</recipe>
-	<recipe name="cntEPSMedicineCabinet" count="1"   craft_area="NewWorkBench">
-		<ingredient name="wood" count="10"/>
+	<recipe name="cntEPSMedicineCabinet" count="1"  craft_area="decoStation">
+		<ingredient name="polishedWood" count="10"/>
 		<ingredient name="nail" count="5"/>
 		<ingredient name="brokenGlass" count="10"/>
 	</recipe>
-	<recipe name="cntEPSPillCase" count="1"     craft_area="NewWorkBench">
-		<ingredient name="wood" count="20"/>
+	<recipe name="cntEPSPillCase" count="1"   craft_area="decoStation">
+		<ingredient name="polishedWood" count="20"/>
 		<ingredient name="nail" count="10"/>
 	</recipe>
-	<recipe name="cntEPSBeerCooler" count="1"   craft_area="NewWorkBench">
+	<recipe name="cntEPSBeerCooler" count="1"   craft_area="decoStation">
 		<ingredient name="forgedIron" count="4"/>
 		<ingredient name="shortMetalPipe" count="3"/>
 		<ingredient name="electricParts" count="5"/>
 		<ingredient name="electronicParts" count="1"/>
 	</recipe>
-	<recipe name="cntEPSWallSafe" count="1"   craft_area="NewWorkBench">
+	<recipe name="cntEPSWallSafe" count="1"  craft_area="decoStation">
 		<ingredient name="forgedIron" count="10"/>
 		<ingredient name="spring" count="2"/>
 		<ingredient name="mechanicalParts" count="3"/>
 	</recipe>
-	<recipe name="cntEPSCoffin" count="1"     craft_area="NewWorkBench">
-		<ingredient name="wood" count="20"/>
+	<recipe name="cntEPSCoffin" count="1"   craft_area="decoStation">
+		<ingredient name="polishedWood" count="20"/>
 		<ingredient name="nail" count="10"/>
 	</recipe>
-	<recipe name="cntEPSGasPump" count="1"   craft_area="NewWorkBench">
+	<recipe name="cntEPSGasPump" count="1"   craft_area="decoStation">
 		<ingredient name="forgedIron" count="15"/>
 		<ingredient name="shortMetalPipe" count="5"/>
 		<ingredient name="mechanicalParts" count="20"/>
 	</recipe>
 	<recipe name="qt_zombieRepeat1" count="1" craft_time = "15"  craft_area="ResearchDesk">
-		<ingredient name="survivorNotes" count="80"/>
+		<ingredient name="survivorNotes" count="90"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
 	<recipe name="ironTippedSpear" count="1" craft_time = "12"  craft_area="NewWorkBench">
 		<ingredient name="ironArrowHead" count="10"/>
-		<ingredient name="wood" count="5"/>
+		<ingredient name="stick" count="15"/>
 		<ingredient name="yuccaFibers" count="1"/>
 	</recipe>
 	<recipe name="woodtippedSpear" count="1" craft_time = "12">
-		<ingredient name="wood" count="20"/>
+		<ingredient name="stick" count="60"/>
 	</recipe>
 	<recipe name="steelTippedSpear" count="1" craft_time = "12" craft_area="NewWorkBench">
 		<ingredient name="steelArrowHead" count="10"/>
-		<ingredient name="wood" count="5"/>
+		<ingredient name="stick" count="15"/>
 		<ingredient name="yuccaFibers" count="2"/>
 	</recipe>
 	<recipe name="Bread" count="1" craft_time = "8" craft_area="BigCampFire" craft_tool="cookingGrill">
@@ -2066,14 +2040,15 @@
 		<ingredient name="bottledWater" count="1"/>
 		<ingredient name="Flour" count="2"/>
 	</recipe>
-	<recipe name="Compost" count="1" craft_time = "15">
+	<recipe name="Compost" count="2" craft_time = "15">
 		<ingredient name="turd" count="5"/>
 		<ingredient name="rottingHarvest" count="5"/>
 		<ingredient name="yuccaFibers" count="20"/>
 	</recipe>
 	<recipe name="rainCatcherEmpty" count="1" craft_time = "20"  craft_area="NewWorkBench">
-		<ingredient name="forgedIron" count="20"/>
-		<ingredient name="scrapPlastics" count="10"/>
+		<ingredient name="forgedIron" count="40"/>
+		<ingredient name="wood" count="30"/>
+		<ingredient name="tarp" count="2"/>
 	</recipe>
 	<recipe name="chickenCoopEmpty" count="1" craft_time = "20"  craft_area="NewWorkBench">
 		<ingredient name="wood" count="20"/>
@@ -2084,26 +2059,27 @@
 	<recipe name="Empty_Composter" count="1" craft_time = "20"  craft_area="NewWorkBench">
 		<ingredient name="wood" count="20"/>
 		<ingredient name="nail" count="10"/>
+		<ingredient name="tarp" count="3"/>
 	</recipe>
-	<recipe name="leatherCouchSofa" count="1">
+	<recipe name="leatherCouchSofa" count="1" craft_area="decoStation">
 		<ingredient name="leather" count="40"/>
 		<ingredient name="cottonPlant" count="60"/>
 		<ingredient name="spring" count="20"/>
-		<ingredient name="wood" count="20"/>
+		<ingredient name="polishedWood" count="20"/>
 		<ingredient name="shortMetalPipe" count="20"/>
 	</recipe>
-	<recipe name="leatherChairCouchSofa" count="1">
+	<recipe name="leatherChairCouchSofa" count="1" craft_area="decoStation">
 		<ingredient name="leather" count="20"/>
 		<ingredient name="cottonPlant" count="40"/>
 		<ingredient name="spring" count="10"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="polishedWood" count="10"/>
 		<ingredient name="shortMetalPipe" count="10"/>
 	</recipe>
 	<recipe name="barStool" count="1"  craft_area="decoStation">
-		<ingredient name="cloth" count="20"/>
+		<ingredient name="textile" count="20"/>
 		<ingredient name="cottonPlant" count="20"/>
 		<ingredient name="spring" count="10"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="polishedWood" count="10"/>
 		<ingredient name="shortMetalPipe" count="10"/>
 	</recipe>
 	<recipe name="loudspeaker" count="1"  craft_area="NewWorkBench">
@@ -2113,17 +2089,17 @@
 		<ingredient name="wood" count="10"/>
 		<ingredient name="scrapPlastics" count="20"/>
 	</recipe>
-	<recipe name="miniblindTopSheet" count="1">
-		<ingredient name="cloth" count="5"/>
+	<recipe name="miniblindTopSheet" count="1" craft_area="decoStation">
+		<ingredient name="textile" count="5"/>
 	</recipe>
-	<recipe name="miniblindBottomSheet" count="1">
-		<ingredient name="cloth" count="5"/>
+	<recipe name="miniblindBottomSheet" count="1" craft_area="decoStation">
+		<ingredient name="textile" count="5"/>
 	</recipe>
-	<recipe name="curtain_top1Sheet3" count="1">
-		<ingredient name="cloth" count="5"/>
+	<recipe name="curtain_top1Sheet3" count="1" craft_area="decoStation">
+		<ingredient name="textile" count="5"/>
 	</recipe>
-	<recipe name="curtain_bottom1Sheet3" count="1">
-		<ingredient name="cloth" count="5"/>
+	<recipe name="curtain_bottom1Sheet3" count="1" craft_area="decoStation">
+		<ingredient name="textile" count="5"/>
 	</recipe>
 	<recipe name="woodCNRRound" count="1">
 		<ingredient name="wood" count="4"/>
@@ -2192,109 +2168,109 @@
 	<recipe name="flagCNRRoundTop" count="1">
 		<ingredient name="cobblestones" count="4"/>
 	</recipe>
-	<recipe name="cntEPSCooler" count="1"  craft_area="NewWorkBench">
+	<recipe name="cntEPSCooler" count="1"  craft_area="decoStation">
 		<ingredient name="scrapPlastics" count="8"/>
 	</recipe>
-	<recipe name="cntEPSCabinet" count="1" craft_area="NewWorkBench">
+	<recipe name="cntEPSCabinet" count="1" craft_area="decoStation">
 		<ingredient name="cobblestones" count="5"/>
 		<ingredient name="cntEPSCabinetTop" count="1"/>
 	</recipe>
-	<recipe name="cntEPSCabinetTop" count="1" craft_area="NewWorkBench">
-		<ingredient name="wood" count="10"/>
+	<recipe name="cntEPSCabinetTop" count="1" craft_area="decoStation">
+		<ingredient name="polishedWood" count="10"/>
 	</recipe>
-	<recipe name="cntEPSDesk01" count="1" craft_area="NewWorkBench">
-		<ingredient name="wood" count="15"/>
+	<recipe name="cntEPSDesk01" count="1" craft_area="decoStation">
+		<ingredient name="polishedWood" count="15"/>
 	</recipe>
-	<recipe name="cntEPSDesk02" count="1" craft_area="NewWorkBench">
+	<recipe name="cntEPSDesk02" count="1" craft_area="decoStation">
 		<ingredient name="spring" count="4"/>
 		<ingredient name="scrapIronPlating" count="2"/>
 	</recipe>
-	<recipe name="cntEPSDeskSafe" count="1"  craft_area="NewWorkBench">
+	<recipe name="cntEPSDeskSafe" count="1"  craft_area="decoStation">
 		<ingredient name="scrapIronPlating" count="2"/>
 		<ingredient name="spring" count="2"/>
 		<ingredient name="mechanicalParts" count="3"/>
 	</recipe>
-	<recipe name="cntEPSGreenDrawerSecure" count="1"  craft_area="NewWorkBench">
+	<recipe name="cntEPSGreenDrawerSecure" count="1"  craft_area="decoStation">
 		<ingredient name="forgedIron" count="8"/>
 	</recipe>
-	<recipe name="cntEPSGunSafe" count="1"  craft_area="NewWorkBench">
+	<recipe name="cntEPSGunSafe" count="1"  craft_area="decoStation">
 		<ingredient name="scrapIronPlating" count="2"/>
 		<ingredient name="spring" count="5"/>
 		<ingredient name="mechanicalParts" count="5"/>
 	</recipe>
-	<recipe name="cntEPSMailBox01" count="1" craft_area="NewWorkBench">
+	<recipe name="cntEPSMailBox01" count="1" craft_area="decoStation">
 		<ingredient name="scrapIronPlating" count="2"/>
-		<ingredient name="wood" count="5"/>
+		<ingredient name="polishedWood" count="5"/>
 	</recipe>
-	<recipe name="cntEPSMailBox02" count="1" craft_area="NewWorkBench">
+	<recipe name="cntEPSMailBox02" count="1" craft_area="decoStation">
 		<ingredient name="scrapIronPlating" count="2"/>
-		<ingredient name="wood" count="5"/>
+		<ingredient name="polishedWood" count="5"/>
 	</recipe>
-	<recipe name="cntEPSMailBox03" count="1" craft_area="NewWorkBench">
+	<recipe name="cntEPSMailBox03" count="1" craft_area="decoStation">
 		<ingredient name="scrapIronPlating" count="2"/>
-		<ingredient name="wood" count="5"/>
+		<ingredient name="polishedWood" count="5"/>
 	</recipe>
-	<recipe name="cntEPSNightstand" count="1" craft_area="NewWorkBench">
+	<recipe name="cntEPSNightstand" count="1" craft_area="decoStation">
 		<ingredient name="nail" count="10"/>
-		<ingredient name="wood" count="20"/>
+		<ingredient name="polishedWood" count="20"/>
 	</recipe>
 	<recipe name="cntSecureStorageChest" count="1">
 		<ingredient name="wood" count="10"/>
 	</recipe>
 	<recipe name="cntStorageGeneric" count="1">
 		<ingredient name="nail" count="10"/>
-		<ingredient name="wood" count="20"/>
+		<ingredient name="polishedWood" count="20"/>
 	</recipe>
-	<recipe name="cntEPSToilet01" count="1" craft_area="NewWorkBench">
+	<recipe name="cntEPSToilet01" count="1" craft_area="decoStation">
 		<ingredient name="bucketWater" count="1"/>
 		<ingredient name="shortMetalPipe" count="2"/>
 		<ingredient name="mechanicalParts" count="1"/>
-		<ingredient name="wood" count="4"/>
+		<ingredient name="polishedWood" count="4"/>
 	</recipe>
-	<recipe name="cntEPSToilet02" count="1" craft_area="NewWorkBench">
+	<recipe name="cntEPSToilet02" count="1" craft_area="decoStation">
 		<ingredient name="bucketWater" count="1"/>
 		<ingredient name="shortMetalPipe" count="2"/>
 		<ingredient name="mechanicalParts" count="1"/>
-		<ingredient name="wood" count="4"/>
+		<ingredient name="polishedWood" count="4"/>
 	</recipe>
-	<recipe name="cntEPSToilet03" count="1" craft_area="NewWorkBench">
+	<recipe name="cntEPSToilet03" count="1" craft_area="decoStation">
 		<ingredient name="bucketWater" count="1"/>
 		<ingredient name="shortMetalPipe" count="2"/>
 		<ingredient name="mechanicalParts" count="1"/>
-		<ingredient name="wood" count="4"/>
+		<ingredient name="polishedWood" count="4"/>
 	</recipe>
-	<recipe name="cntEPSCabinetOldSink" count="1" craft_area="NewWorkBench">
+	<recipe name="cntEPSCabinetOldSink" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="5"/>
 		<ingredient name="cntEPSCabinetOldBottom" count="1"/>
 	</recipe>
-	<recipe name="cntEPSCabinetOldBottom" count="1" craft_area="NewWorkBench">
-		<ingredient name="wood" count="10"/>
+	<recipe name="cntEPSCabinetOldBottom" count="1" craft_area="decoStation">
+		<ingredient name="polishedWood" count="10"/>
 	</recipe>
-	<recipe name="cntEPSCabinetOldTop" count="1" craft_area="NewWorkBench">
-		<ingredient name="wood" count="10"/>
+	<recipe name="cntEPSCabinetOldTop" count="1" craft_area="decoStation">
+		<ingredient name="polishedWood" count="10"/>
 	</recipe>
-	<recipe name="cntEPSDuffle01" count="1" craft_area="NewWorkBench">
+	<recipe name="cntEPSDuffle01" count="1" craft_area="decoStation">
 		<ingredient name="scrapIron" count="2"/>
-		<ingredient name="cloth" count="5"/>
+		<ingredient name="textile" count="5"/>
 	</recipe>
-	<recipe name="cntEPSGraniteSink" count="1"  craft_area="NewWorkBench">
+	<recipe name="cntEPSGraniteSink" count="1"  craft_area="decoStation">
 		<ingredient name="forgedIron" count="8"/>
 		<ingredient name="cobblestones" count="10"/>
 	</recipe>
-	<recipe name="cntEPSSuitcase" count="1"  craft_area="NewWorkBench">
+	<recipe name="cntEPSSuitcase" count="1"  craft_area="decoStation">
 		<ingredient name="scrapPlastics" count="20"/>
 		<ingredient name="scrapIronPlating" count="2"/>
-		<ingredient name="cloth" count="5"/>
+		<ingredient name="textile" count="5"/>
 	</recipe>
-	<recipe name="cntEPSTrash_can01" count="1" craft_area="NewWorkBench">
+	<recipe name="cntEPSTrash_can01" count="1" craft_area="decoStation">
 		<ingredient name="scrapIronPlating" count="2"/>
 	</recipe>
-	<recipe name="cntworkingOven" count="1" craft_area="NewWorkBench">
+	<recipe name="cntworkingOven" count="1" craft_area="decoStation">
 		<ingredient name="mechanicalParts" count="1"/>
 		<ingredient name="forgedIron" count="20"/>
 		<ingredient name="ovenKit" count="1"/>
 	</recipe>
-	<recipe name="cntworkingWallOven" count="1" craft_area="NewWorkBench">
+	<recipe name="cntworkingWallOven" count="1" craft_area="decoStation">
 		<ingredient name="mechanicalParts" count="1"/>
 		<ingredient name="forgedIron" count="20"/>
 		<ingredient name="ovenKit" count="1"/>
@@ -2315,211 +2291,211 @@
 		<ingredient name="coal" count="5"/>
 	</recipe>
 	<recipe name="partsNailgun_battery" count="1"   craft_area="gunStation" craft_tool="chisel">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsNailgun_parts" count="1"   craft_area="gunStation" craft_tool="chisel">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsNailgun_receiver" count="1"   craft_area="gunStation" craft_tool="chisel">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsNailgun_frame" count="1"   craft_area="gunStation" craft_tool="chisel">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsSniperRifle_parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsSniperRifle_stock" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsSniperRifle_receiver" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsSniperRifle_barrel" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="M25SniperRifle_Stock" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="M25SniperRifle_Receiver" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="M25SniperRifle_Barrel" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="M25SniperRifle_Parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsPumpShotgun_stockShort" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsPumpShotgun_barrelShort" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsPumpShotgun_stock" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsPumpShotgun_parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsPumpShotgun_receiver" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsPumpShotgun_barrel" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="FAMAS_Stock" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="FAMAS_Receiver" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="FAMAS_Barrel" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="FAMAS_Parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="gunBoltRifle_Stock" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="gunBoltRifle_Receiver" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="gunBoltRifle_Barrel" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="gunBoltRifle_Parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsPistol_grip" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsPistol_receiver" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsPistol_barrel" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsPistol_parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsMP5_parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsMP5_barrel" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsMP5_receiver" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsMP5_stock" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsHuntingRifle_parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsHuntingRifle_receiver" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsHuntingRifle_stock" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsHuntingRifle_barrel" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsCompoundBow_string" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsCompoundBow_parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsCompoundBow_grip" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsCompoundBow_body" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsAK47_parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsAK47_barrel" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsAK47_receiver" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsAK47_stock" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="parts44Magnum_grip" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="parts44Magnum_parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="parts44Magnum_cylinder" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="parts44Magnum_frame" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsChainsaw_parts" count="1"   craft_area="gunStation" craft_tool="chisel">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsAuger_parts" count="1"   craft_area="gunStation" craft_tool="chisel">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="44MagBullet" count="2" craft_area="gunStation" craft_tool="calipers">
@@ -2537,8 +2513,18 @@
 		<ingredient name="gunPowder" count="1"/>
 		<ingredient name="bulletCasing" count="1"/>
 	</recipe>
+	<recipe name="556mmHPBullet" count="2" craft_area="gunStation" craft_tool="calipers">
+		<ingredient name="hollowpointbulletTip" count="1"/>
+		<ingredient name="gunPowder" count="1"/>
+		<ingredient name="bulletCasing" count="1"/>
+	</recipe>
 	<recipe name="32mmBullet" count="2" craft_area="gunStation" craft_tool="calipers">
 		<ingredient name="bulletTip" count="1"/>
+		<ingredient name="gunPowder" count="1"/>
+		<ingredient name="bulletCasing" count="1"/>
+	</recipe>
+	<recipe name="32mmHPBullet" count="2" craft_area="gunStation" craft_tool="calipers">
+		<ingredient name="hollowpointbulletTip" count="1"/>
 		<ingredient name="gunPowder" count="1"/>
 		<ingredient name="bulletCasing" count="1"/>
 	</recipe>
@@ -2764,868 +2750,6 @@
 	<recipe name="leatherDuster" count="1" craft_area="tailorStation" craft_tool="sewingKit">
 		<ingredient name="leather" count="20"/>
 	</recipe>
-	<recipe name="leatherBootsRed" count="1" craft_area="dyeStation">
-		<ingredient name="leatherBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherGlovesRed" count="1" craft_area="dyeStation">
-		<ingredient name="leatherGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherHoodRed" count="1" craft_area="dyeStation">
-		<ingredient name="leatherHood" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherJacketRed" count="1" craft_area="dyeStation">
-		<ingredient name="leatherJacket" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherPantsRed" count="1" craft_area="dyeStation">
-		<ingredient name="leatherPants" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherBootsBlue" count="1" craft_area="dyeStation">
-		<ingredient name="leatherBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherGlovesBlue" count="1" craft_area="dyeStation">
-		<ingredient name="leatherGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherHoodBlue" count="1" craft_area="dyeStation">
-		<ingredient name="leatherHood" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherJacketBlue" count="1" craft_area="dyeStation">
-		<ingredient name="leatherJacket" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherPantsBlue" count="1" craft_area="dyeStation">
-		<ingredient name="leatherPants" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherBootsGreen" count="1" craft_area="dyeStation">
-		<ingredient name="leatherBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherGlovesGreen" count="1" craft_area="dyeStation">
-		<ingredient name="leatherGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherHoodGreen" count="1" craft_area="dyeStation">
-		<ingredient name="leatherHood" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherJacketGreen" count="1" craft_area="dyeStation">
-		<ingredient name="leatherJacket" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherPantsGreen" count="1" craft_area="dyeStation">
-		<ingredient name="leatherPants" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherBootsPurple" count="1" craft_area="dyeStation">
-		<ingredient name="leatherBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherGlovesPurple" count="1" craft_area="dyeStation">
-		<ingredient name="leatherGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherHoodPurple" count="1" craft_area="dyeStation">
-		<ingredient name="leatherHood" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherJacketPurple" count="1" craft_area="dyeStation">
-		<ingredient name="leatherJacket" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherPantsPurple" count="1" craft_area="dyeStation">
-		<ingredient name="leatherPants" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherBootsYellow" count="1" craft_area="dyeStation">
-		<ingredient name="leatherBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherGlovesYellow" count="1" craft_area="dyeStation">
-		<ingredient name="leatherGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherHoodYellow" count="1" craft_area="dyeStation">
-		<ingredient name="leatherHood" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherJacketYellow" count="1" craft_area="dyeStation">
-		<ingredient name="leatherJacket" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherPantsYellow" count="1" craft_area="dyeStation">
-		<ingredient name="leatherPants" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherBootsOrange" count="1" craft_area="dyeStation">
-		<ingredient name="leatherBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherGlovesOrange" count="1" craft_area="dyeStation">
-		<ingredient name="leatherGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherHoodOrange" count="1" craft_area="dyeStation">
-		<ingredient name="leatherHood" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherJacketOrange" count="1" craft_area="dyeStation">
-		<ingredient name="leatherJacket" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherPantsOrange" count="1" craft_area="dyeStation">
-		<ingredient name="leatherPants" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherBootsBlack" count="1" craft_area="dyeStation">
-		<ingredient name="leatherBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherGlovesBlack" count="1" craft_area="dyeStation">
-		<ingredient name="leatherGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherJacketBlack" count="1" craft_area="dyeStation">
-		<ingredient name="leatherJacket" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherPantsBlack" count="1" craft_area="dyeStation">
-		<ingredient name="leatherPants" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironHelmetRed" count="1"  craft_area="dyeStation">
-		<ingredient name="ironBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironChestArmorRed" count="1"  craft_area="dyeStation">
-		<ingredient name="ironChestArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironGlovesRed" count="1"  craft_area="dyeStation">
-		<ingredient name="ironGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironHelmetRed" count="1"  craft_area="dyeStation">
-		<ingredient name="ironHelmet" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironLegArmorRed" count="1"  craft_area="dyeStation">
-		<ingredient name="ironLegArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironBootsBlue" count="1"  craft_area="dyeStation">
-		<ingredient name="ironBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironChestArmorBlue" count="1"  craft_area="dyeStation">
-		<ingredient name="ironChestArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironGlovesBlue" count="1"  craft_area="dyeStation">
-		<ingredient name="ironGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironHelmetBlue" count="1"  craft_area="dyeStation">
-		<ingredient name="ironHelmet" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironLegArmorBlue" count="1"  craft_area="dyeStation">
-		<ingredient name="ironLegArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironBootsGreen" count="1"  craft_area="dyeStation">
-		<ingredient name="ironBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironChestArmorGreen" count="1"  craft_area="dyeStation">
-		<ingredient name="ironChestArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironGlovesGreen" count="1"  craft_area="dyeStation">
-		<ingredient name="ironGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironHelmetGreen" count="1"  craft_area="dyeStation">
-		<ingredient name="ironHelmet" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironLegArmorGreen" count="1"  craft_area="dyeStation">
-		<ingredient name="ironLegArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironBootsPurple" count="1"  craft_area="dyeStation">
-		<ingredient name="ironBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironChestArmorPurple" count="1"  craft_area="dyeStation">
-		<ingredient name="ironChestArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironGlovesPurple" count="1"  craft_area="dyeStation">
-		<ingredient name="ironGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironHelmetPurple" count="1"  craft_area="dyeStation">
-		<ingredient name="ironHelmet" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironLegArmorPurple" count="1"  craft_area="dyeStation">
-		<ingredient name="ironLegArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironBootsLime" count="1"  craft_area="dyeStation">
-		<ingredient name="ironBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironChestArmorLime" count="1"  craft_area="dyeStation">
-		<ingredient name="ironChestArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironGlovesLime" count="1"  craft_area="dyeStation">
-		<ingredient name="ironGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironHelmetLime" count="1"  craft_area="dyeStation">
-		<ingredient name="ironHelmet" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironLegArmorLime" count="1"  craft_area="dyeStation">
-		<ingredient name="ironLegArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironBootsOrange" count="1"  craft_area="dyeStation">
-		<ingredient name="ironBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironChestArmorOrange" count="1"  craft_area="dyeStation">
-		<ingredient name="ironChestArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironGlovesOrange" count="1"  craft_area="dyeStation">
-		<ingredient name="ironGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironHelmetOrange" count="1"  craft_area="dyeStation">
-		<ingredient name="ironHelmet" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironLegArmorOrange" count="1"  craft_area="dyeStation">
-		<ingredient name="ironLegArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironBootsBlack" count="1"  craft_area="dyeStation">
-		<ingredient name="ironBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironChestArmorBlack" count="1"  craft_area="dyeStation">
-		<ingredient name="ironChestArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironGlovesBlack" count="1"  craft_area="dyeStation">
-		<ingredient name="ironGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironHelmetBlack" count="1"  craft_area="dyeStation">
-		<ingredient name="ironHelmet" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="ironLegArmorBlack" count="1"  craft_area="dyeStation">
-		<ingredient name="ironLegArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapBootsRed" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapChestArmorRed" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapChestArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapGlovesRed" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapHelmetRed" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapHelmet" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapLegArmorRed" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapLegArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapBootsBlue" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapChestArmorBlue" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapChestArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapGlovesBlue" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapHelmetBlue" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapHelmet" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapLegArmorBlue" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapLegArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapBootsGreen" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapChestArmorGreen" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapChestArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapGlovesGreen" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapHelmetGreen" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapHelmet" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapLegArmorGreen" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapLegArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapBootsPurple" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapChestArmorPurple" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapChestArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapGlovesPurple" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapHelmetPurple" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapHelmet" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapLegArmorPurple" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapLegArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapBootsLime" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapChestArmorLime" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapChestArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapGlovesLime" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapHelmetLime" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapHelmet" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapLegArmorLime" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapLegArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapBootsOrange" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapChestArmorOrange" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapChestArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapGlovesOrange" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapHelmetOrange" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapHelmet" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapLegArmorOrange" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapLegArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapBootsBlack" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapChestArmorBlack" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapChestArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapGlovesBlack" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapHelmetBlack" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapHelmet" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="scrapLegArmorBlack" count="1"  craft_area="dyeStation">
-		<ingredient name="scrapLegArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothBootsRed" count="1"  craft_area="dyeStation">
-		<ingredient name="clothBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothGlovesRed" count="1"  craft_area="dyeStation">
-		<ingredient name="clothGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothHatRed" count="1"  craft_area="dyeStation">
-		<ingredient name="clothHat" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothJacketRed" count="1"  craft_area="dyeStation">
-		<ingredient name="clothJacket" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothPantsRed" count="1"  craft_area="dyeStation">
-		<ingredient name="clothPants" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothBootsBlue" count="1"  craft_area="dyeStation">
-		<ingredient name="clothBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothGlovesBlue" count="1"  craft_area="dyeStation">
-		<ingredient name="clothGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothHatBlue" count="1"  craft_area="dyeStation">
-		<ingredient name="clothHat" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothJacketBlue" count="1"  craft_area="dyeStation">
-		<ingredient name="clothJacket" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothPantsBlue" count="1"  craft_area="dyeStation">
-		<ingredient name="clothPants" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothBootsGreen" count="1"  craft_area="dyeStation">
-		<ingredient name="clothBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothGlovesGreen" count="1"  craft_area="dyeStation">
-		<ingredient name="clothGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothHatGreen" count="1"  craft_area="dyeStation">
-		<ingredient name="clothHat" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothJacketGreen" count="1"  craft_area="dyeStation">
-		<ingredient name="clothJacket" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothPantsGreen" count="1"  craft_area="dyeStation">
-		<ingredient name="clothPants" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothBootsPurple" count="1"  craft_area="dyeStation">
-		<ingredient name="clothBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothGlovesPurple" count="1"  craft_area="dyeStation">
-		<ingredient name="clothGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothHatPurple" count="1"  craft_area="dyeStation">
-		<ingredient name="clothHat" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothJacketPurple" count="1"  craft_area="dyeStation">
-		<ingredient name="clothJacket" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothPantsPurple" count="1"  craft_area="dyeStation">
-		<ingredient name="clothPants" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothBootsLime" count="1"  craft_area="dyeStation">
-		<ingredient name="clothBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothGlovesLime" count="1"  craft_area="dyeStation">
-		<ingredient name="clothGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothHatLime" count="1"  craft_area="dyeStation">
-		<ingredient name="clothHat" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothJacketLime" count="1"  craft_area="dyeStation">
-		<ingredient name="clothJacket" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothPantsLime" count="1"  craft_area="dyeStation">
-		<ingredient name="clothPants" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothBootsOrange" count="1"  craft_area="dyeStation">
-		<ingredient name="clothBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothGlovesOrange" count="1"  craft_area="dyeStation">
-		<ingredient name="clothGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothHatOrange" count="1"  craft_area="dyeStation">
-		<ingredient name="clothHat" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothJacketOrange" count="1"  craft_area="dyeStation">
-		<ingredient name="clothJacket" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothPantsOrange" count="1"  craft_area="dyeStation">
-		<ingredient name="clothPants" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothBootsBlack" count="1"  craft_area="dyeStation">
-		<ingredient name="clothBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothGlovesBlack" count="1"  craft_area="dyeStation">
-		<ingredient name="clothGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothHatBlack" count="1"  craft_area="dyeStation">
-		<ingredient name="clothHat" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothJacketBlack" count="1"  craft_area="dyeStation">
-		<ingredient name="clothJacket" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="clothPantsBlack" count="1"  craft_area="dyeStation">
-		<ingredient name="clothPants" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideBootsRed" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideGlovesRed" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideHoodRed" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideHood" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideChestArmorRed" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideChestArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideLegArmorRed" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideLegArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideBootsBlue" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideGlovesBlue" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideHoodBlue" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideHood" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideChestArmorBlue" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideChestArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideLegArmorBlue" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideLegArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideBootsGreen" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideGlovesGreen" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideHoodGreen" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideHood" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideChestArmorGreen" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideChestArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideLegArmorGreen" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideLegArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideBootsPurple" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideGlovesPurple" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideHoodPurple" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideHood" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideChestArmorPurple" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideChestArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideLegArmorPurple" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideLegArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideBootsLime" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideGlovesLime" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideHoodLime" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideHood" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideChestArmorLime" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideChestArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideLegArmorLime" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideLegArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideBootsOrange" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideGlovesOrange" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideHoodOrange" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideHood" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideChestArmorOrange" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideChestArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideLegArmorOrange" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideLegArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideBootsBlack" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideGlovesBlack" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideHoodBlack" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideHood" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideChestArmorBlack" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideChestArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="animalHideLegArmorBlack" count="1" craft_area="dyeStation">
-		<ingredient name="animalHideLegArmor" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherDusterBlue" count="1" craft_area="dyeStation">
-		<ingredient name="leatherDuster" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherDusterRed" count="1" craft_area="dyeStation">
-		<ingredient name="leatherDuster" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherDusterPurple" count="1" craft_area="dyeStation">
-		<ingredient name="leatherDuster" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherDusterLime" count="1" craft_area="dyeStation">
-		<ingredient name="leatherDuster" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="leatherDusterOrange" count="1" craft_area="dyeStation">
-		<ingredient name="leatherDuster" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelBootsRed" count="1"  craft_area="dyeStation">
-		<ingredient name="steelBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelChestplateRed" count="1"  craft_area="dyeStation">
-		<ingredient name="steelChestplate" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelGlovesRed" count="1"  craft_area="dyeStation">
-		<ingredient name="steelGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelHelmetRed" count="1"  craft_area="dyeStation">
-		<ingredient name="steelHelmet" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelLegsRed" count="1"  craft_area="dyeStation">
-		<ingredient name="steelLegs" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelBootsBlue" count="1"  craft_area="dyeStation">
-		<ingredient name="steelBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelChestplateBlue" count="1"  craft_area="dyeStation">
-		<ingredient name="steelChestplate" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelGlovesBlue" count="1"  craft_area="dyeStation">
-		<ingredient name="steelGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelHelmetBlue" count="1"  craft_area="dyeStation">
-		<ingredient name="steelHelmet" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelLegsBlue" count="1"  craft_area="dyeStation">
-		<ingredient name="steelLegs" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelBootsGreen" count="1"  craft_area="dyeStation">
-		<ingredient name="steelBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelChestplateGreen" count="1"  craft_area="dyeStation">
-		<ingredient name="steelChestplate" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelGlovesGreen" count="1"  craft_area="dyeStation">
-		<ingredient name="steelGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelHelmetGreen" count="1"  craft_area="dyeStation">
-		<ingredient name="steelHelmet" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelLegsGreen" count="1"  craft_area="dyeStation">
-		<ingredient name="steelLegs" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelBootsPurple" count="1"  craft_area="dyeStation">
-		<ingredient name="steelBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelChestplatePurple" count="1"  craft_area="dyeStation">
-		<ingredient name="steelChestplate" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelGlovesPurple" count="1"  craft_area="dyeStation">
-		<ingredient name="steelGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelHelmetPurple" count="1"  craft_area="dyeStation">
-		<ingredient name="steelHelmet" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelLegsPurple" count="1"  craft_area="dyeStation">
-		<ingredient name="steelLegs" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelBootsLime" count="1"  craft_area="dyeStation">
-		<ingredient name="steelBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelChestplateLime" count="1"  craft_area="dyeStation">
-		<ingredient name="steelChestplate" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelGlovesLime" count="1"  craft_area="dyeStation">
-		<ingredient name="steelGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelHelmetLime" count="1"  craft_area="dyeStation">
-		<ingredient name="steelHelmet" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelLegsLime" count="1"  craft_area="dyeStation">
-		<ingredient name="steelLegs" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelBootsOrange" count="1"  craft_area="dyeStation">
-		<ingredient name="steelBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelChestplateOrange" count="1"  craft_area="dyeStation">
-		<ingredient name="steelChestplate" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelGlovesOrange" count="1"  craft_area="dyeStation">
-		<ingredient name="steelGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelHelmetOrange" count="1"  craft_area="dyeStation">
-		<ingredient name="steelHelmet" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelLegsOrange" count="1"  craft_area="dyeStation">
-		<ingredient name="steelLegs" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelBootsBlack" count="1"  craft_area="dyeStation">
-		<ingredient name="steelBoots" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelChestplateBlack" count="1"  craft_area="dyeStation">
-		<ingredient name="steelChestplate" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelGlovesBlack" count="1"  craft_area="dyeStation">
-		<ingredient name="steelGloves" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelHelmetBlack" count="1"  craft_area="dyeStation">
-		<ingredient name="steelHelmet" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="steelLegsBlack" count="1"  craft_area="dyeStation">
-		<ingredient name="steelLegs" count="1"/>
-		<ingredient name="assortedDyes" count="5"/>
-	</recipe>
-	<recipe name="assortedDyes" count="50" craft_area="chemistryStation"  craft_tool="beaker">
-		<ingredient name="chrysanthemumPlant" count="5"/>
-		<ingredient name="cottonPlant" count="5"/>
-		<ingredient name="goldenrodPlant" count="5"/>
-		<ingredient name="bottledRiverWater" count="1"/>
-	</recipe>
 	<recipe name="Lockpick" count="1" craft_time="20">
 		<ingredient name="forgedIron" count="10"/>
 	</recipe>
@@ -3701,17 +2825,17 @@
 		<ingredient name="gunBoltRifle_Parts" count="1"/>
 	</recipe>
 	<recipe name="Scope" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="ExtendedScope" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="cntEPSFurnaceDrawerSecure" count="1" craft_area="NewWorkBench">
+	<recipe name="cntEPSFurnaceDrawerSecure" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="8"/>
 	</recipe>
-	<recipe name="cntEPSMorticianDrawerSecure" count="1" craft_area="NewWorkBench">
+	<recipe name="cntEPSMorticianDrawerSecure" count="1" craft_area="decoStation">
 		<ingredient name="forgedSteel" count="8"/>
 	</recipe>
 	<recipe name="elevatorTest" count="1"  craft_area="NewWorkBench">
@@ -3727,7 +2851,7 @@
 	</recipe>
 	<recipe name="bowlMurkyWater" count="1" craft_area="BigCampFire">
 		<ingredient name="bowl" count="1"/>
-		<ingredient name="snowBall" count="1"/>
+		<ingredient name="snow" count="3"/>
 	</recipe>
 	<recipe name="woodFrameQuarter" count="1">
 		<ingredient name="wood" count="2"/>
@@ -3761,179 +2885,101 @@
 	<recipe name="survivorNotes" count="1" tooltip="ttScrapVeggies" craft_time="0.5">
 		<wildcard_forge_category />
 	</recipe>
-	<recipe name="Athletics_skill1point" count="1" craft_time = "10" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="50"/>
-		<ingredient name="Ink" count="5"/>
-	</recipe>
-	<recipe name="Blunt_Weapons_skill1point" count="1" craft_time = "10" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="50"/>
-		<ingredient name="Ink" count="5"/>
-	</recipe>
-	<recipe name="Bladed_Weapons_skill1point" count="1" craft_time = "10" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="50"/>
-		<ingredient name="Ink" count="5"/>
-	</recipe>
-	<recipe name="Mining_Tools_skill1point" count="1" craft_time = "10" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="50"/>
-		<ingredient name="Ink" count="10"/>
-	</recipe>
-	<recipe name="Construction_Tools_skill1point" count="1" craft_time = "10" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="50"/>
-		<ingredient name="Ink" count="10"/>
-	</recipe>
-	<recipe name="Pistols_skill1point" count="1" craft_time = "10" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="50"/>
-		<ingredient name="Ink" count="5"/>
-	</recipe>
-	<recipe name="Shotguns_skill1point" count="1" craft_time = "10" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="50"/>
-		<ingredient name="Ink" count="5"/>
-	</recipe>
-	<recipe name="Rifles_skill1point" count="1" craft_time = "10" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="50"/>
-		<ingredient name="Ink" count="5"/>
-	</recipe>
-	<recipe name="Archery_skill1point" count="1" craft_time = "10" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="50"/>
-		<ingredient name="Ink" count="5"/>
-	</recipe>
-	<recipe name="Medicine_skill1point" count="1" craft_time = "10" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="50"/>
-		<ingredient name="Ink" count="5"/>
-	</recipe>
-	<recipe name="Scavenging_skill1point" count="1" craft_time = "10" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="50"/>
-		<ingredient name="Ink" count="10"/>
-	</recipe>
-	<recipe name="Armor_skill1point" count="1" craft_time = "10" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="50"/>
-		<ingredient name="Ink" count="10"/>
-	</recipe>
 	<recipe name="Athletics_skill3points" count="1" craft_time = "15" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="80"/>
+		<ingredient name="survivorNotes" count="90"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
 	<recipe name="Blunt_Weapons_skill3points" count="1" craft_time = "15" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="80"/>
+		<ingredient name="survivorNotes" count="90"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
 	<recipe name="Bladed_Weapons_skill3points" count="1" craft_time = "15" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="80"/>
+		<ingredient name="survivorNotes" count="90"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
 	<recipe name="Mining_Tools_skill3points" count="1" craft_time = "15" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="80"/>
+		<ingredient name="survivorNotes" count="90"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
 	<recipe name="Construction_Tools_skill3points" count="1" craft_time = "15" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="80"/>
+		<ingredient name="survivorNotes" count="90"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
 	<recipe name="Pistols_skill3points" count="1" craft_time = "15" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="80"/>
+		<ingredient name="survivorNotes" count="90"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
 	<recipe name="Shotguns_skill3points" count="1" craft_time = "15" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="80"/>
+		<ingredient name="survivorNotes" count="90"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
 	<recipe name="Rifles_skill3points" count="1" craft_time = "15" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="80"/>
+		<ingredient name="survivorNotes" count="90"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
 	<recipe name="Archery_skill3points" count="1" craft_time = "15" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="80"/>
+		<ingredient name="survivorNotes" count="90"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
 	<recipe name="Medicine_skill3points" count="1" craft_time = "15" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="80"/>
+		<ingredient name="survivorNotes" count="90"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
 	<recipe name="Scavenging_skill3points" count="1" craft_time = "15" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="80"/>
+		<ingredient name="survivorNotes" count="90"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
 	<recipe name="Armor_skill3points" count="1" craft_time = "15" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="80"/>
+		<ingredient name="survivorNotes" count="90"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
 	<recipe name="Athletics_skill5points" count="1" craft_time = "20" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="120"/>
+		<ingredient name="survivorNotes" count="150"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
 	<recipe name="Blunt_Weapons_skill5points" count="1" craft_time = "20" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="120"/>
+		<ingredient name="survivorNotes" count="150"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
 	<recipe name="Bladed_Weapons_skill5points" count="1" craft_time = "20" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="120"/>
+		<ingredient name="survivorNotes" count="150"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
 	<recipe name="Mining_Tools_skill5points" count="1" craft_time = "20" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="120"/>
+		<ingredient name="survivorNotes" count="150"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
 	<recipe name="Construction_Tools_skill5points" count="1" craft_time = "20" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="120"/>
+		<ingredient name="survivorNotes" count="150"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
 	<recipe name="Pistols_skill5points" count="1" craft_time = "20" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="120"/>
+		<ingredient name="survivorNotes" count="150"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
 	<recipe name="Shotguns_skill5points" count="1" craft_time = "20" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="120"/>
+		<ingredient name="survivorNotes" count="150"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
 	<recipe name="Rifles_skill5points" count="1" craft_time = "20" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="120"/>
+		<ingredient name="survivorNotes" count="150"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
 	<recipe name="Archery_skill5points" count="1" craft_time = "20" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="120"/>
+		<ingredient name="survivorNotes" count="150"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
 	<recipe name="Medicine_skill5points" count="1" craft_time = "20" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="120"/>
+		<ingredient name="survivorNotes" count="150"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
 	<recipe name="Scavenging_skill5points" count="1" craft_time = "20" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="120"/>
+		<ingredient name="survivorNotes" count="150"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
 	<recipe name="Armor_skill5points" count="1" craft_time = "20" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="120"/>
+		<ingredient name="survivorNotes" count="150"/>
 		<ingredient name="Ink" count="5"/>
-	</recipe>
-	<recipe name="Cooking_skill5points" count="1" craft_time = "20" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="120"/>
-		<ingredient name="Ink" count="5"/>
-	</recipe>
-	<recipe name="Trap_skill5points" count="1" craft_time = "20" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="120"/>
-		<ingredient name="Ink" count="5"/>
-	</recipe>
-	<recipe name="Trap_skill3points" count="1" craft_time = "15" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="80"/>
-		<ingredient name="Ink" count="5"/>
-	</recipe>
-	<recipe name="Cooking_skill3points" count="1" craft_time = "15" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="80"/>
-		<ingredient name="Ink" count="5"/>
-	</recipe>
-	<recipe name="Cooking_skill1point" count="1" craft_time = "10" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="50"/>
-		<ingredient name="Ink" count="5"/>
-	</recipe>
-	<recipe name="Trap_skill1point" count="1" craft_time = "10" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="50"/>
-		<ingredient name="Ink" count="10"/>
-	</recipe>
-	<recipe name="applePie" count="1" craft_area="BigCampFire">
-		<ingredient name="egg" count="1"/>
-		<ingredient name="Flour" count="1"/>
-		<ingredient name="bowlWater" count="1"/>
-		<ingredient name="Apple" count="3"/>
 	</recipe>
 	<recipe name="baconEggSandwich" count="1"   craft_time = "8" craft_area="foodPrepTable" craft_tool="butcherKnife">
 		<ingredient name="baconAndEggs" count="2"/>
@@ -3951,6 +2997,11 @@
 	<recipe name="Hamburger" count="1" craft_area="BigCampFire" craft_tool="cookingGrill">
 		<ingredient name="slicedrawMeat" count="2"/>
 		<ingredient name="Bread" count="2"/>
+	</recipe>
+	<recipe name="Cheeseburger" count="1" craft_area="BigCampFire" craft_tool="cookingGrill">
+		<ingredient name="slicedrawMeat" count="2"/>
+		<ingredient name="Bread" count="2"/>
+		<ingredient name="Cheese" count="1"/>
 	</recipe>
 	<recipe name="honeyHam" count="1" craft_area="BigCampFire" craft_tool="cookingGrill">
 		<ingredient name="foodHoney" count="1"/>
@@ -3978,26 +3029,20 @@
 		<ingredient name="corn" count="4"/>
 		<ingredient name="dinnerPlate" count="1"/>
 	</recipe>
-	<recipe name="butcherKnife" count="1">
-		<ingredient name="toolHeadKnifeBlade" count="1"/>
-		<ingredient name="wood" count="10"/>
-		<ingredient name="leather" count="1"/>
-	</recipe>
 	<recipe name="skinningKnife2" count="1">
 		<ingredient name="toolHeadKnifeBlade" count="1"/>
 		<ingredient name="wood" count="10"/>
 		<ingredient name="leather" count="1"/>
 	</recipe>
-	<recipe name="workingCabinetSink" count="1" craft_area="NewWorkBench">
+	<recipe name="workingCabinetSink" count="1" craft_area="decoStation">
 		<ingredient name="wood" count="15"/>
 		<ingredient name="forgedIron" count="10"/>
 		<ingredient name="shortMetalPipe" count="5"/>
 		<ingredient name="plumbingKit" count="1"/>
 	</recipe>
-	<recipe name="workingGranitSink" count="1" craft_area="NewWorkBench">
+	<recipe name="workingGranitSink" count="1" craft_area="decoStation">
 		<ingredient name="wood" count="15"/>
-		<ingredient name="cobblestones" count="5"/>
-		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="cobblestones" count="15"/>
 		<ingredient name="shortMetalPipe" count="5"/>
 		<ingredient name="plumbingKit" count="1"/>
 	</recipe>
@@ -4032,8 +3077,8 @@
 	</recipe>
 	<recipe name="battleAxe" count="1" craft_area="NewWorkBench">
 		<ingredient name="toolHeadSteelAxe" count="1"/>
-		<ingredient name="wood" count="20"/>
-		<ingredient name="leather" count="1"/>
+		<ingredient name="wood" count="40"/>
+		<ingredient name="leather" count="5"/>
 	</recipe>
 	<recipe name="hoeIron" count="1">
 		<ingredient name="toolHeadIronHoe" count="1"/>
@@ -4085,19 +3130,19 @@
 		<ingredient name="animalFat" count="1"/>
 	</recipe>
 	<recipe name="ExtendedRifleMagazine" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="ExtendedHandgunMagazine" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="gunrifleSilencer" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="gunhandgunSilencer" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<!-- Classes Mod -->
@@ -4120,7 +3165,6 @@
 		<ingredient name="electricCharge" count="1"/>
 		<ingredient name="clubSpiked" count="1"/>
 	</recipe>
-	<!-- 	<recipe name="adminBurnt" count="2" craft_time="2" craft_area="townMixer"><ingredient name="dirtFragment" count="4"/></recipe><recipe name="adminForest" count="2" craft_time="2" craft_area="townMixer"><ingredient name="dirtFragment" count="4"/></recipe><recipe name="adminGrass" count="2" craft_time="2" craft_area="townMixer"><ingredient name="dirtFragment" count="4"/></recipe><recipe name="adminGravel" count="2" craft_time="2" craft_area="townMixer"><ingredient name="crushedSand" count="5"/><ingredient name="rockSmall" count="5"/></recipe><recipe name="adminGravel" count="2" craft_time="2" craft_area="townMixer"><ingredient name="crushedSand" count="5"/><ingredient name="rockSmall" count="5"/></recipe><recipe name="adminPlains" count="2" craft_time="2" craft_area="townMixer"><ingredient name="dirtFragment" count="4"/></recipe><recipe name="adminSand" count="2" craft_time="2" craft_area="townMixer"><ingredient name="crushedSand" count="6"/></recipe><recipe name="adminAsphalt" count="2" craft_time="2" craft_area="townMixer"><ingredient name="crushedSand" count="4"/><ingredient name="rockSmall" count="6"/><ingredient name="oilShale" count="2"/></recipe><recipe name="adminSnow" count="2" craft_time="2" craft_area="townMixer"><ingredient name="snowBall" count="6"/></recipe><recipe name="adminDesert" count="2" craft_time="2" craft_area="townMixer"><ingredient name="crushedSand" count="6"/></recipe> -->
 	<recipe name="diyRocketCasing" count="1" craft_time="1" craft_area="BigForge" craft_tool="forgeCrucible" material_based="true">
 		<ingredient name="unit_iron" count="30"/>
 		<ingredient name="unit_clay" count="35"/>
@@ -4215,40 +3259,40 @@
 		<ingredient name="leather" count="4"/>
 		<ingredient name="wood" count="10"/>
 	</recipe>
-	<recipe name="ClassPaperFarmer" count="1" craft_time = "15"  craft_area="ResearchDesk">
-		<ingredient name="survivorNotes" count="150"/>
+	<recipe name="ClassPaperFarmer" count="1" craft_time = "30"  craft_area="ResearchDesk">
+		<ingredient name="survivorNotes" count="175"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
-	<recipe name="ClassPaperMedicine" count="1" craft_time = "15"  craft_area="ResearchDesk">
-		<ingredient name="survivorNotes" count="150"/>
+	<recipe name="ClassPaperMedicine" count="1" craft_time = "30"  craft_area="ResearchDesk">
+		<ingredient name="survivorNotes" count="175"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
-	<recipe name="ClassPaperRifles" count="1" craft_time = "15"  craft_area="ResearchDesk">
-		<ingredient name="survivorNotes" count="150"/>
+	<recipe name="ClassPaperRifles" count="1" craft_time = "30"  craft_area="ResearchDesk">
+		<ingredient name="survivorNotes" count="175"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
-	<recipe name="ClassPaperSurvival" count="1" craft_time = "15"  craft_area="ResearchDesk">
-		<ingredient name="survivorNotes" count="150"/>
+	<recipe name="ClassPaperSurvival" count="1" craft_time = "30"  craft_area="ResearchDesk">
+		<ingredient name="survivorNotes" count="175"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
-	<recipe name="ClassPaperShotguns" count="1" craft_time = "15"  craft_area="ResearchDesk">
-		<ingredient name="survivorNotes" count="150"/>
+	<recipe name="ClassPaperShotguns" count="1" craft_time = "30"  craft_area="ResearchDesk">
+		<ingredient name="survivorNotes" count="175"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
-	<recipe name="ClassPaperHandguns" count="1" craft_time = "15"  craft_area="ResearchDesk">
-		<ingredient name="survivorNotes" count="150"/>
+	<recipe name="ClassPaperHandguns" count="1" craft_time = "30"  craft_area="ResearchDesk">
+		<ingredient name="survivorNotes" count="175"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
-	<recipe name="ClassPaperBlunt" count="1" craft_time = "15"  craft_area="ResearchDesk">
-		<ingredient name="survivorNotes" count="150"/>
+	<recipe name="ClassPaperBlunt" count="1" craft_time = "30"  craft_area="ResearchDesk">
+		<ingredient name="survivorNotes" count="175"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
-	<recipe name="ClassPaperBows" count="1" craft_time = "15"  craft_area="ResearchDesk">
-		<ingredient name="survivorNotes" count="150"/>
+	<recipe name="ClassPaperBows" count="1" craft_time = "30"  craft_area="ResearchDesk">
+		<ingredient name="survivorNotes" count="175"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
-	<recipe name="ClassPaperBlades" count="1" craft_time = "15"  craft_area="ResearchDesk">
-		<ingredient name="survivorNotes" count="150"/>
+	<recipe name="ClassPaperBlades" count="1" craft_time = "30"  craft_area="ResearchDesk">
+		<ingredient name="survivorNotes" count="175"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
 	<recipe name="homemadePistolBullet" count="1" craft_time = "3">
@@ -4292,6 +3336,7 @@
 	<recipe name="hamSandwich" count="1" craft_time = "8" craft_area="foodPrepTable" craft_tool="butcherKnife">
 		<ingredient name="slicedHam" count="4"/>
 		<ingredient name="slicedCheese" count="4"/>
+		<ingredient name="Bread" count="2"/>
 	</recipe>
 	<recipe name="Dough" count="1" craft_time = "8" craft_area="foodPrepTable" craft_tool="tenderizer">
 		<ingredient name="Yeast" count="1"/>
@@ -4301,29 +3346,12 @@
 	<recipe name="Crackers" count="1" craft_time = "8" craft_area="BigCampFire" craft_tool="cookingGrill">
 		<ingredient name="Dough" count="1"/>
 	</recipe>
-
 	<recipe name="Cheese" count="1" craft_time = "8" craft_area="BigCampFire">
 		<ingredient name="SoyMilk" count="4"/>
 	</recipe>
 	<recipe name="SoyMilk" count="1" craft_time = "8" craft_area="BigCampFire" craft_tool="beaker">
 		<ingredient name="SoyBeans" count="1"/>
 		<ingredient name="emptyJar" count="1"/>
-	</recipe>
-	<recipe name="Yogurt" count="1" craft_time = "8" craft_area="BigCampFire">
-		<ingredient name="SoyMilk" count="4"/>
-	</recipe>
-	<recipe name="BlueberryYogurt" count="1" craft_time = "8" craft_area="BigCampFire">
-		<ingredient name="SoyMilk" count="3"/>
-		<ingredient name="blueberries" count="1"/>
-	</recipe>
-	<recipe name="Pancakes" count="1" craft_time = "8" craft_area="BigCampFire" craft_tool="cookingGrill">
-		<ingredient name="SoyMilk" count="4"/>
-		<ingredient name="Dough" count="1"/>
-	</recipe>
-	<recipe name="BlueberryPancakes" count="1" craft_time = "8" craft_area="BigCampFire" craft_tool="cookingGrill">
-		<ingredient name="SoyMilk" count="2"/>
-		<ingredient name="Dough" count="1"/>
-		<ingredient name="blueberries" count="2"/>
 	</recipe>
 	<recipe name="electricMachete" count="1" craft_time = "12"  craft_area="NewWorkBench">
 		<ingredient name="machete" count="1"/>
@@ -4339,13 +3367,6 @@
 		<ingredient name="clubSpiked" count="1"/>
 		<ingredient name="electricCharge" count="1"/>
 		<ingredient name="ductTape" count="1"/>
-	</recipe>
-	<recipe name="ammunitionTable" count="1" craft_time = "30">
-		<ingredient name="forgedIron" count="25"/>
-		<ingredient name="mechanicalParts" count="20"/>
-		<ingredient name="wrench" count="1"/>
-		<ingredient name="clawHammer" count="1"/>
-		<ingredient name="wood" count="50"/>
 	</recipe>
 	<recipe name="cntTrapChestUpgrade" count="1" craft_time = "4" craft_exp_gain="9" craft_area="NewWorkBench">
 		<ingredient name="spring" count="10"/>
@@ -4368,57 +3389,54 @@
 	<recipe name="steelPlating" count="1" craft_time = "4"  craft_area="NewWorkBench">
 		<ingredient name="forgedSteel" count="5"/>
 	</recipe>
-<!-- 	<recipe name="zombieHordeBeacon" count="1">
-		<ingredient name="burningBarrelPlayer" count="1"/>
-		<ingredient name="rottingFlesh" count="25"/>
-	</recipe> -->
+	<!-- 	<recipe name="zombieHordeBeacon" count="1"><ingredient name="burningBarrelPlayer" count="1"/><ingredient name="rottingFlesh" count="25"/></recipe> -->
 	<recipe name="sandbag_1" count="1" craft_area="decoStation">
 		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="textile" count="10"/>
 	</recipe>
 	<recipe name="sandbag_2" count="1" craft_area="decoStation">
 		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="textile" count="10"/>
 	</recipe>
 	<recipe name="sandbag_3" count="1" craft_area="decoStation">
 		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="textile" count="10"/>
 	</recipe>
 	<recipe name="sandbag_4" count="1" craft_area="decoStation">
 		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="textile" count="10"/>
 	</recipe>
 	<recipe name="sandbagCorner" count="1" craft_area="decoStation">
 		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="textile" count="10"/>
 	</recipe>
 	<recipe name="sandbagEnd" count="1" craft_area="decoStation">
 		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="textile" count="10"/>
 	</recipe>
 	<recipe name="sandbagEnd2" count="1" craft_area="decoStation">
 		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="textile" count="10"/>
 	</recipe>
 	<recipe name="sandbagCornerDMG1" count="1" craft_area="decoStation">
 		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="textile" count="10"/>
 	</recipe>
 	<recipe name="sandbagCorner2" count="1" craft_area="decoStation">
 		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="textile" count="10"/>
 	</recipe>
 	<recipe name="sandbagCorner2DMG1" count="1" craft_area="decoStation">
 		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="textile" count="10"/>
 	</recipe>
 	<recipe name="sandbag_5" count="1" craft_area="decoStation">
 		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="textile" count="10"/>
 	</recipe>
 	<recipe name="sandbag_5DMG1" count="1" craft_area="decoStation">
 		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="cloth" count="10"/>
+		<ingredient name="textile" count="10"/>
 	</recipe>
 	<recipe name="iBeamSmall" count="1"  craft_area="NewWorkBench">
 		<ingredient name="forgedSteel" count="5"/>
@@ -4505,13 +3523,13 @@
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
 	<recipe name="painting01" count="1" craft_area="decoStation">
-		<ingredient name="wood" count="8"/>
+		<ingredient name="polishedWood" count="8"/>
 		<ingredient name="chrysanthemumPlant" count="1"/>
 		<ingredient name="goldenrodPlant" count="1"/>
 		<ingredient name="blueberries" count="1"/>
 	</recipe>
 	<recipe name="painting02" count="1" craft_area="decoStation">
-		<ingredient name="wood" count="8"/>
+		<ingredient name="polishedWood" count="8"/>
 		<ingredient name="chrysanthemumPlant" count="1"/>
 		<ingredient name="goldenrodPlant" count="1"/>
 		<ingredient name="blueberries" count="1"/>
@@ -4522,245 +3540,6 @@
 		<ingredient name="mechanicalParts" count="1"/>
 		<ingredient name="wood" count="5"/>
 	</recipe>
-	<recipe name="cinderBlocks01" count="1" craft_area="decoStation">
-		<ingredient name="rockSmall" count="10"/>
-		<ingredient name="cement" count="2"/>
-	</recipe>
-	<recipe name="cinderBlocks02" count="1" craft_area="decoStation">
-		<ingredient name="rockSmall" count="10"/>
-		<ingredient name="cement" count="2"/>
-	</recipe>
-	<recipe name="cinderBlocks03" count="1" craft_area="decoStation">
-		<ingredient name="rockSmall" count="10"/>
-		<ingredient name="cement" count="2"/>
-	</recipe>
-	<recipe name="scrapMetalPile" count="1" craft_area="decoStation">
-		<ingredient name="scrapIron" count="100"/>
-	</recipe>
-	<recipe name="signRoadArrowheadApache" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadAZ260eastSpeed65" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadAZ260west" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadAZ260westSpeed65" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadAZ73north" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadAZ73northSpeed65" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadAZ73south" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadAZ73southSpeed65" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signCamping" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signCampFish" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadDestinationsEast" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadDestinationsWest" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signInfoCenter" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signNoHazardousWaste" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadWork" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadRoughSurface" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signSchoolZone" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadSlow" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadSpeed25" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadSpeed25noTrucks" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadSpeed35" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadSpeed35" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadSpeed45" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadSpeed55" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadSpeed65" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadStop" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadStop4way" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadApacheAZ260" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadBellLake" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadCoronado" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadCoronadoCourtland" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadCourtlandApache" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadCourtlandAZ260" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadCourtlandBell" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadCourtlandHuenink" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadCourtlandMaple" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadCourtlandTran" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadDavis" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadEssig" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadLangTran" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadPrivate" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadTran" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signSpillwayLake" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signAnselAdamsRiver" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signRoadMaple" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-	</recipe>
-	<recipe name="signNationalPark" count="1"  craft_area="decoStation">
-		<ingredient name="shortMetalPipe" count="5"/>
-		<ingredient name="forgedIron" count="2"/>
-		<ingredient name="rebarFrameBlock" count="10"/>
-		<ingredient name="concreteMix" count="100"/>
-		<ingredient name="wood" count="100"/>
-	</recipe>
-	<recipe name="storeShelving01Double" count="1"  craft_area="decoStation">
-		<ingredient name="forgedIron" count="50"/>
-	</recipe>
-	<recipe name="storeShelving01Top" count="1"  craft_area="decoStation">
-		<ingredient name="forgedIron" count="50"/>
-	</recipe>
-	<recipe name="storeShelving01TopDouble" count="1"  craft_area="decoStation">
-		<ingredient name="forgedIron" count="50"/>
-	</recipe>
-	<recipe name="schoolDesk" count="1"  craft_area="decoStation">
-		<ingredient name="scrapIron" count="10"/>
-		<ingredient name="spring" count="2"/>
-		<ingredient name="shortMetalPipe" count="4"/>
-		<ingredient name="wood" count="10"/>
-	</recipe>
-	<recipe name="fountain" count="1"  craft_area="decoStation">
-		<ingredient name="scrapIron" count="10"/>
-		<ingredient name="faucet02" count="1"/>
-	</recipe>
-	<recipe name="treeCactus01" count="1" craft_area="decoStation">
-		<ingredient name="yuccaFibers" count="20"/>
-	</recipe>
-	<recipe name="treeCactus02" count="1" craft_area="decoStation">
-		<ingredient name="yuccaFibers" count="20"/>
-	</recipe>
-	<recipe name="treeCactus03" count="1" craft_area="decoStation">
-		<ingredient name="yuccaFibers" count="20"/>
-	</recipe>
-	<recipe name="treeCactus04" count="1" craft_area="decoStation">
-		<ingredient name="yuccaFibers" count="20"/>
-	</recipe>
-	<recipe name="treeCactus05" count="1" craft_area="decoStation">
-		<ingredient name="yuccaFibers" count="20"/>
-	</recipe>
-	<recipe name="treeCactus06" count="1" craft_area="decoStation">
-		<ingredient name="yuccaFibers" count="20"/>
-	</recipe>
 	<recipe name="bridgeAsphaltBlock" count="1" craft_area="cementMixer">
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
@@ -4768,7 +3547,7 @@
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
 	<recipe name="bridgeWoodBlock" count="1" craft_area="NewWorkBench">
-		<ingredient name="wood" count="20"/>
+		<ingredient name="polishedWood" count="20"/>
 	</recipe>
 	<recipe name="woodCrossCtr" count="1" craft_area="NewWorkBench">
 		<ingredient name="wood" count="10"/>
@@ -4776,20 +3555,20 @@
 	<recipe name="woodCross" count="1" craft_area="NewWorkBench">
 		<ingredient name="wood" count="10"/>
 	</recipe>
-	<recipe name="emberPile1" count="1">
-		<ingredient name="wood" count="10"/>
+	<recipe name="emberPile1" count="1" craft_area="decoStation">
+		<ingredient name="polishedWood" count="10"/>
 		<ingredient name="coal" count="5"/>
 	</recipe>
-	<recipe name="emberPile2" count="1">
-		<ingredient name="wood" count="10"/>
+	<recipe name="emberPile2" count="1" craft_area="decoStation">
+		<ingredient name="polishedWood" count="10"/>
 		<ingredient name="coal" count="5"/>
 	</recipe>
-	<recipe name="emberPile3" count="1">
-		<ingredient name="wood" count="10"/>
+	<recipe name="emberPile3" count="1" craft_area="decoStation">
+		<ingredient name="polishedWood" count="10"/>
 		<ingredient name="coal" count="5"/>
 	</recipe>
-	<recipe name="emberPile4" count="1">
-		<ingredient name="wood" count="10"/>
+	<recipe name="emberPile4" count="1" craft_area="decoStation">
+		<ingredient name="polishedWood" count="10"/>
 		<ingredient name="coal" count="5"/>
 	</recipe>
 	<recipe name="commercialDoor1_v1" count="1"  craft_area="decoStation">
@@ -4817,22 +3596,22 @@
 		<ingredient name="spring" count="2"/>
 	</recipe>
 	<recipe name="houseFrontDoor1_v1" count="1" craft_area="decoStation">
-		<ingredient name="wood" count="20"/>
+		<ingredient name="polishedWood" count="20"/>
 	</recipe>
 	<recipe name="houseFrontDoor1_v2" count="1" craft_area="decoStation">
-		<ingredient name="wood" count="20"/>
+		<ingredient name="polishedWood" count="20"/>
 	</recipe>
 	<recipe name="houseFrontDoor1_v3" count="1" craft_area="decoStation">
-		<ingredient name="wood" count="20"/>
+		<ingredient name="polishedWood" count="20"/>
 	</recipe>
 	<recipe name="houseFrontDoor2_v1" count="1" craft_area="decoStation">
-		<ingredient name="wood" count="20"/>
+		<ingredient name="polishedWood" count="20"/>
 	</recipe>
 	<recipe name="houseFrontDoor2_v2" count="1" craft_area="decoStation">
-		<ingredient name="wood" count="20"/>
+		<ingredient name="polishedWood" count="20"/>
 	</recipe>
 	<recipe name="houseFrontDoor2_v3" count="1" craft_area="decoStation">
-		<ingredient name="wood" count="20"/>
+		<ingredient name="polishedWood" count="20"/>
 	</recipe>
 	<recipe name="ice" count="1">
 		<ingredient name="snowBall" count="12"/>
@@ -4996,30 +3775,9 @@
 		<ingredient name="mechanicalParts" count="2"/>
 		<ingredient name="shortMetalPipe" count="4"/>
 	</recipe>
-	<recipe name="treeAzalea" count="1">
-		<ingredient name="wood" count="3"/>
-	</recipe>
-	<recipe name="scrapPlastics" count="1" craft_area="chemistryStation">
-		<ingredient name="oilShale" count="5"/>
-	</recipe>
-	<recipe name="treeJuniper6m" count="1" craft_area="decoStation">
-		<ingredient name="wood" count="150"/>
-		<ingredient name="yuccaFibers" count="20"/>
-	</recipe>
-	<recipe name="forestFlower" count="1">
-		<ingredient name="yuccaFibers" count="10"/>
-	</recipe>
-	<recipe name="shoppingCartEmpty" count="1"  craft_area="decoStation">
-		<ingredient name="mechanicalParts" count="6"/>
-		<ingredient name="scrapIron" count="200"/>
-	</recipe>
-	<recipe name="cntShoppingCart" count="1"  craft_area="decoStation">
-		<ingredient name="mechanicalParts" count="6"/>
-		<ingredient name="scrapIron" count="200"/>
-	</recipe>
 	<recipe name="flagPoleWhiteRiver" count="1"  craft_area="decoStation">
 		<ingredient name="shortMetalPipe" count="40"/>
-		<ingredient name="cloth" count="50"/>
+		<ingredient name="textile" count="50"/>
 	</recipe>
 	<recipe name="cashRegisterEmpty" count="1"  craft_area="decoStation">
 		<ingredient name="electricParts" count="1"/>
@@ -5035,322 +3793,6 @@
 		<ingredient name="electricParts" count="2"/>
 		<ingredient name="scrapIron" count="5"/>
 	</recipe>
-	<!-- custom clothing starts here -->
-	<recipe name="bandanaRed" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="4"/>
-		<ingredient name="chrysanthemumPlant" count="1"/>
-	</recipe>
-	<recipe name="bandanaBlue" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="4"/>
-		<ingredient name="snowberryPlant" count="1"/>
-	</recipe>
-	<recipe name="bandanaGreen" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="4"/>
-		<ingredient name="yuccaFibers" count="1"/>
-	</recipe>
-	<recipe name="bandanaBrown" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="4"/>
-		<ingredient name="turd" count="1"/>
-	</recipe>
-	<recipe name="bandanaBlack" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="4"/>
-		<ingredient name="coal" count="1"/>
-	</recipe>
-	<recipe name="denimPants" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="25"/>
-		<ingredient name="snowberryPlant" count="5"/>
-	</recipe>
-	<recipe name="blackDenimPants" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="25"/>
-		<ingredient name="coal" count="5"/>
-	</recipe>
-	<recipe name="redDenimPants" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="25"/>
-		<ingredient name="chrysanthemumPlant" count="5"/>
-	</recipe>
-	<recipe name="brownDenimPants" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="25"/>
-		<ingredient name="turd" count="5"/>
-	</recipe>
-	<recipe name="armyPants" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="25"/>
-		<ingredient name="coal" count="5"/>
-		<ingredient name="yuccaFibers" count="5"/>
-	</recipe>
-	<recipe name="armyShirt" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="25"/>
-		<ingredient name="coal" count="5"/>
-		<ingredient name="yuccaFibers" count="5"/>
-	</recipe>
-	<recipe name="leatherDusterBlack" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="leather" count="200"/>
-		<ingredient name="coal" count="5"/>
-	</recipe>
-	<recipe name="pufferCoat" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="125"/>
-		<ingredient name="feather" count="100"/>
-	</recipe>
-	<recipe name="pufferCoatRed" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="125"/>
-		<ingredient name="feather" count="100"/>
-		<ingredient name="chrysanthemumPlant" count="5"/>
-	</recipe>
-	<recipe name="pufferCoatGreen" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="125"/>
-		<ingredient name="feather" count="100"/>
-		<ingredient name="yuccaFibers" count="5"/>
-	</recipe>
-	<recipe name="pufferCoatBrown" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="125"/>
-		<ingredient name="feather" count="100"/>
-		<ingredient name="turd" count="5"/>
-	</recipe>
-	<recipe name="pufferCoatBlack" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="125"/>
-		<ingredient name="feather" count="100"/>
-		<ingredient name="coal" count="5"/>
-	</recipe>
-	<recipe name="sweatshirt" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-	</recipe>
-	<recipe name="sweatshirtRed" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="chrysanthemumPlant" count="2"/>
-	</recipe>
-	<recipe name="sweatshirtBrown" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="turd" count="2"/>
-	</recipe>
-	<recipe name="sweatshirtGreen" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="yuccaFibers" count="2"/>
-	</recipe>
-	<recipe name="sweatshirtBlue" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="snowberryPlant" count="2"/>
-	</recipe>
-	<recipe name="sweatshirtBlack" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="coal" count="2"/>
-	</recipe>
-	<recipe name="tshirtWhite" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="potassiumNitratePowder" count="2"/>
-	</recipe>
-	<recipe name="tshirtRed" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="chrysanthemumPlant" count="2"/>
-	</recipe>
-	<recipe name="tshirtBrown" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="turd" count="2"/>
-	</recipe>
-	<recipe name="tshirtGreen" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="yuccaFibers" count="2"/>
-	</recipe>
-	<recipe name="tshirtBlue" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="snowberryPlant" count="2"/>
-	</recipe>
-	<recipe name="tshirtBlack" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="coal" count="2"/>
-	</recipe>
-	<recipe name="skirt" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-	</recipe>
-	<recipe name="jacketWhite" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="125"/>
-		<ingredient name="feather" count="75"/>
-		<ingredient name="potassiumNitratePowder" count="5"/>
-	</recipe>
-	<recipe name="skirtRed" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="chrysanthemumPlant" count="1"/>
-	</recipe>
-	<recipe name="skirtBrown" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="turd" count="1"/>
-	</recipe>
-	<recipe name="skirtGreen" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="yuccaFibers" count="1"/>
-	</recipe>
-	<recipe name="skirtBlue" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="snowberryPlant" count="1"/>
-	</recipe>
-	<recipe name="skirtBlack" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="coal" count="1"/>
-	</recipe>
-	<recipe name="ballCapRed" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="chrysanthemumPlant" count="1"/>
-	</recipe>
-	<recipe name="ballCapBrown" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="turd" count="1"/>
-	</recipe>
-	<recipe name="ballCapGreen" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="yuccaFibers" count="1"/>
-	</recipe>
-	<recipe name="ballCapBlue" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="snowberryExtract" count="1"/>
-	</recipe>
-	<recipe name="ballCapBlack" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="coal" count="1"/>
-	</recipe>
-	<recipe name="jacketBlack" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="125"/>
-		<ingredient name="feather" count="75"/>
-		<ingredient name="coal" count="5"/>
-	</recipe>
-	<recipe name="jacketLetter" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="125"/>
-		<ingredient name="feather" count="75"/>
-		<ingredient name="chrysanthemumPlant" count="5"/>
-		<ingredient name="potassiumNitratePowder" count="5"/>
-	</recipe>
-	<recipe name="denimShortsPants" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="25"/>
-		<ingredient name="snowberryPlant" count="3"/>
-	</recipe>
-	<recipe name="denimShortsPantsRed" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="25"/>
-		<ingredient name="chrysanthemumPlant" count="3"/>
-	</recipe>
-	<recipe name="denimShortsPantsBrown" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="25"/>
-		<ingredient name="turd" count="3"/>
-	</recipe>
-	<recipe name="denimShortsPantsGreen" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="25"/>
-		<ingredient name="yuccaFibers" count="3"/>
-	</recipe>
-	<recipe name="denimShortsPantsBlue" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="25"/>
-		<ingredient name="snowberryPlant" count="3"/>
-	</recipe>
-	<recipe name="denimShortsPantsBlack" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="25"/>
-		<ingredient name="coal" count="3"/>
-	</recipe>
-	<recipe name="denimShortsPantsBlack" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="25"/>
-		<ingredient name="coal" count="3"/>
-	</recipe>
-	<recipe name="hoodedSweatshirtWhite" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="potassiumNitratePowder" count="2"/>
-	</recipe>
-	<recipe name="hoodedSweatshirtRed" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="chrysanthemumPlant" count="2"/>
-	</recipe>
-	<recipe name="hoodedSweatshirtBrown" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="turd" count="2"/>
-	</recipe>
-	<recipe name="hoodedSweatshirtGreen" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="yuccaFibers" count="2"/>
-	</recipe>
-	<recipe name="hoodedSweatshirtBlue" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="snowberryPlant" count="2"/>
-	</recipe>
-	<recipe name="hoodedSweatshirtBlack" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="coal" count="2"/>
-	</recipe>
-	<recipe name="pressboyCapWhite" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="potassiumNitratePowder" count="1"/>
-	</recipe>
-	<recipe name="pressboyCapRed" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="chrysanthemumPlant" count="1"/>
-	</recipe>
-	<recipe name="pressboyCapBrown" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="turd" count="1"/>
-	</recipe>
-	<recipe name="pressboyCapGreen" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="yuccaFibers" count="1"/>
-	</recipe>
-	<recipe name="pressboyCapBlue" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="snowberryPlant" count="1"/>
-	</recipe>
-	<recipe name="pressboyCapBlack" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="coal" count="1"/>
-	</recipe>
-	<recipe name="tshirtZUWhite" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="potassiumNitratePowder" count="2"/>
-	</recipe>
-	<recipe name="cowboyBootsBrown" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="leather" count="5"/>
-		<ingredient name="turd" count="5"/>
-	</recipe>
-	<recipe name="cowboyBootsBlack" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="leather" count="5"/>
-		<ingredient name="coal" count="5"/>
-	</recipe>
-	<recipe name="gothBootsBlack" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="leather" count="15"/>
-		<ingredient name="coal" count="5"/>
-	</recipe>
-	<recipe name="gothicPants" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="leather" count="45"/>
-	</recipe>
-	<recipe name="overalls" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="25"/>
-		<ingredient name="snowberryPlant" count="5"/>
-	</recipe>
-	<recipe name="flannelShirtWhite" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="potassiumNitratePowder" count="2"/>
-	</recipe>
-	<recipe name="flannelShirtRed" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="chrysanthemumPlant" count="2"/>
-	</recipe>
-	<recipe name="flannelShirtBrown" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="turd" count="2"/>
-	</recipe>
-	<recipe name="flannelShirtGreen" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="yuccaFibers" count="2"/>
-	</recipe>
-	<recipe name="flannelShirtBlue" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="snowberryPlant" count="2"/>
-	</recipe>
-	<recipe name="flannelShirtBlack" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="coal" count="2"/>
-	</recipe>
-	<recipe name="suitPantsBlack" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="coal" count="2"/>
-	</recipe>
-	<recipe name="suitJacketBlack" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="coal" count="2"/>
-	</recipe>
-	<recipe name="dressShoesBlack" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="leather" count="10"/>
-		<ingredient name="coal" count="2"/>
-	</recipe>
 	<recipe name="arch_3m_full_TEST" count="1">
 		<ingredient name="cobblestones" count="40"/>
 	</recipe>
@@ -5362,29 +3804,6 @@
 	</recipe>
 	<recipe name="arch_3m_windowTEST" count="1">
 		<ingredient name="cobblestones" count="40"/>
-	</recipe>
-	<recipe name="tankTopWhite" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-	</recipe>
-	<recipe name="tankTopRed" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="chrysanthemumPlant" count="1"/>
-	</recipe>
-	<recipe name="tankTopPurple" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="chrysanthemumPlant" count="1"/>
-		<ingredient name="snowberryPlant" count="1"/>
-	</recipe>
-	<recipe name="tankTopGreen" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="yuccaFibers" count="1"/>
-	</recipe>
-	<recipe name="tankTopBlue" count="1" craft_area="tailorStation" craft_tool="sewingKit">
-		<ingredient name="cloth" count="20"/>
-		<ingredient name="snowberryPlant" count="1"/>
-	</recipe>
-	<recipe name="facialPiercings" count="1" craft_area="NewWorkBench">
-		<ingredient name="silverNugget" count="1"/>
 	</recipe>
 	<recipe name="electricCharge" count="30" craft_area="chemistryStation">
 		<ingredient name="carBattery" count="1"/>
@@ -5518,7 +3937,6 @@
 		<ingredient name="unit_clay" count="5"/>
 		<ingredient name="unit_iron" count="100"/>
 	</recipe>
-
 	<recipe name="mortarAndPestle" count="1" craft_area="BigForge" material_based="true" craft_time="250">
 		<ingredient name="unit_lead" count="1"/>
 		<ingredient name="unit_clay" count="5"/>
@@ -5655,19 +4073,19 @@
 		<ingredient name="bottledWater" count="1"/>
 		<ingredient name="blueberries" count="6"/>
 	</recipe>
-	<recipe name="zombiePinup01" count="1">
+	<recipe name="zombiePinup01" count="1" craft_area="decoStation">
 		<ingredient name="paint" count="20"/>
 		<ingredient name="paper" count="1"/>
 	</recipe>
-	<recipe name="zombiePinup02" count="1">
+	<recipe name="zombiePinup02" count="1" craft_area="decoStation">
 		<ingredient name="paint" count="20"/>
 		<ingredient name="paper" count="1"/>
 	</recipe>
-	<recipe name="zombiePinup03" count="1">
+	<recipe name="zombiePinup03" count="1" craft_area="decoStation">
 		<ingredient name="paint" count="20"/>
 		<ingredient name="paper" count="1"/>
 	</recipe>
-	<recipe name="zombiePinup04" count="1">
+	<recipe name="zombiePinup04" count="1" craft_area="decoStation">
 		<ingredient name="paint" count="20"/>
 		<ingredient name="paper" count="1"/>
 	</recipe>
@@ -5678,16 +4096,16 @@
 		<ingredient name="forgedIron" count="25"/>
 		<ingredient name="Twine" count="3"/>
 		<ingredient name="wood" count="50"/>
+		<ingredient name="anvil" count="1"/>
 	</recipe>
-
 	<recipe name="BigForge" count="1">
 		<ingredient name="rockSmall" count="200"/>
 		<ingredient name="clayLump" count="150"/>
 		<ingredient name="bellows" count="2"/>
 		<ingredient name="shortMetalPipe" count="4"/>
 	</recipe>
-	<recipe name="ammunitionTable" count="1">
-		<ingredient name="forgedIron" count="15"/>
+	<recipe name="ammunitionTable" count="1" craft_time="30" >
+		<ingredient name="forgedIron" count="20"/>
 		<ingredient name="mechanicalParts" count="5"/>
 		<ingredient name="wood" count="50"/>
 	</recipe>
@@ -5707,13 +4125,13 @@
 	</recipe>
 	<!-- Large Shelf by JaxTeller718 -->
 	<recipe name="largeShelf2" count="1" craft_area="decoStation">
-		<ingredient name="wood" count="20"/>
+		<ingredient name="polishedWood" count="20"/>
 		<ingredient name="nail" count="10"/>
 	</recipe>
 	<!-- Large Shelf -->
 	<!-- Large Bookshelf by JaxTeller718 -->
 	<recipe name="largeShelf" count="1" craft_area="decoStation">
-		<ingredient name="wood" count="20"/>
+		<ingredient name="polishedWood" count="20"/>
 		<ingredient name="nail" count="10"/>
 	</recipe>
 	<!-- Old Fridges by JaxTeller718 -->
@@ -5739,49 +4157,49 @@
 		<ingredient name="electronicParts" count="2"/>
 	</recipe>
 	<!-- Metal Bed by JaxTeller718 -->
-	<recipe name="metalBed" count="1" craft_area="NewWorkBench">
+	<recipe name="metalBed" count="1" craft_area="decoStation">
 		<ingredient name="cloth" count="40"/>
 		<ingredient name="forgedIron" count="40"/>
 		<ingredient name="spring" count="20"/>
-		<ingredient name="wood" count="20"/>
+		<ingredient name="polishedWood" count="20"/>
 	</recipe>
 	<!-- Classic Couch by JaxTeller718 -->
 	<recipe name="classicCouch" count="1" craft_area="decoStation">
 		<ingredient name="leather" count="20"/>
-		<ingredient name="wood" count="50"/>
+		<ingredient name="polishedWood" count="50"/>
 		<ingredient name="nail" count="10"/>
 	</recipe>
 	<!-- Lounge Chair by JaxTeller718 -->
 	<recipe name="loungeChair" count="1" craft_area="decoStation">
-		<ingredient name="cloth" count="10"/>
-		<ingredient name="wood" count="30"/>
+		<ingredient name="textile" count="10"/>
+		<ingredient name="polishedWood" count="30"/>
 		<ingredient name="nail" count="8"/>
 	</recipe>
 	<!-- Vanity by JaxTeller718 -->
 	<recipe name="vanity" count="1" craft_area="decoStation">
 		<ingredient name="nail" count="50"/>
-		<ingredient name="wood" count="100"/>
+		<ingredient name="polishedWood" count="100"/>
 		<ingredient name="glassBusinessSheet" count="1"/>
 	</recipe>
 	<!-- Night Table By JaxTeller718 -->
 	<recipe name="nightStand" count="1" craft_area="decoStation">
 		<ingredient name="nail" count="10"/>
-		<ingredient name="wood" count="20"/>
+		<ingredient name="polishedWood" count="20"/>
 	</recipe>
 	<!-- Wood Dresser By JaxTeller718 -->
 	<recipe name="woodenDresser1" count="1" craft_area="decoStation">
 		<ingredient name="nail" count="15"/>
-		<ingredient name="wood" count="50"/>
+		<ingredient name="polishedWood" count="50"/>
 	</recipe>
 	<!-- Old Trunk by JaxTeller718 -->
-	<recipe name="oldTrunk" count="1">
+	<recipe name="oldTrunk" count="1" craft_area="decoStation">
 		<ingredient name="nail" count="10"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="polishedWood" count="10"/>
 	</recipe>
 	<!-- Old Trunk By JaxTeller718 -->
 	<!-- Picnic Table by JaxTeller718 -->
 	<recipe name="picnicTable" count="1" craft_area="decoStation">
-		<ingredient name="wood" count="50"/>
+		<ingredient name="polishedWood" count="50"/>
 		<ingredient name="nail" count="10"/>
 	</recipe>
 	<!-- Picnic Table By JaxTeller718 -->
@@ -5828,15 +4246,15 @@
 	<!-- Stone Fencing -->
 	<!-- Tables by JaxTeller718 -->
 	<recipe name="tableWood1" count="1" craft_area="decoStation">
-		<ingredient name="wood" count="10"/>
+		<ingredient name="polishedWood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="tableWood2" count="1" craft_area="decoStation">
-		<ingredient name="wood" count="10"/>
+		<ingredient name="polishedWood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="kitchenTable1" count="1" craft_area="decoStation">
-		<ingredient name="wood" count="10"/>
+		<ingredient name="polishedWood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="kitchenTable2" count="1" craft_area="decoStation">
@@ -5844,11 +4262,11 @@
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<!-- Trellis by JaxTeller718 -->
-	<recipe name="trellis" count="1">
+	<recipe name="trellis" count="1" craft_area="decoStation">
 		<ingredient name="yuccaFibers" count="50"/>
 		<ingredient name="nail" count="20"/>
 		<ingredient name="chrysanthemumPlant" count="10"/>
-		<ingredient name="wood" count="50"/>
+		<ingredient name="polishedWood" count="50"/>
 	</recipe>
 	<!-- Trellis By JaxTeller718 -->
 	<!-- TV Pack by JaxTeller718 -->
@@ -5905,23 +4323,23 @@
 		<ingredient name="forgedIron" count="100"/>
 	</recipe>
 	<recipe name="wallShelf1" count="1" craft_area="decoStation">
-		<ingredient name="wood" count="15"/>
+		<ingredient name="polishedWood" count="15"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="wallShelf2" count="1" craft_area="decoStation">
-		<ingredient name="wood" count="15"/>
+		<ingredient name="polishedWood" count="15"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="wallShelf3" count="1" craft_area="decoStation">
-		<ingredient name="wood" count="15"/>
+		<ingredient name="polishedWood" count="15"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="wallShelf4" count="1" craft_area="decoStation">
-		<ingredient name="wood" count="15"/>
+		<ingredient name="polishedWood" count="15"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="wallShelf5" count="1" craft_area="decoStation">
-		<ingredient name="wood" count="15"/>
+		<ingredient name="polishedWood" count="15"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<!-- 		<recipe name="scrapSteel" count="1" craft_area="blastFurnace" material_based="true" craft_time="1" craft_exp_gain="0"> - used if steel can be smelted in your mod<ingredient name="unit_steel" count="1"/></recipe>	-->
@@ -5937,14 +4355,15 @@
 	</recipe>
 	<!-- Bathroom Mirror by JaxTeller718 -->
 	<recipe name="mirrorBath" count="1" craft_area="decoStation">
-		<ingredient name="wood" count="10"/>
+		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="nail" count="5"/>
 		<ingredient name="glassBusinessSheet" count="1"/>
 	</recipe>
 	<!-- Bathroom Mirror By JaxTeller718 -->
 	<!-- Ceiling Fan by JaxTeller718 -->
-	<recipe name="ceilingFan" count="1">
+	<recipe name="ceilingFan" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="10"/>
-		<ingredient name="wood" count="20"/>
+		<ingredient name="polishedWood" count="20"/>
 		<ingredient name="electronicParts" count="10"/>
 	</recipe>
 	<!-- Ceiling Fan -->
@@ -5958,7 +4377,7 @@
 	</recipe>
 	<!-- Crooked Fence by JaxTeller718 -->
 	<recipe name="crookedFence" count="1">
-		<ingredient name="wood" count="5"/>
+		<ingredient name="polishedWood" count="5"/>
 	</recipe>
 	<!-- Crooked Fence by JaxTeller718 -->
 	<!-- Desktop PC by JaxTeller718 -->
@@ -5971,7 +4390,7 @@
 	<!-- Electric Chair by JaxTeller718 -->
 	<recipe name="electricChair" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="50"/>
-		<ingredient name="wood" count="200"/>
+		<ingredient name="polishedWood" count="200"/>
 		<ingredient name="electronicParts" count="10"/>
 	</recipe>
 	<!-- Electric Chair -->
@@ -6006,28 +4425,28 @@
 	</recipe>
 	<!-- Melee Weapons by JaxTeller718 -->
 	<recipe name="partsDoubleBarrel_barrel" count="1" craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsDoubleBarrel_stock" count="1" craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsDoubleBarrel_parts" count="1" craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="partsDoubleBarrel_receiver" count="1" craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="Lucille" count="1" scrapable="False">
-		<ingredient name="batWood" count="4"/>
-		<ingredient name="barbedWireSheet" count="5"/>
+		<ingredient name="batWood" count="1"/>
+		<ingredient name="barbedWireSheet" count="8"/>
 	</recipe>
 	<!-- Kitchen by JaxTeller718 -->
-	<recipe name="woodCounter01" count="1">
-		<ingredient name="wood" count="10"/>
+	<recipe name="woodCounter01" count="1" craft_area="decoStation">
+		<ingredient name="polishedWood" count="10"/>
 	</recipe>
 	<recipe name="newDishwasher01" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="15"/>
@@ -6062,7 +4481,7 @@
 	<recipe name="woodSink01" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="20"/>
 		<ingredient name="shortMetalPipe" count="8"/>
-		<ingredient name="wood" count="10"/>
+		<ingredient name="polishedWood" count="10"/>
 	</recipe>
 	<recipe name="largeStove01" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="20"/>
@@ -6106,22 +4525,14 @@
 	<recipe name="blueberryPie" count="1" craft_area="Stoves"  craft_tool="pan">
 		<ingredient name="blueberries" count="1"/>
 		<ingredient name="egg" count="1"/>
-		<ingredient name="cornMeal" count="1"/>
+		<ingredient name="Flour" count="1"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="bottledWater" count="1" craft_area="Stoves">
 		<ingredient name="bottledRiverWater" count="1"/>
 	</recipe>
-	<recipe name="bottledRiverWater" count="1" craft_area="Stoves">
-		<ingredient name="snowBall" count="1"/>
-		<ingredient name="emptyJar" count="1"/>
-	</recipe>
 	<recipe name="canBoiledWater" count="1" craft_area="Stoves">
 		<ingredient name="canMurkyWater" count="1"/>
-	</recipe>
-	<recipe name="canMurkyWater" count="1" craft_area="Stoves">
-		<ingredient name="snowBall" count="1"/>
-		<ingredient name="canEmpty" count="1"/>
 	</recipe>
 	<recipe name="charredMeat" count="1" craft_area="Stoves">
 		<ingredient name="rawMeat" count="1"/>
@@ -6228,9 +4639,9 @@
 	</recipe>
 	<recipe name="bowlMurkyWater" count="1" craft_area="Stoves">
 		<ingredient name="bowl" count="1"/>
-		<ingredient name="snowBall" count="1"/>
+		<ingredient name="snow" count="3"/>
 	</recipe>
-	<recipe name="applePie" count="1" craft_area="Stoves"  craft_tool="pan">
+	<recipe name="applePie" count="1" craft_area="Stoves">
 		<ingredient name="egg" count="1"/>
 		<ingredient name="Flour" count="1"/>
 		<ingredient name="bowlWater" count="1"/>
@@ -6244,6 +4655,11 @@
 	<recipe name="Hamburger" count="1" craft_area="Stoves"  craft_tool="pan">
 		<ingredient name="slicedrawMeat" count="2"/>
 		<ingredient name="Bread" count="2"/>
+	</recipe>
+	<recipe name="Cheeseburger" count="1" craft_area="Stoves" craft_tool="pan">
+		<ingredient name="slicedrawMeat" count="2"/>
+		<ingredient name="Bread" count="2"/>
+		<ingredient name="Cheese" count="1"/>
 	</recipe>
 	<recipe name="honeyHam" count="1" craft_area="Stoves"  craft_tool="pan">
 		<ingredient name="foodHoney" count="1"/>
@@ -6313,7 +4729,6 @@
 		<ingredient name="Dough" count="1"/>
 		<ingredient name="blueberries" count="2"/>
 	</recipe>
-
 	<recipe name="charredMeat" count="1" craft_area="bbqgrill">
 		<ingredient name="rawMeat" count="1"/>
 	</recipe>
@@ -6515,13 +4930,13 @@
 		<ingredient name="electronicParts" count="15"/>
 	</recipe>
 	<recipe name="halicopterCrate" count="1">
-		<ingredient name="wood" count="15"/>
+		<ingredient name="polishedWood" count="15"/>
 		<ingredient name="forgedSteel" count="20"/>
 		<ingredient name="electronicParts" count="15"/>
 		<ingredient name="mechanicalParts" count="10"/>
 	</recipe>
 	<recipe name="cntStorageCustomSecure" count="1" scrapable="False">
-		<ingredient name="wood" count="10"/>
+		<ingredient name="polishedWood" count="10"/>
 		<ingredient name="nail" count="10"/>
 	</recipe>
 	<recipe name="roadRailing" count="1" craft_area="decoStation">
@@ -6571,19 +4986,19 @@
 		<ingredient name="HouseholdChemicals" count="5"/>
 	</recipe>
 	<recipe name="DesertEagle_Parts" count="1" craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="DesertEagle_Barrel" count="1" craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="DesertEagle_Receiver" count="1" craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="DesertEagle_Grip" count="1" craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="forge" count="1">
@@ -6592,7 +5007,6 @@
 		<ingredient name="bellows" count="1"/>
 		<ingredient name="shortMetalPipe" count="1"/>
 	</recipe>
-
 	<recipe name="ECOAuger" count="1" craft_area="assembly" craft_exp_gain="50">
 		<ingredient name="SteelHandlebars" count="1"/>
 		<ingredient name="ECOSmallEngine" count="1"/>
@@ -6715,6 +5129,27 @@
 		<ingredient name="FAMAS_Barrel" count="1"/>
 		<ingredient name="FAMAS_Parts" count="1"/>
 	</recipe>
+	<recipe name="PistolSilenced" count="1" craft_area="assembly">
+		<ingredient name="flashlight02" count="0"/>
+		<ingredient name="partsPistol_receiver" count="1"/>
+		<ingredient name="partsPistol_grip" count="1"/>
+		<ingredient name="gunhandgunSilencer" count="1"/>
+		<ingredient name="partsPistol_parts" count="1"/>
+	</recipe>
+	<recipe name="PistolExtendedMagSilenced" count="1" craft_area="assembly">
+		<ingredient name="flashlight02" count="0"/>
+		<ingredient name="partsPistol_receiver" count="1"/>
+		<ingredient name="ExtendedHandgunMagazine" count="1"/>
+		<ingredient name="gunhandgunSilencer" count="1"/>
+		<ingredient name="partsPistol_parts" count="1"/>
+	</recipe>
+	<recipe name="PistolExtendedMag" count="1" craft_area="assembly">
+		<ingredient name="flashlight02" count="0"/>
+		<ingredient name="partsPistol_receiver" count="1"/>
+		<ingredient name="ExtendedHandgunMagazine" count="1"/>
+		<ingredient name="partsPistol_barrel" count="1"/>
+		<ingredient name="partsPistol_parts" count="1"/>
+	</recipe>
 	<recipe name="FAMASSilenced" count="1" craft_area="assembly">
 		<ingredient name="flashlight02" count="0"/>
 		<ingredient name="FAMAS_Stock" count="1"/>
@@ -6797,11 +5232,6 @@
 		<ingredient name="leather" count="1"/>
 		<ingredient name="wood" count="10"/>
 	</recipe>
-	<recipe name="dyeStation" count="1">
-		<ingredient name="forgedIron" count="25"/>
-		<ingredient name="Twine" count="3"/>
-		<ingredient name="wood" count="50"/>
-	</recipe>
 	<recipe name="DesertEagle" count="1" craft_area="assembly">
 		<ingredient name="flashlight02" count="0"/>
 		<ingredient name="DesertEagle_Parts" count="1"/>
@@ -6822,9 +5252,9 @@
 		<ingredient name="rawDiamond" count="10"/>
 	</recipe>
 	<!-- Deer Trophy by JaxTeller718 -->
-	<recipe name="deerTrophy" count="1">
+	<recipe name="deerTrophy" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="20"/>
-		<ingredient name="wood" count="50"/>
+		<ingredient name="polishedWood" count="50"/>
 		<ingredient name="deerHead" count="1"/>
 	</recipe>
 	<recipe name="hash" count="1" craft_area="Stoves"  craft_time="30">
@@ -6841,20 +5271,20 @@
 	</recipe>
 	<recipe name="pasta" count="1" craft_area="foodPrepTable" craft_tool="tenderizer">
 		<ingredient name="Dough" count="1"/>
-		<ingredient name="salt" count="1"/>
+		<ingredient name="salt" count="3"/>
 	</recipe>
 	<recipe name="pickles" count="1" craft_area="foodPrepTable">
-		<ingredient name="salt" count="2"/>
+		<ingredient name="salt" count="6"/>
 		<ingredient name="vinegar" count="3"/>
 		<ingredient name="cucumber" count="10"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
-	<recipe name="salt" count="1" craft_area="BigCampFire"  craft_time="30">
+	<recipe name="salt" count="3" craft_area="BigCampFire"  craft_time="30">
 		<ingredient name="hayBaleBlock" count="1"/>
 		<ingredient name="gravel" count="1"/>
 		<ingredient name="coal" count="1"/>
 	</recipe>
-	<recipe name="salt" count="1" craft_area="Stoves"  craft_time="30">
+	<recipe name="salt" count="6" craft_area="Stoves"  craft_time="30">
 		<ingredient name="hayBaleBlock" count="1"/>
 		<ingredient name="gravel" count="1"/>
 		<ingredient name="coal" count="1"/>
@@ -6875,7 +5305,7 @@
 		<ingredient name="sugar" count="2"/>
 	</recipe>
 	<recipe name="grainAlcohol" count="1" craft_area="woodenBarrels">
-		<ingredient name="potato" count="2"/>
+		<ingredient name="potato" count="5"/>
 		<ingredient name="bottledWater" count="1"/>
 		<ingredient name="sugar" count="3"/>
 	</recipe>
@@ -6883,11 +5313,6 @@
 		<ingredient name="hopsFlower" count="2"/>
 		<ingredient name="bottledWater" count="1"/>
 		<ingredient name="Yeast" count="1"/>
-	</recipe>
-	<recipe name="vinegar" count="10" craft_area="woodenBarrels">
-		<ingredient name="grainAlcohol" count="1"/>
-		<ingredient name="Apple" count="5"/>
-		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<recipe name="fertilizer" count="1" craft_area="woodenBarrels">
 		<ingredient name="turd" count="1"/>
@@ -6905,7 +5330,7 @@
 		<ingredient name="dirtFragment" count="3"/>
 	</recipe>
 	<recipe name="marinatedTomatoes" count="2" craft_area="Stoves"  craft_time="30">
-		<ingredient name="salt" count="2"/>
+		<ingredient name="salt" count="4"/>
 		<ingredient name="vinegar" count="3"/>
 		<ingredient name="Tomato" count="10"/>
 		<ingredient name="bottledWater" count="1"/>
@@ -6938,67 +5363,67 @@
 		<ingredient name="iMIGalil_Parts" count="1"/>
 	</recipe>
 	<recipe name="coltPythonFrame" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="coltPythonCylinder" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="coltPython_Parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="coltPythonGrip" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="hKG3Stock" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="hKG3Receiver" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="hKG3Barrel" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="hKG3_Parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="vSSVintorezStock" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="vSSReceiver" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="vSSVintorezBarrel" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="vSSVintorezParts" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="iMIGalilStock" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="iMIGalilReceiver" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="iMIGalilBarrel" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="iMIGalil_Parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
-		<ingredient name="weaponParts" count="200"/>
+		<ingredient name="weaponParts" count="300"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="shockingClub" count="1" craft_area="NewWorkBench">
@@ -7033,7 +5458,6 @@
 		<ingredient name="tallow" count="7"/>
 		<ingredient name="bioFuel" count="3"/>
 	</recipe>
-
 	<recipe name="gasCan" count="25" craft_area="oilRefinery">
 		<ingredient name="animalFat" count="4"/>
 		<ingredient name="cornMeal" count="2"/>
@@ -7048,11 +5472,6 @@
 	<recipe name="bioFuel" count="1" craft_time = "8" craft_area="BigCampFire"  craft_tool="beaker">
 		<ingredient name="tallow" count="5"/>
 	</recipe>
-	<recipe name="stove" count="1">
-		<ingredient name="shortMetalPipe" count="10"/>
-		<ingredient name="forgedIron" count="5"/>
-		<ingredient name="rockSmall" count="8"/>
-	</recipe>
 	<recipe name="friedPotato" count="1" craft_area="Stoves" craft_time="30" craft_tool="pan">
 		<ingredient name="potato" count="3"/>
 		<ingredient name="bowl" count="1"/>
@@ -7060,8 +5479,12 @@
 	<recipe name="friedEggs" count="1" craft_area="Stoves"  craft_time="30" craft_tool="pan">
 		<ingredient name="egg" count="2"/>
 	</recipe>
-	<recipe name="boiledPasta" count="1" craft_area="Stoves" craft_tool="pan" craft_time="30">
+	<recipe name="boiledPasta" count="2" craft_area="Stoves" craft_tool="pan" craft_time="30">
 		<ingredient name="pasta" count="1"/>
+	</recipe>
+	<recipe name="Spaghetti" count="1" craft_area="Stoves" craft_tool="pan" craft_time="30">
+		<ingredient name="pasta" count="4"/>
+		<ingredient name="marinatedTomatoes" count="2"/>
 	</recipe>
 	<recipe name="dryingRack" count="1">
 		<ingredient name="wood" count="50"/>
@@ -7074,7 +5497,7 @@
 		<ingredient name="bottledRiverWater" count="1"/>
 	</recipe>
 	<recipe name="leather" count="1" craft_area="dryingRack" craft_time="30">
-		<ingredient name="leatherStrips" count="10"/>
+		<ingredient name="leatherStrips" count="8"/>
 	</recipe>
 	<recipe name="animalHide" count="1" craft_area="dryingRack" craft_time="30">
 		<ingredient name="leather" count="1"/>
@@ -7158,13 +5581,12 @@
 		<ingredient name="purifyingTablets" count="1"/>
 		<ingredient name="bottleOfMurkyWater" count="1"/>
 	</recipe>
-
 	<recipe name="hut" count="1">
-		<ingredient name="wood" count="200"/>
+		<ingredient name="polishedWood" count="200"/>
 		<ingredient name="nail" count="20"/>
 	</recipe>
 	<recipe name="deerBlind" count="1">
-		<ingredient name="wood" count="400"/>
+		<ingredient name="polishedWood" count="400"/>
 		<ingredient name="nail" count="30"/>
 	</recipe>
 	<recipe name="decoStation" count="1">
@@ -7175,25 +5597,25 @@
 		<ingredient name="wood" count="100"/>
 	</recipe>
 	<recipe name="coffinBlack" count="1"     craft_area="decoStation">
-		<ingredient name="wood" count="20"/>
+		<ingredient name="polishedWood" count="20"/>
 		<ingredient name="nail" count="10"/>
-		<ingredient name="forgedIron" count="10"/>		
+		<ingredient name="forgedIron" count="10"/>
 	</recipe>
 	<recipe name="coffinBrown" count="1"     craft_area="decoStation">
-		<ingredient name="wood" count="20"/>
+		<ingredient name="polishedWood" count="20"/>
 		<ingredient name="nail" count="10"/>
-		<ingredient name="forgedIron" count="10"/>		
+		<ingredient name="forgedIron" count="10"/>
 	</recipe>
 	<recipe name="coffinRed" count="1"     craft_area="decoStation">
-		<ingredient name="wood" count="20"/>
+		<ingredient name="polishedWood" count="20"/>
 		<ingredient name="nail" count="10"/>
-		<ingredient name="forgedIron" count="10"/>		
+		<ingredient name="forgedIron" count="10"/>
 	</recipe>
 	<recipe name="medicalStorage" count="1">
-		<ingredient name="scrapIron" count="50"/>	
+		<ingredient name="scrapIron" count="50"/>
 	</recipe>
 	<recipe name="fuelStorage" count="1"     craft_area="decoStation">
-		<ingredient name="forgedSteel" count="30"/>		
+		<ingredient name="forgedSteel" count="30"/>
 	</recipe>
 	<recipe name="oldRadio" count="1" craft_area="decoStation">
 		<ingredient name="electricParts" count="4"/>
@@ -7208,16 +5630,13 @@
 		<ingredient name="bucket" count="1"/>
 	</recipe>
 	<recipe name="nail" count="25">
-		<ingredient name="boxNails" count="1"/>	
+		<ingredient name="boxNails" count="1"/>
 	</recipe>
 	<recipe name="baconAndEggs" count="1"  craft_time = "8" craft_area="foodPrepTable">
 		<ingredient name="friedEggs" count="1"/>
 		<ingredient name="bacon" count="1"/>
 	</recipe>
-	<recipe name="stick" count="3" craft_time="1" craft_exp_gain="0">
-		<ingredient name="wood" count="1" />
-	</recipe>
-	<recipe name="stoneArrowHead" count="1" craft_time="1" craft_exp_gain="0">
+	<recipe name="stoneArrowHead" count="2" craft_time="1" craft_exp_gain="0">
 		<ingredient name="rockSmall" count="1" />
 	</recipe>
 	<recipe name="wetTowelSoap" count="1">
@@ -7255,5 +5674,93 @@
 		<ingredient name="animalFat" count="2"/>
 		<ingredient name="forgedSteel" count="15"/>
 		<ingredient name="mechanicalParts" count="10"/>
+	</recipe>
+	<recipe name="textile" count="1">
+		<ingredient name="cloth" count="1"/>
+	</recipe>
+	<recipe name="polishedWood" count="1">
+		<ingredient name="wood" count="1"/>
+	</recipe>
+	<recipe name="wallTorch" count="1">
+		<ingredient name="torch" count="3"/>
+	</recipe>
+	<recipe name="vegetableJuice" count="1" craft_time = "8" craft_area="foodPrepTable">
+		<ingredient name="bottledWater" count="1"/>
+		<ingredient name="cucumber" count="3"/>
+		<ingredient name="Tomato" count="3"/>
+		<ingredient name="carrot" count="3"/>
+	</recipe>
+	<recipe name="shockTrap" count="1">
+		<ingredient name="electricCharge" count="15"/>
+		<ingredient name="forgedSteel" count="15"/>
+		<ingredient name="mechanicalParts" count="10"/>
+	</recipe>
+	<recipe name="bowl" count="1" craft_area="BigForge" material_based="true">
+		<ingredient name="unit_glass" count="5"/>
+		<ingredient name="unit_clay" count="15"/>
+	</recipe>
+	<recipe name="dinnerPlate" count="1" craft_area="BigForge" material_based="true">
+		<ingredient name="unit_glass" count="5"/>
+		<ingredient name="unit_clay" count="15"/>
+	</recipe>
+	<recipe name="shamSandwich" count="1" craft_time = "4" craft_area="foodPrepTable">
+		<ingredient name="canHam" count="1"/>
+		<ingredient name="Bread" count="2"/>
+	</recipe>
+	<recipe name="ElevatorBottomFloor" count="1"  craft_area="NewWorkBench">
+		<ingredient name="forgedSteel" count="1000"/>
+		<ingredient name="wood" count="500"/>
+		<ingredient name="electricParts" count="50"/>
+		<ingredient name="mechanicalParts" count="50"/>
+	</recipe>
+	<recipe name="ElevatorFloor" count="1"  craft_area="NewWorkBench">
+		<ingredient name="forgedSteel" count="1000"/>
+		<ingredient name="wood" count="500"/>
+		<ingredient name="electricParts" count="100"/>
+		<ingredient name="mechanicalParts" count="100"/>
+	</recipe>
+	<recipe name="ElevatorShaft" count="1"  craft_area="NewWorkBench">
+		<ingredient name="forgedSteel" count="500"/>
+		<ingredient name="wood" count="200"/>
+		<ingredient name="electricParts" count="50"/>
+		<ingredient name="mechanicalParts" count="50"/>
+	</recipe>
+	<recipe name="ElevatorShaftSmall" count="1"  craft_area="NewWorkBench">
+		<ingredient name="forgedSteel" count="500"/>
+		<ingredient name="wood" count="100"/>
+		<ingredient name="electricParts" count="50"/>
+		<ingredient name="mechanicalParts" count="50"/>
+	</recipe>
+	<recipe name="ElevatorPlatformBase" count="1"  craft_area="NewWorkBench">
+		<ingredient name="forgedIron" count="200"/>
+		<ingredient name="spring" count="20"/>
+		<ingredient name="mechanicalParts" count="30"/>
+		<ingredient name="electricParts" count="20"/>
+	</recipe>
+	<recipe name="ElevatorPlatformFloor" count="1"  craft_area="NewWorkBench">
+		<ingredient name="forgedIron" count="100"/>
+		<ingredient name="spring" count="15"/>
+		<ingredient name="mechanicalParts" count="20"/>
+		<ingredient name="electricParts" count="15"/>
+	</recipe>
+	<recipe name="antiVenom" count="1" craft_area="chemistryStation" craft_tool="beaker">
+		<ingredient name="foodHoney" count="1"/>
+		<ingredient name="bloodBag" count="1"/>
+		<ingredient name="venomGland" count="1"/>
+	</recipe>
+	<recipe name="carBattery" count="1" craft_area="NewWorkBench">
+		<ingredient name="car_parts" count="150"/>
+		<ingredient name="electricParts" count="10"/>
+		<ingredient name="electricCharge" count="4"/>
+	</recipe>
+	<recipe name="HDBattery" count="1" craft_area="NewWorkBench">
+		<ingredient name="car_parts" count="500"/>
+		<ingredient name="electricParts" count="10"/>
+		<ingredient name="electricCharge" count="4"/>
+	</recipe>
+	<recipe name="ECOBattery" count="1" craft_area="NewWorkBench">
+		<ingredient name="car_parts" count="250"/>
+		<ingredient name="electricParts" count="10"/>
+		<ingredient name="electricCharge" count="4"/>
 	</recipe>
 </recipes>

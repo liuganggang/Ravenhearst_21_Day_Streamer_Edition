@@ -116,12 +116,10 @@
 		<entity name="sanZombieVagrant"/>
 		<entity name="sanZombieHunterSven"/>
 		<entity name="sanZombieInfectedLady"/>
-		<entity name="sanZombieInfectedSurvivor"/>
+		<entity name="sanZombieHunterSven"/>
 		<entity name="sanZombieFemaleRocker"/>
 		<entity name="sanZombieRocker"/>
 		<entity name="gupZombieMartha"/>
-		<entity name="valZombieChildMale"/>
-		<entity name="valZombieChildFemale"/>
 		<entity name="valZombieLibrarian"/>
 		<entity name="valZombieJane"/>
 		<entity name="valZombieClarice"/>
@@ -188,12 +186,10 @@
 		<entity name="sanZombieVagrant"  prob="0.3"/>
 		<entity name="sanZombieHunterSven"  prob="0.3"/>
 		<entity name="sanZombieInfectedLady"  prob="0.3"/>
-		<entity name="sanZombieInfectedSurvivor"  prob="0.3"/>
+		<entity name="sanZombieHunterSven"  prob="0.3"/>
 		<entity name="sanZombieFemaleRocker"  prob="0.3"/>
 		<entity name="sanZombieRocker"  prob="0.3"/>
 		<entity name="gupZombieMartha"  prob="0.3"/>
-		<entity name="valZombieChildMale"  prob="0.3"/>
-		<entity name="valZombieChildFemale"  prob="0.3"/>
 		<entity name="valZombieLibrarian"  prob="0.3"/>
 		<entity name="valZombieJane"  prob="0.3"/>
 		<entity name="valZombieClarice"  prob="0.3"/>
@@ -245,12 +241,10 @@
 		<entity name="sanZombieVagrant"  prob="0.3"/>
 		<entity name="sanZombieHunterSven"  prob="0.3"/>
 		<entity name="sanZombieInfectedLady"  prob="0.3"/>
-		<entity name="sanZombieInfectedSurvivor"  prob="0.3"/>
+		<entity name="sanZombieHunterSven"  prob="0.3"/>
 		<entity name="sanZombieFemaleRocker"  prob="0.3"/>
 		<entity name="sanZombieRocker"  prob="0.3"/>
 		<entity name="gupZombieMartha"  prob="0.3"/>
-		<entity name="valZombieChildMale"  prob="0.3"/>
-		<entity name="valZombieChildFemale"  prob="0.3"/>
 		<entity name="valZombieLibrarian"  prob="0.3"/>
 		<entity name="valZombieJane"  prob="0.3"/>
 		<entity name="valZombieClarice"  prob="0.3"/>
@@ -317,78 +311,7 @@
 		<entity name="zombieWightFeral"  prob="0.05"/>
 		<entity name="zombieFatHawaiian"/>
 		<entity name="zombieFemaleFat"/>
-<!-- 		<entity name="followerSargentSlaughter01"  prob="0.1"/>
-		<entity name="followerSargentSlaughter02"  prob="0.1"/>
-		<entity name="followerSargentSlaughter03"  prob="0.1"/>
-		<entity name="followerSargentSlaughter04"  prob="0.1"/>
-		<entity name="followerArnold01"  prob="0.1"/>
-		<entity name="followerArnold02"  prob="0.1"/>
-		<entity name="followerArnold03"  prob="0.1"/>
-		<entity name="followerArnold04"  prob="0.1"/>
-		<entity name="followerCrossbowman01"  prob="0.1"/>
-		<entity name="followerCrossbowman02"  prob="0.1"/>
-		<entity name="followerCrossbowman03"  prob="0.1"/>
-		<entity name="followerCrossbowman04"  prob="0.1"/>
-		<entity name="followerTheEnd01"  prob="0.1"/>
-		<entity name="followerTheEnd02"  prob="0.1"/>
-		<entity name="followerTheEnd03"  prob="0.1"/>
-		<entity name="followerTheEnd04"  prob="0.1"/>
-		<entity name="followerPrivateChang01"  prob="0.1"/>
-		<entity name="followerPrivateChang02"  prob="0.1"/>
-		<entity name="followerPrivateChang03"  prob="0.1"/>
-		<entity name="followerPrivateChang04"  prob="0.1"/>
-		<entity name="followerMedic01"  prob="0.1"/>
-		<entity name="followerMedic02"  prob="0.1"/>
-		<entity name="followerMedic03"  prob="0.1"/>
-		<entity name="followerMedic04"  prob="0.1"/>
-		<entity name="followerBittercup01"  prob="0.1"/>
-		<entity name="followerBittercup02"  prob="0.1"/>
-		<entity name="followerBittercup03"  prob="0.1"/>
-		<entity name="followerBittercup04"  prob="0.1"/>
-		<entity name="followerPilot01"  prob="0.1"/>
-		<entity name="followerPilot02"  prob="0.1"/>
-		<entity name="followerPilot03"  prob="0.1"/>
-		<entity name="followerPilot04"  prob="0.1"/>
-		<entity name="followerRambo01"  prob="0.1"/>
-		<entity name="followerRambo02"  prob="0.1"/>
-		<entity name="followerRambo03"  prob="0.1"/>
-		<entity name="followerRambo04"  prob="0.1"/>
-		<entity name="followerDeathskwad01"  prob="0.1"/>
-		<entity name="followerDeathskwad02"  prob="0.1"/>
-		<entity name="followerDeathskwad03"  prob="0.1"/>
-		<entity name="followerDeathskwad04"  prob="0.1"/>
-		<entity name="followerSargentRock01"  prob="0.1"/>
-		<entity name="followerSargentRock02"  prob="0.1"/>
-		<entity name="followerSargentRock03"  prob="0.1"/>
-		<entity name="followerSargentRock04"  prob="0.1"/>
-		<entity name="followerColonelKurtz01"  prob="0.1"/>
-		<entity name="followerColonelKurtz02"  prob="0.1"/>
-		<entity name="followerColonelKurtz03"  prob="0.1"/>
-		<entity name="followerColonelKurtz04"  prob="0.1"/>
-		<entity name="followerMajorPayne01"  prob="0.1"/>
-		<entity name="followerMajorPayne02"  prob="0.1"/>
-		<entity name="followerMajorPayne03"  prob="0.1"/>
-		<entity name="followerMajorPayne04"  prob="0.1"/>
-		<entity name="followerSwat101"  prob="0.1"/>
-		<entity name="followerSwat102"  prob="0.1"/>
-		<entity name="followerSwat103"  prob="0.1"/>
-		<entity name="followerSwat104"  prob="0.1"/>
-		<entity name="followerSwat201"  prob="0.1"/>
-		<entity name="followerSwat202"  prob="0.1"/>
-		<entity name="followerSwat203"  prob="0.1"/>
-		<entity name="followerSwat204"  prob="0.1"/>
-		<entity name="followerSwat301"  prob="0.1"/>
-		<entity name="followerSwat302"  prob="0.1"/>
-		<entity name="followerSwat303"  prob="0.1"/>
-		<entity name="followerSwat304"  prob="0.1"/>
-		<entity name="followerMedic01"  prob="0.1"/>
-		<entity name="followerMedic02"  prob="0.1"/>
-		<entity name="followerMedic03"  prob="0.1"/>
-		<entity name="followerMedic04"  prob="0.1"/>
-		<entity name="followerBittercup01"  prob="0.1"/>
-		<entity name="followerBittercup02"  prob="0.1"/>
-		<entity name="followerBittercup03"  prob="0.1"/>
-		<entity name="followerBittercup04"  prob="0.1"/> -->
+		<!-- 		<entity name="followerSargentSlaughter01"  prob="0.1"/><entity name="followerSargentSlaughter02"  prob="0.1"/><entity name="followerSargentSlaughter03"  prob="0.1"/><entity name="followerSargentSlaughter04"  prob="0.1"/><entity name="followerArnold01"  prob="0.1"/><entity name="followerArnold02"  prob="0.1"/><entity name="followerArnold03"  prob="0.1"/><entity name="followerArnold04"  prob="0.1"/><entity name="followerCrossbowman01"  prob="0.1"/><entity name="followerCrossbowman02"  prob="0.1"/><entity name="followerCrossbowman03"  prob="0.1"/><entity name="followerCrossbowman04"  prob="0.1"/><entity name="followerTheEnd01"  prob="0.1"/><entity name="followerTheEnd02"  prob="0.1"/><entity name="followerTheEnd03"  prob="0.1"/><entity name="followerTheEnd04"  prob="0.1"/><entity name="followerPrivateChang01"  prob="0.1"/><entity name="followerPrivateChang02"  prob="0.1"/><entity name="followerPrivateChang03"  prob="0.1"/><entity name="followerPrivateChang04"  prob="0.1"/><entity name="followerMedic01"  prob="0.1"/><entity name="followerMedic02"  prob="0.1"/><entity name="followerMedic03"  prob="0.1"/><entity name="followerMedic04"  prob="0.1"/><entity name="followerBittercup01"  prob="0.1"/><entity name="followerBittercup02"  prob="0.1"/><entity name="followerBittercup03"  prob="0.1"/><entity name="followerBittercup04"  prob="0.1"/><entity name="followerPilot01"  prob="0.1"/><entity name="followerPilot02"  prob="0.1"/><entity name="followerPilot03"  prob="0.1"/><entity name="followerPilot04"  prob="0.1"/><entity name="followerRambo01"  prob="0.1"/><entity name="followerRambo02"  prob="0.1"/><entity name="followerRambo03"  prob="0.1"/><entity name="followerRambo04"  prob="0.1"/><entity name="followerDeathskwad01"  prob="0.1"/><entity name="followerDeathskwad02"  prob="0.1"/><entity name="followerDeathskwad03"  prob="0.1"/><entity name="followerDeathskwad04"  prob="0.1"/><entity name="followerSargentRock01"  prob="0.1"/><entity name="followerSargentRock02"  prob="0.1"/><entity name="followerSargentRock03"  prob="0.1"/><entity name="followerSargentRock04"  prob="0.1"/><entity name="followerColonelKurtz01"  prob="0.1"/><entity name="followerColonelKurtz02"  prob="0.1"/><entity name="followerColonelKurtz03"  prob="0.1"/><entity name="followerColonelKurtz04"  prob="0.1"/><entity name="followerMajorPayne01"  prob="0.1"/><entity name="followerMajorPayne02"  prob="0.1"/><entity name="followerMajorPayne03"  prob="0.1"/><entity name="followerMajorPayne04"  prob="0.1"/><entity name="followerSwat101"  prob="0.1"/><entity name="followerSwat102"  prob="0.1"/><entity name="followerSwat103"  prob="0.1"/><entity name="followerSwat104"  prob="0.1"/><entity name="followerSwat201"  prob="0.1"/><entity name="followerSwat202"  prob="0.1"/><entity name="followerSwat203"  prob="0.1"/><entity name="followerSwat204"  prob="0.1"/><entity name="followerSwat301"  prob="0.1"/><entity name="followerSwat302"  prob="0.1"/><entity name="followerSwat303"  prob="0.1"/><entity name="followerSwat304"  prob="0.1"/><entity name="followerMedic01"  prob="0.1"/><entity name="followerMedic02"  prob="0.1"/><entity name="followerMedic03"  prob="0.1"/><entity name="followerMedic04"  prob="0.1"/><entity name="followerBittercup01"  prob="0.1"/><entity name="followerBittercup02"  prob="0.1"/><entity name="followerBittercup03"  prob="0.1"/><entity name="followerBittercup04"  prob="0.1"/> -->
 	</entitygroup>
 	<entitygroup name="ZombiesWastelandNight">
 		<entity name="zombieSpiderFeral"/>
@@ -420,12 +343,10 @@
 		<entity name="sanZombieVagrant"  prob="0.3"/>
 		<entity name="sanZombieHunterSven"  prob="0.3"/>
 		<entity name="sanZombieInfectedLady"  prob="0.3"/>
-		<entity name="sanZombieInfectedSurvivor"  prob="0.3"/>
+		<entity name="sanZombieHunterSven"  prob="0.3"/>
 		<entity name="sanZombieFemaleRocker"  prob="0.3"/>
 		<entity name="sanZombieRocker"  prob="0.3"/>
 		<entity name="gupZombieMartha"  prob="0.3"/>
-		<entity name="valZombieChildMale"  prob="0.3"/>
-		<entity name="valZombieChildFemale"  prob="0.3"/>
 		<entity name="valZombieLibrarian"  prob="0.3"/>
 		<entity name="valZombieJane"  prob="0.3"/>
 		<entity name="valZombieClarice"  prob="0.3"/>
@@ -482,12 +403,10 @@
 		<entity name="sanZombieVagrant"  prob="0.3"/>
 		<entity name="sanZombieHunterSven"  prob="0.3"/>
 		<entity name="sanZombieInfectedLady"  prob="0.3"/>
-		<entity name="sanZombieInfectedSurvivor"  prob="0.3"/>
+		<entity name="sanZombieHunterSven"  prob="0.3"/>
 		<entity name="sanZombieFemaleRocker"  prob="0.3"/>
 		<entity name="sanZombieRocker"  prob="0.3"/>
 		<entity name="gupZombieMartha"  prob="0.3"/>
-		<entity name="valZombieChildMale"  prob="0.3"/>
-		<entity name="valZombieChildFemale"  prob="0.3"/>
 		<entity name="valZombieLibrarian"  prob="0.3"/>
 		<entity name="valZombieJane"  prob="0.3"/>
 		<entity name="valZombieClarice"  prob="0.3"/>
@@ -543,12 +462,10 @@
 		<entity name="sanZombieVagrant"  prob="0.3"/>
 		<entity name="sanZombieHunterSven"  prob="0.3"/>
 		<entity name="sanZombieInfectedLady"  prob="0.3"/>
-		<entity name="sanZombieInfectedSurvivor"  prob="0.3"/>
+		<entity name="sanZombieHunterSven"  prob="0.3"/>
 		<entity name="sanZombieFemaleRocker"  prob="0.3"/>
 		<entity name="sanZombieRocker"  prob="0.3"/>
 		<entity name="gupZombieMartha"  prob="0.3"/>
-		<entity name="valZombieChildMale"  prob="0.3"/>
-		<entity name="valZombieChildFemale"  prob="0.3"/>
 		<entity name="valZombieLibrarian"  prob="0.3"/>
 		<entity name="valZombieJane"  prob="0.3"/>
 		<entity name="valZombieClarice"  prob="0.3"/>
@@ -604,12 +521,10 @@
 		<entity name="sanZombieVagrant"  prob="0.3"/>
 		<entity name="sanZombieHunterSven"  prob="0.3"/>
 		<entity name="sanZombieInfectedLady"  prob="0.3"/>
-		<entity name="sanZombieInfectedSurvivor"  prob="0.3"/>
+		<entity name="sanZombieHunterSven"  prob="0.3"/>
 		<entity name="sanZombieFemaleRocker"  prob="0.3"/>
 		<entity name="sanZombieRocker"  prob="0.3"/>
 		<entity name="gupZombieMartha"  prob="0.3"/>
-		<entity name="valZombieChildMale"  prob="0.3"/>
-		<entity name="valZombieChildFemale"  prob="0.3"/>
 		<entity name="valZombieLibrarian"  prob="0.3"/>
 		<entity name="valZombieJane"  prob="0.3"/>
 		<entity name="valZombieClarice"  prob="0.3"/>
@@ -661,12 +576,10 @@
 		<entity name="sanZombieVagrant"  prob="0.3"/>
 		<entity name="sanZombieHunterSven"  prob="0.3"/>
 		<entity name="sanZombieInfectedLady"  prob="0.3"/>
-		<entity name="sanZombieInfectedSurvivor"  prob="0.3"/>
+		<entity name="sanZombieHunterSven"  prob="0.3"/>
 		<entity name="sanZombieFemaleRocker"  prob="0.3"/>
 		<entity name="sanZombieRocker"  prob="0.3"/>
 		<entity name="gupZombieMartha"  prob="0.3"/>
-		<entity name="valZombieChildMale"  prob="0.3"/>
-		<entity name="valZombieChildFemale"  prob="0.3"/>
 		<entity name="valZombieLibrarian"  prob="0.3"/>
 		<entity name="valZombieJane"  prob="0.3"/>
 		<entity name="valZombieClarice"  prob="0.3"/>
@@ -695,11 +608,10 @@
 		<entity name="valZombieBrute" prob="0.03"/>
 	</entitygroup>
 	<entitygroup name="ZombieScouts">
-		<entity name="Samara"/>
-		<entity name="zombieScreamer5"/>
+		<entity name="zombieScreamer5" prob="0.03"/>
 		<entity name="zombieScreamer"/>
-		<entity name="zombieScreamer7"/>
-		<entity name="zombieScreamer6"/>
+		<entity name="zombieScreamer7" prob="0.03"/>
+		<entity name="zombieScreamer6" prob="0.03"/>
 	</entitygroup>
 	<entitygroup name="ZombiesCrawlers">
 		<entity name="zombieSteveCrawler" prob="1"/>
@@ -5080,7 +4992,6 @@
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS5617">
 		<entity name="zombieMoe"/>
-		<entity name="zombieFatCopFeral" prob="1.012"/>
 		<entity name="zombieMaleHazmat"/>
 		<entity name="zombieBusinessManFeral" prob="1.573"/>
 		<entity name="zombieNurse"/>
@@ -5167,7 +5078,6 @@
 		<entity name="zombieSkateboarder"/>
 		<entity name="zombieFatHawaiianFeral" prob="1.387"/>
 		<entity name="zombieBoeFeral" prob="1.618"/>
-		<entity name="zombieFatCop" prob="1.125"/>
 	</entitygroup>
 	<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX  end: auto generated sleeper horde groups  XXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 	<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX  start: auto generated scout horde groups  XXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
