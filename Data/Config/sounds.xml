@@ -654,16 +654,16 @@
 		<MaxRepeatRate name="0.01"/>
 	</SoundDataNode>
 	<SoundDataNode name="Auger_Idle">
-		<Noise ID="3" range="14" volume="5" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+		<Noise ID="3" range="14" volume="3" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
 		<AudioClip ClipName="Sounds/Weapons/Motorized/Auger/auger_idle" AudioSourceName="Sounds/Weapons/Motorized/Auger/AugerAudioSourceLoop"/>
-		<LocalCrouchVolumeScale name="0.3"/>
+		<LocalCrouchVolumeScale name="0.5"/>
 		<CrouchNoiseScale name="0.5"/>
 		<NoiseScale name="0.5"/>
 		<MaxVoices name="2"/>
 		<MaxRepeatRate name="0.01"/>
 	</SoundDataNode>
 	<SoundDataNode name="Auger_Reload">
-		<Noise ID="2" range="7" volume="8" time="4" muffled_when_crouched="0.5"/>
+		<Noise ID="2" range="7" volume="4" time="4" muffled_when_crouched="0.5"/>
 		<AudioClip ClipName="Sounds/Weapons/Motorized/Auger/Auger_Reload" AudioSourceName="Sounds/Weapons/Motorized/Auger/AugerAudioSource"/>
 		<LocalCrouchVolumeScale name="0.5"/>
 		<CrouchNoiseScale name="0.5"/>
@@ -673,13 +673,13 @@
 	</SoundDataNode>
 	<SoundDataNode name="Auger_Fire_Start">
 		<AudioSource name="Sounds/Weapons/Motorized/Auger/AugerAudioSource"/>
-		<Noise ID="4" range="25" volume="6" time="2" heat_map_strength="0.3" heat_map_time="90"/>
+		<Noise ID="4" range="25" volume="4" time="2" heat_map_strength="0.3" heat_map_time="90"/>
 		<Sequence/>
 		<AudioClip ClipName="Sounds/Weapons/Motorized/Auger/Auger_Fire_Start"/>
 		<AudioClip ClipName="Sounds/Weapons/Motorized/Auger/auger_fire_lp" Loop="true"/>
 		<AudioClip ClipName="Sounds/Weapons/Motorized/Auger/auger_fire_end"/>
 		<LocalCrouchVolumeScale name="0.5"/>
-		<CrouchNoiseScale name="0.3"/>
+		<CrouchNoiseScale name="0.5"/>
 		<NoiseScale name="0.5"/>
 		<MaxVoices name="3"/>
 		<MaxRepeatRate name="0.01"/>
@@ -705,7 +705,7 @@
 		<MaxRepeatRate name="0.01"/>
 	</SoundDataNode>
 	<SoundDataNode name="chainsaw_idle">
-		<Noise ID="3" range="14" volume="6" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+		<Noise ID="3" range="14" volume="2" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
 		<AudioClip ClipName="Sounds/Weapons/Motorized/Chainsaw/chainsaw_idle" AudioSourceName="Sounds/Weapons/Motorized/Auger/AugerAudioSourceLoop"/>
 		<LocalCrouchVolumeScale name="0.5"/>
 		<CrouchNoiseScale name="0.5"/>
@@ -716,12 +716,12 @@
 	<SoundDataNode name="chainsaw_fire_start">
 		<AudioSource name="Sounds/Weapons/Motorized/Auger/AugerAudioSource"/>
 		<NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
-		<Noise ID="4" range="25" volume="8" time="2" heat_map_strength="0.2" heat_map_time="90"/>
+		<Noise ID="4" range="25" volume="20" time="2" heat_map_strength="0.2" heat_map_time="90"/>
 		<Sequence/>
 		<AudioClip ClipName="Sounds/Weapons/Motorized/Chainsaw/chainsaw_fire_start"/>
 		<AudioClip ClipName="Sounds/Weapons/Motorized/Chainsaw/chainsaw_fire_lp" Loop="true"/>
 		<AudioClip ClipName="Sounds/Weapons/Motorized/Chainsaw/chainsaw_fire_end"/>
-		<LocalCrouchVolumeScale name="0.3"/>
+		<LocalCrouchVolumeScale name="0.5"/>
 		<CrouchNoiseScale name="0.5"/>
 		<NoiseScale name="0.5"/>
 		<MaxVoices name="3"/>
@@ -730,10 +730,10 @@
 	<SoundDataNode name="chainsaw_fire_rev">
 		<AudioSource name="Sounds/Weapons/Motorized/Auger/AugerAudioSource"/>
 		<NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
-		<Noise ID="4" range="25" volume="6" time="2" heat_map_strength="0.3" heat_map_time="90"/>
+		<Noise ID="4" range="25" volume="4" time="2" heat_map_strength="0.3" heat_map_time="90"/>
 		<AudioClip ClipName="Sounds/Weapons/Motorized/Chainsaw/chainsaw_fire_rev1"/>
 		<AudioClip ClipName="Sounds/Weapons/Motorized/Chainsaw/chainsaw_fire_rev2"/>
-		<LocalCrouchVolumeScale name="0.2"/>
+		<LocalCrouchVolumeScale name="0.5"/>
 		<CrouchNoiseScale name="0.5"/>
 		<NoiseScale name="0.5"/>
 		<MaxVoices name="3"/>
@@ -741,7 +741,7 @@
 	</SoundDataNode>
 	<SoundDataNode name="chainsaw_reload">
 		<AudioSource name="Sounds/AudioSource_Interact"/>
-		<Noise ID="2" range="7" volume="6" time="4" muffled_when_crouched="0.5"/>
+		<Noise ID="2" range="7" volume="4" time="4" muffled_when_crouched="0.5"/>
 		<AudioClip ClipName="Sounds/Weapons/Motorized/Chainsaw/chainsaw_reload"/>
 		<LocalCrouchVolumeScale name="0.5"/>
 		<CrouchNoiseScale name="0.5"/>
@@ -752,7 +752,7 @@
 	<!-- Nailgun -->
 	<SoundDataNode name="nailgun_fire">
 		<AudioSource name="Sounds/AudioSource_Interact"/>
-		<Noise ID="3" range="14" volume="16" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+		<Noise ID="3" range="14" volume="6" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
 		<AudioClip ClipName="Sounds/Weapons/Motorized/Nailgun/nailgun_fire1"/>
 		<AudioClip ClipName="Sounds/Weapons/Motorized/Nailgun/nailgun_fire2"/>
 		<AudioClip ClipName="Sounds/Weapons/Motorized/Nailgun/nailgun_fire3"/>
@@ -7667,112 +7667,6 @@
 		<MaxEntities name="30"/>
 		<MaxRepeatRate name="0.01"/>
 	</SoundDataNode>
-	<SoundDataNode name="newzombiealert">
-		<AudioSource name="Sounds/AudioSource_Pain"/>
-		<Noise ID="3" range="70" volume="12" time="10" muffled_when_crouched="0.65" heat_map_strength="0.15" heat_map_time="60"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_rage_1"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_rage_2"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_rage_3"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_rage_4"/>
-		<Channel name="Mouth"/>
-		<Priority name="3"/>
-		<LocalCrouchVolumeScale name="1.0"/>
-		<CrouchNoiseScale name="0.5"/>
-		<NoiseScale name="1"/>
-		<MaxVoices name="10"/>
-		<MaxRepeatRate name="3"/>
-	</SoundDataNode>
-	<SoundDataNode name="newzombieattack">
-		<AudioSource name="Sounds/AudioSource_Creatures"/>
-		<Noise ID="3" range="70" volume="12" time="10" muffled_when_crouched="0.65" heat_map_strength="0.15" heat_map_time="60"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_attack_1"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_attack_2"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_attack_3"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_attack_4"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_attack_5"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_attack_6"/>
-		<Channel name="Mouth"/>
-		<Priority name="2"/>
-		<LocalCrouchVolumeScale name="1.0"/>
-		<CrouchNoiseScale name="0.5"/>
-		<NoiseScale name="1"/>
-		<MaxVoices name="10"/>
-		<MaxRepeatRate name="1.8"/>
-	</SoundDataNode>
-	<SoundDataNode name="newzombiedeath">
-		<AudioSource name="Sounds/AudioSource_Pain"/>
-		<Noise ID="3" range="70" volume="12" time="10" muffled_when_crouched="0.65" heat_map_strength="0.15" heat_map_time="60"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_hurt_1"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_hurt_2"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_hurt_3"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_hurt_4"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_hurt_5"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_hurt_6"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_hurt_7"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_hurt_8"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_hurt_9"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_hurt_10"/>
-		<Channel name="Mouth"/>
-		<Priority name="0"/>
-		<LocalCrouchVolumeScale name="1.0"/>
-		<CrouchNoiseScale name="0.5"/>
-		<NoiseScale name="1"/>
-		<MaxVoices name="10"/>
-		<MaxRepeatRate name="1.111"/>
-	</SoundDataNode>
-	<SoundDataNode name="newzombiepain">
-		<AudioSource name="Sounds/AudioSource_Pain"/>
-		<Noise ID="3" range="70" volume="12" time="10" muffled_when_crouched="0.65" heat_map_strength="0.15" heat_map_time="60"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_hurt_1"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_hurt_2"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_hurt_3"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_hurt_4"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_hurt_5"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_hurt_6"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_hurt_7"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_hurt_8"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_hurt_9"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_hurt_10"/>
-		<Channel name="Mouth"/>
-		<Priority name="1"/>
-		<LocalCrouchVolumeScale name="1.0"/>
-		<CrouchNoiseScale name="0.5"/>
-		<NoiseScale name="1"/>
-		<MaxVoices name="10"/>
-		<MaxRepeatRate name="1.8"/>
-	</SoundDataNode>
-	<SoundDataNode name="newzombieroam">
-		<AudioSource name="Sounds/AudioSource_Creatures"/>
-		<Noise ID="3" range="70" volume="12" time="10" muffled_when_crouched="0.65" heat_map_strength="0.15" heat_map_time="60"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_moan_1"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_moan_2"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_moan_3"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_moan_4"/>
-		<Channel name="Mouth"/>
-		<Priority name="5"/>
-		<LocalCrouchVolumeScale name="1.0"/>
-		<CrouchNoiseScale name="0.5"/>
-		<NoiseScale name="1"/>
-		<MaxVoices name="10"/>
-		<MaxRepeatRate name="3"/>
-	</SoundDataNode>
-	<SoundDataNode name="newzombiesense">
-		<AudioSource name="Sounds/AudioSource_Pain"/>
-		<Noise ID="3" range="70" volume="12" time="10" muffled_when_crouched="0.65" heat_map_strength="0.15" heat_map_time="60"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_growl_1"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_growl_2"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_growl_3"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_growl_4"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_growl_5"/>
-		<AudioClip ClipName="#SoundsZombies?zombie_growl_6"/>
-		<Channel name="Mouth"/>
-		<Priority name="4"/>
-		<LocalCrouchVolumeScale name="1.0"/>
-		<CrouchNoiseScale name="0.5"/>
-		<NoiseScale name="1"/>
-		<MaxVoices name="10"/>
-		<MaxRepeatRate name="3"/>
-	</SoundDataNode>
 	<SoundDataNode name="JNG90_fire">
 		<AudioSource name="Sounds/AudioSource_WeaponFire"/>
 		<Noise range="5" prio="1" time="1" heat_map_strength="0.001" heat_map_time="1"/>
@@ -7847,7 +7741,7 @@
 		<AudioSource name="Sounds/AudioSource_WeaponFire"/>
 		<NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
 		<Noise range="15" prio="1" time="1" heat_map_strength="0.3" heat_map_time="120"/>
-		<AudioClip ClipName="#audio?coltPythonShoot"/>
+		<AudioClip ClipName="#coltPythonAudio?coltPythonShoot"/>
 		<LocalCrouchVolumeScale name="1"/>
 		<CrouchNoiseScale name="1"/>
 		<NoiseScale name="1"/>
@@ -7855,107 +7749,9 @@
 		<MaxEntities name="30"/>
 		<MaxRepeatRate name="0.001"/>
 	</SoundDataNode>
-	<SoundDataNode name="babyalert">
-		<Noise ID="3" range="70" volume="12" time="10" muffled_when_crouched="0.65" heat_map_strength="0.15" heat_map_time="60"/>
-		<AudioSource name="Sounds/AudioSource_Pain"/>
-		<AudioClip ClipName="#babyzombieaudio?rosie"/>
-		<Channel name="Mouth"/>
-		<Priority name="0"/>
-		<LocalCrouchVolumeScale name="1.0"/>
-		<CrouchNoiseScale name="0.5"/>
-		<NoiseScale name="1"/>
-		<MaxVoices name="10"/>
-		<MaxRepeatRate name="1.111"/>
-	</SoundDataNode>
-	<SoundDataNode name="babyattack">
-		<AudioSource name="Sounds/AudioSource_Pain"/>
-		<Noise ID="3" range="70" volume="12" time="10" muffled_when_crouched="0.65" heat_map_strength="0.15" heat_map_time="60"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_attack_1"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_attack_2"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_attack_3"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_attack_4"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_attack_5"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_attack_6"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_rage_1"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_rage_2"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_rage_3"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_rage_4"/>
-		<Channel name="Mouth"/>
-		<Priority name="0"/>
-		<LocalCrouchVolumeScale name="1.0"/>
-		<CrouchNoiseScale name="0.5"/>
-		<NoiseScale name="1"/>
-		<MaxVoices name="10"/>
-		<MaxRepeatRate name="1.111"/>
-	</SoundDataNode>
-	<SoundDataNode name="babyroam">
-		<AudioSource name="Sounds/AudioSource_Pain"/>
-		<Noise ID="3" range="70" volume="12" time="10" muffled_when_crouched="0.65" heat_map_strength="0.15" heat_map_time="60"/>
-		<AudioClip ClipName="#babyzombieaudio?rosie"/>
-		<Channel name="Mouth"/>
-		<Priority name="0"/>
-		<LocalCrouchVolumeScale name="1.0"/>
-		<CrouchNoiseScale name="0.5"/>
-		<NoiseScale name="1"/>
-		<MaxVoices name="10"/>
-		<MaxRepeatRate name="1.111"/>
-	</SoundDataNode>
-	<SoundDataNode name="babypain">
-		<AudioSource name="Sounds/AudioSource_Pain"/>
-		<Noise ID="3" range="70" volume="12" time="10" muffled_when_crouched="0.65" heat_map_strength="0.15" heat_map_time="60"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_hurt_1"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_hurt_2"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_hurt_3"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_hurt_4"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_hurt_5"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_hurt_6"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_hurt_7"/>
-		<Channel name="Mouth"/>
-		<Priority name="0"/>
-		<LocalCrouchVolumeScale name="1.0"/>
-		<CrouchNoiseScale name="0.5"/>
-		<NoiseScale name="1"/>
-		<MaxVoices name="10"/>
-		<MaxRepeatRate name="1.111"/>
-	</SoundDataNode>
-	<SoundDataNode name="babydeath">
-		<AudioSource name="Sounds/AudioSource_Pain"/>
-		<Noise ID="3" range="70" volume="12" time="10" muffled_when_crouched="0.65" heat_map_strength="0.15" heat_map_time="60"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_hurt_8"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_hurt_9"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_hurt_10"/>
-		<Channel name="Mouth"/>
-		<Priority name="0"/>
-		<LocalCrouchVolumeScale name="1.0"/>
-		<CrouchNoiseScale name="0.5"/>
-		<NoiseScale name="1"/>
-		<MaxVoices name="10"/>
-		<MaxRepeatRate name="1.111"/>
-	</SoundDataNode>
-	<SoundDataNode name="babysense">
-		<AudioSource name="Sounds/AudioSource_Pain"/>
-		<Noise ID="3" range="70" volume="12" time="10" muffled_when_crouched="0.65" heat_map_strength="0.15" heat_map_time="60"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_growl_1"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_growl_2"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_growl_3"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_growl_4"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_growl_5"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_growl_6"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_moan_1"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_moan_2"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_moan_3"/>
-		<AudioClip ClipName="#babyzombieaudio?child_zombie_moan_4"/>
-		<Channel name="Mouth"/>
-		<Priority name="0"/>
-		<LocalCrouchVolumeScale name="1.0"/>
-		<CrouchNoiseScale name="0.5"/>
-		<NoiseScale name="1"/>
-		<MaxVoices name="10"/>
-		<MaxRepeatRate name="1.111"/>
-	</SoundDataNode>
 	<SoundDataNode name="afroShamanSounds">
 		<AudioSource name="Sounds/AudioSource_VO"/>
-		<Noise ID="3" range="70" volume="12" time="10" muffled_when_crouched="0.65" heat_map_strength="0.15" heat_map_time="60"/>
+		<Noise ID="3" range="50" volume="6" time="10" muffled_when_crouched="0.65" heat_map_strength="0.15" heat_map_time="60"/>
 		<AudioClip ClipName="#AfroShamanSounds?all_alone"/>
 		<AudioClip ClipName="#AfroShamanSounds?all_is_lost2"/>
 		<AudioClip ClipName="#AfroShamanSounds?all_is_lost"/>
@@ -8206,86 +8002,217 @@
 		<AudioClip ClipName="#AfroShamanSounds?you_will_never_see"/>
 		<AudioClip ClipName="#AfroShamanSounds?you_will_pay_for_what_youve_done"/>
 		<AudioClip ClipName="#AfroShamanSounds?you_will_pay"/>
-		<LocalCrouchVolumeScale name="1.0"/>
-		<CrouchNoiseScale name="0.5"/>
-		<NoiseScale name="1"/>
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
 		<MaxVoices name="10"/>
 		<MaxRepeatRate name="1.111"/>
 	</SoundDataNode>
+	<SoundDataNode name="babyalert">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_breath_1" />
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_breath_2" />
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_breath_3" />
+		<Channel name="Mouth"/>
+		<Priority name="0"/>
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10"/>
+		<MaxRepeatRate name="1.111"/>
+	</SoundDataNode>
+	<SoundDataNode name="babyattack">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?child_zombie_attack_1" />
+		<AudioClip ClipName="#RHSoundsZombies?child_zombie_attack_2" />
+		<AudioClip ClipName="#RHSoundsZombies?child_zombie_attack_3" />
+		<AudioClip ClipName="#RHSoundsZombies?child_zombie_attack_4" />
+		<AudioClip ClipName="#RHSoundsZombies?child_zombie_attack_5" />
+		<AudioClip ClipName="#RHSoundsZombies?child_zombie_attack_6" />
+		<Channel name="Mouth"/>
+		<Priority name="0"/>
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10"/>
+		<MaxRepeatRate name="1.111"/>
+	</SoundDataNode>
+	<SoundDataNode name="babyroam">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?rosie" />
+		<Channel name="Mouth"/>
+		<Priority name="0"/>
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10"/>
+		<MaxRepeatRate name="1.111"/>
+	</SoundDataNode>
+	<SoundDataNode name="babypain">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_hurt_1" />
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_hurt_2" />
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_hurt_3" />
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_hurt_5" />
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_hurt_6" />
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_hurt_7" />
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_hurt_8" />
+		<Channel name="Mouth"/>
+		<Priority name="0"/>
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10"/>
+		<MaxRepeatRate name="1.111"/>
+	</SoundDataNode>
+	<SoundDataNode name="babydeath">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_rage_1" />
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_rage_2" />
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_rage_3" />
+		<Channel name="Mouth"/>
+		<Priority name="0"/>
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10"/>
+		<MaxRepeatRate name="1.111"/>
+	</SoundDataNode>
+	<SoundDataNode name="babysense">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_breath_1" />
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_breath_2" />
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_breath_3" />
+		<Channel name="Mouth"/>
+		<Priority name="0"/>
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10"/>
+		<MaxRepeatRate name="1.111"/>
+	</SoundDataNode>
+	<SoundDataNode name="newzombiealert">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?zombie_rage_1" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_rage_2" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_rage_3" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_rage_4" />
+		<Channel name="Mouth"/>
+		<Priority name="3"/>
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10"/>
+		<MaxRepeatRate name="3"/>
+	</SoundDataNode>
+	<SoundDataNode name="newzombieattack">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?super_zombie_attack_1" />
+		<AudioClip ClipName="#RHSoundsZombies?super_zombie_attack_2" />
+		<Channel name="Mouth"/>
+		<Priority name="2"/>
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10"/>
+		<MaxRepeatRate name="1.8"/>
+	</SoundDataNode>
+	<SoundDataNode name="newzombiedeath">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?zombie_hurt_1" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_hurt_2" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_hurt_3" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_hurt_4" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_hurt_5" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_hurt_6" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_hurt_7" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_hurt_8" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_hurt_9" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_hurt_10" />
+		<Channel name="Mouth"/>
+		<Priority name="0"/>
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10"/>
+		<MaxRepeatRate name="1.111"/>
+	</SoundDataNode>
+	<SoundDataNode name="newzombiepain">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?super_zombie_attack_1" />
+		<AudioClip ClipName="#RHSoundsZombies?super_zombie_attack_2" />
+		<Channel name="Mouth"/>
+		<Priority name="1"/>
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10"/>
+		<MaxRepeatRate name="1.8"/>
+	</SoundDataNode>
+	<SoundDataNode name="newzombieroam">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?zombie_moan_1" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_moan_2" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_moan_3" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_moan_4" />
+		<Channel name="Mouth"/>
+		<Priority name="5"/>
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10"/>
+		<MaxRepeatRate name="3"/>
+	</SoundDataNode>
+	<SoundDataNode name="newzombiesense">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?super_zombie_attack_1" />
+		<AudioClip ClipName="#RHSoundsZombies?super_zombie_attack_2" />
+		<Channel name="Mouth"/>
+		<Priority name="4"/>
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10"/>
+		<MaxRepeatRate name="3"/>
+	</SoundDataNode>
 	<SoundDataNode name="newzombiegrowl">
-		<AudioSource name="Sounds/AudioSource_Pain" />
-		<Noise ID="3" range="70" volume="12" time="10" muffled_when_crouched="0.65" heat_map_strength="0.15" heat_map_time="60"/>
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Growl_01" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Growl_02" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Growl_03" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Growl_04" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Growl_05" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Growl_06" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Growl_07" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Growl_08" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Growl_09" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Growl_10" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Growl_11" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Growl_12" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Growl_13" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Growl_14" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Growl_15" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Growl_16" />
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_1" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_2" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_3" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_4" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_5" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_6" />
 		<Channel name="Mouth" />
 		<Priority name="4" />
-		<LocalCrouchVolumeScale name="1.0" />
-		<CrouchNoiseScale name="0.5" />
-		<NoiseScale name="1" />
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
 		<MaxVoices name="10" />
 		<MaxRepeatRate name="3" />
 	</SoundDataNode>
 	<SoundDataNode name="newzombiebreath">
-		<AudioSource name="Sounds/AudioSource_Pain" />
-		<Noise ID="3" range="70" volume="12" time="10" muffled_when_crouched="0.65" heat_map_strength="0.15" heat_map_time="60"/>
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Breath_01" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Breath_02" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Breath_03" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Breath_04" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Breath_05" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Breath_06" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Breath_07" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Breath_08" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Breath_09" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Breath_10" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Breath_11" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Breath_12" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Breath_13" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Breath_14" />
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_1" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_2" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_3" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_4" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_5" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_6" />
 		<Channel name="Mouth" />
 		<Priority name="4" />
-		<LocalCrouchVolumeScale name="1.0" />
-		<CrouchNoiseScale name="0.5" />
-		<NoiseScale name="1" />
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
 		<MaxVoices name="10" />
 		<MaxRepeatRate name="3" />
 	</SoundDataNode>
 	<SoundDataNode name="newzombieslurp">
-		<AudioSource name="Sounds/AudioSource_Pain" />
-		<Noise ID="3" range="70" volume="12" time="10" muffled_when_crouched="0.65" heat_map_strength="0.15" heat_map_time="60"/>
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Teeth_Slurp_07" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Teeth_Slurp_08" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Teeth_Slurp_09" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Teeth_Slurp_10" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Teeth_Slurp_11" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Teeth_Slurp_12" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Teeth_Slurp_13" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Teeth_Slurp_14" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Teeth_Slurp_15" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Teeth_Slurp_16" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Teeth_Slurp_17" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Teeth_Slurp_18" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Teeth_Slurp_19" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Teeth_Slurp_20" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Teeth_Slurp_21" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Teeth_Slurp_22" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Teeth_Slurp_23" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Teeth_Slurp_24" />
-		<AudioClip ClipName="#SoundsZombieGrowls?ZomB_Teeth_Slurp_25" />
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?zombie_moan_1" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_moan_2" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_moan_3" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_moan_4" />
 		<Channel name="Mouth" />
 		<Priority name="4" />
 		<LocalCrouchVolumeScale name="1.0" />
@@ -8294,22 +8221,343 @@
 		<MaxVoices name="10" />
 		<MaxRepeatRate name="3" />
 	</SoundDataNode>
-	<SoundDataNode name="newzombiesteps">
-		<AudioSource name="Sounds/AudioSource_Footsteps" />
-		<Noise ID="3" range="70" volume="12" time="10" muffled_when_crouched="0.65" heat_map_strength="0.15" heat_map_time="60"/>
-		<AudioClip ClipName="#SoundsZombieTeeth?ZomB_Teeth_01" />
-		<AudioClip ClipName="#SoundsZombieTeeth?ZomB_Teeth_02" />
-		<AudioClip ClipName="#SoundsZombieTeeth?ZomB_Teeth_03" />
-		<AudioClip ClipName="#SoundsZombieTeeth?ZomB_Teeth_04" />
-		<AudioClip ClipName="#SoundsZombieTeeth?ZomB_Teeth_05" />
-		<AudioClip ClipName="#SoundsZombieTeeth?ZomB_Teeth_06" />
+	<SoundDataNode name="umazombieaggressive">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?zombie_rage_1" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_rage_2" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_rage_3" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_rage_4" />
+		<Channel name="Mouth" />
+		<Priority name="4" />
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10" />
+		<MaxRepeatRate name="3" />
+	</SoundDataNode>
+	<SoundDataNode name="umazombieattack">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?zombie_attack_1" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_attack_2" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_attack_3" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_attack_4" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_attack_5" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_attack_6" />
+		<Channel name="Mouth" />
+		<Priority name="4" />
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10" />
+		<MaxRepeatRate name="3" />
+	</SoundDataNode>
+	<SoundDataNode name="umazombieboss">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?super_zombie_growl_1_blood" />
+		<AudioClip ClipName="#RHSoundsZombies?super_zombie_growl_2_blood" />
+		<AudioClip ClipName="#RHSoundsZombies?super_zombie_growl_3_blood" />
+		<AudioClip ClipName="#RHSoundsZombies?super_zombie_growl_4_blood" />
+		<Channel name="Mouth" />
+		<Priority name="4" />
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10" />
+		<MaxRepeatRate name="3" />
+	</SoundDataNode>
+	<SoundDataNode name="umazombiebreath">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_1" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_2" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_3" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_4" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_5" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_6" />
+		<Channel name="Mouth" />
+		<Priority name="4" />
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10" />
+		<MaxRepeatRate name="3" />
+	</SoundDataNode>
+	<SoundDataNode name="umazombiechildbaby">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_breath_1" />
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_breath_2" />
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_breath_3" />
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_hurt_1" />
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_hurt_2" />
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_hurt_3" />
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_hurt_5" />
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_hurt_6" />
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_hurt_7" />
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_hurt_8" />
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_rage_1" />
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_rage_2" />
+		<AudioClip ClipName="#RHSoundsZombies?Child_zombie_rage_3" />
+		<AudioClip ClipName="#RHSoundsZombies?child_zombie_attack_1" />
+		<AudioClip ClipName="#RHSoundsZombies?child_zombie_attack_2" />
+		<AudioClip ClipName="#RHSoundsZombies?child_zombie_attack_3" />
+		<AudioClip ClipName="#RHSoundsZombies?child_zombie_attack_4" />
+		<AudioClip ClipName="#RHSoundsZombies?child_zombie_attack_5" />
+		<AudioClip ClipName="#RHSoundsZombies?child_zombie_attack_6" />
 		<Channel name="Mouth" />
 		<Priority name="4" />
 		<LocalCrouchVolumeScale name="1.0" />
 		<CrouchNoiseScale name="0.5" />
 		<NoiseScale name="1" />
-		<MaxVoices name="2" />
-		<MaxRepeatRate name="0.01" />
-		<runningvolumescale name="2" />
+		<MaxVoices name="10" />
+		<MaxRepeatRate name="3" />
+	</SoundDataNode>
+	<SoundDataNode name="umazombieeat">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?zombie_rage_1" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_rage_2" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_rage_3" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_rage_4" />
+		<Channel name="Mouth" />
+		<Priority name="4" />
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10" />
+		<MaxRepeatRate name="3" />
+	</SoundDataNode>
+	<SoundDataNode name="umazombiefemale">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?female_zombie_13_blood" />
+		<AudioClip ClipName="#RHSoundsZombies?female_zombie_14_blood" />
+		<AudioClip ClipName="#RHSoundsZombies?female_zombie_15_blood" />
+		<AudioClip ClipName="#RHSoundsZombies?female_zombie_16_blood" />
+		<Channel name="Mouth" />
+		<Priority name="4" />
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10" />
+		<MaxRepeatRate name="3" />
+	</SoundDataNode>
+	<SoundDataNode name="umazombiefemalehurt">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?female_zombie_hurt_12" />
+		<AudioClip ClipName="#RHSoundsZombies?female_zombie_hurt_13" />
+		<AudioClip ClipName="#RHSoundsZombies?female_zombie_hurt_14" />
+		<AudioClip ClipName="#RHSoundsZombies?female_zombie_hurt_15" />
+		<AudioClip ClipName="#RHSoundsZombies?female_zombie_hurt_16" />
+		<AudioClip ClipName="#RHSoundsZombies?female_zombie_hurt_17" />
+		<Channel name="Mouth" />
+		<Priority name="4" />
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10" />
+		<MaxRepeatRate name="3" />
+	</SoundDataNode>
+	<SoundDataNode name="umazombiefemalemoan">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?female_zombie_moan_01" />
+		<AudioClip ClipName="#RHSoundsZombies?female_zombie_moan_03" />
+		<AudioClip ClipName="#RHSoundsZombies?female_zombie_moan_04" />
+		<AudioClip ClipName="#RHSoundsZombies?female_zombie_moan_05" />
+		<AudioClip ClipName="#RHSoundsZombies?female_zombie_moan_06" />
+		<AudioClip ClipName="#RHSoundsZombies?female_zombie_moan_11" />
+		<Channel name="Mouth" />
+		<Priority name="4" />
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10" />
+		<MaxRepeatRate name="3" />
+	</SoundDataNode>
+	<SoundDataNode name="umazombiegroan">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_1" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_2" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_3" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_4" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_5" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_6" />
+		<Channel name="Mouth" />
+		<Priority name="4" />
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10" />
+		<MaxRepeatRate name="3" />
+	</SoundDataNode>
+	<SoundDataNode name="umazombiehurt">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?zombie_hurt_1" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_hurt_2" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_hurt_3" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_hurt_4" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_hurt_5" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_hurt_6" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_hurt_7" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_hurt_8" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_hurt_9" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_hurt_10" />
+		<Channel name="Mouth" />
+		<Priority name="4" />
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10" />
+		<MaxRepeatRate name="3" />
+	</SoundDataNode>
+	<SoundDataNode name="umazombielaugh">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_1" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_2" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_3" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_4" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_5" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_growl_6" />
+		<Channel name="Mouth" />
+		<Priority name="4" />
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10" />
+		<MaxRepeatRate name="3" />
+	</SoundDataNode>
+	<SoundDataNode name="umazombiemisc">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?zombie_moan_1" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_moan_2" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_moan_3" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_moan_4" />
+		<Channel name="Mouth" />
+		<Priority name="4" />
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10" />
+		<MaxRepeatRate name="3" />
+	</SoundDataNode>
+	<SoundDataNode name="umazombierage">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<AudioClip ClipName="#RHSoundsZombies?zombie_rage_1" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_rage_2" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_rage_3" />
+		<AudioClip ClipName="#RHSoundsZombies?zombie_rage_4" />
+		<Channel name="Mouth" />
+		<Priority name="4" />
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10" />
+		<MaxRepeatRate name="3" />
+	</SoundDataNode>
+	<SoundDataNode name="blender_on">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="3" range="14" volume="16" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+		<AudioClip ClipName="#RHSoundsItems?blender"/>
+		<LocalCrouchVolumeScale name="0.5"/>
+		<CrouchNoiseScale name="0.5"/>
+		<NoiseScale name="1"/>
+		<MaxVoices name="10"/>
+		<MaxRepeatRate name="0.01"/>
+	</SoundDataNode>
+	<SoundDataNode name="coffeemaker_open">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="3" range="14" volume="16" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+		<AudioClip ClipName="#RHSoundsItems?pouring"/>
+		<LocalCrouchVolumeScale name="0.5"/>
+		<CrouchNoiseScale name="0.5"/>
+		<NoiseScale name="1"/>
+		<MaxVoices name="10"/>
+		<MaxRepeatRate name="0.01"/>
+	</SoundDataNode>
+	<SoundDataNode name="microwave_beep">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="3" range="14" volume="16" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+		<AudioClip ClipName="#RHSoundsItems?microwave"/>
+		<LocalCrouchVolumeScale name="0.5"/>
+		<CrouchNoiseScale name="0.5"/>
+		<NoiseScale name="1"/>
+		<MaxVoices name="10"/>
+		<MaxRepeatRate name="0.01"/>
+	</SoundDataNode>
+	<SoundDataNode name="cowmoo">
+		<AudioSource name="Sounds/AudioSource_VO" />
+		<AudioClip ClipName="#RHSoundsAnimals?Moo" />
+		<Channel name="Mouth" />
+		<Priority name="4" />
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10" />
+		<MaxRepeatRate name="3" />
+	</SoundDataNode>
+	<SoundDataNode name="crowcaw">
+		<AudioSource name="Sounds/AudioSource_VO" />
+		<AudioClip ClipName="#RHSoundsAnimals?Crow" />
+		<Channel name="Mouth" />
+		<Priority name="4" />
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10" />
+		<MaxRepeatRate name="3" />
+	</SoundDataNode>
+	<SoundDataNode name="crowgroup">
+		<AudioSource name="Sounds/AudioSource_VO" />
+		<AudioClip ClipName="#RHSoundsAnimals?Crows" />
+		<Channel name="Mouth" />
+		<Priority name="4" />
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10" />
+		<MaxRepeatRate name="3" />
+	</SoundDataNode>
+	<SoundDataNode name="crowdeath2">
+		<AudioSource name="Sounds/AudioSource_VO" />
+		<AudioClip ClipName="#RHSoundsAnimals?Crowshort" />
+		<Channel name="Mouth" />
+		<Priority name="4" />
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10" />
+		<MaxRepeatRate name="3" />
+	</SoundDataNode>
+	<SoundDataNode name="frog">
+		<AudioSource name="Sounds/AudioSource_VO" />
+		<AudioClip ClipName="#RHSoundsAnimals?frog" />
+		<Channel name="Mouth" />
+		<Priority name="4" />
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10" />
+		<MaxRepeatRate name="3" />
+	</SoundDataNode>
+	<SoundDataNode name="shark">
+		<AudioSource name="Sounds/AudioSource_VO" />
+		<AudioClip ClipName="#RHSoundsAnimals?shark" />
+		<Channel name="Mouth" />
+		<Priority name="4" />
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10" />
+		<MaxRepeatRate name="3" />
+	</SoundDataNode>
+	<SoundDataNode name="rhterrors">
+		<AudioSource name="Sounds/AudioSource_VO"/>
+		<Noise ID="3" range="50" volume="6" time="10" muffled_when_crouched="0.65" heat_map_strength="0.15" heat_map_time="60"/>
+		<AudioClip ClipName="#RHSoundsZombies?whispers1"/>
+		<AudioClip ClipName="#RHSoundsZombies?whispers2"/>
+		<AudioClip ClipName="#RHSoundsZombies?whispers3"/>
+		<AudioClip ClipName="#RHSoundsZombies?whispers4"/>
+		<AudioClip ClipName="#AfroShamanSounds?are_you_afraid"/>
+		<LocalCrouchVolumeScale name="0.3" />
+		<CrouchNoiseScale name="0.2" />
+		<NoiseScale name="0.4" />
+		<MaxVoices name="10"/>
+		<MaxRepeatRate name="1.111"/>
 	</SoundDataNode>
 </Sounds>

@@ -14,4 +14,5 @@
 	<property name="SleeperVolumeGroup" value="S_LootRoom_XS,S_LootRoom_XS,S_LootRoom_XS,S_LootRoom_S,S_LootRoom_L,S_LootRoom_Med,S_LootRoom_XL,S_LootRoom_S,S_LootRoom_XS,S_LootRoom_L,S_LootRoom_XL,S_LootRoom_L,S_LootRoom_L"/>
 	<property name="SleeperVolumeGameStageAdjust" value="hard,hard,hard,hard,hard,hard,hard,hard,hard,hard,hard,hard,hard"/>
 	<property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,False"/>
+	<property name="DisallowedBiomes" value="radiated"/>
 </prefab>

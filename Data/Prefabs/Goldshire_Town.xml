@@ -8,4 +8,6 @@
 	<property name="YOffset" value="-12"/>
 	<property name="DistantPOIYOffset" value="0"/>
 	<property name="AllowedBiomes" value="pine_forest,forest"/>
+	<property name="AllowedTownships" value="city,rural,town,wilderness"/>
+	<property name="DisallowedBiomes" value="radiated"/>
 </prefab>

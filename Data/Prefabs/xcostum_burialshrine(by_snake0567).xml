@@ -7,5 +7,6 @@
 	<property name="Zoning" value="ResidentialOld"/>
 	<property name="YOffset" value="-25"/>
 	<property name="DistantPOIYOffset" value="0"/>
-	<property name="AllowedBiomes" value="pine_forest,forest"/>
+	<property name="AllowedBiomes" value="pine_forest,forest,wasteland"/>
+    <property name="AllowedTownships" value="city,rural,town,wilderness"/>
 </prefab>
