@@ -232,80 +232,7 @@
 		<entity name="zombieYoFeralRadiated"/>
 		<entity name="zombieMoeFeralRadiated"/>
 	</entitygroup>
-	<entitygroup name="BanditsAll">
-		<entity name="followerSargentSlaughter01"/>
-		<entity name="followerSargentSlaughter02"/>
-		<entity name="followerSargentSlaughter03"/>
-		<entity name="followerSargentSlaughter04"/>
-		<entity name="followerArnold01"/>
-		<entity name="followerArnold02"/>
-		<entity name="followerArnold03"/>
-		<entity name="followerArnold04"/>
-		<entity name="followerCrossbowman01"/>
-		<entity name="followerCrossbowman02"/>
-		<entity name="followerCrossbowman03"/>
-		<entity name="followerCrossbowman04"/>
-		<entity name="followerTheEnd01"/>
-		<entity name="followerTheEnd02"/>
-		<entity name="followerTheEnd03"/>
-		<entity name="followerTheEnd04"/>
-		<entity name="followerPrivateChang01"/>
-		<entity name="followerPrivateChang02"/>
-		<entity name="followerPrivateChang03"/>
-		<entity name="followerPrivateChang04"/>
-		<entity name="followerMedic01"/>
-		<entity name="followerMedic02"/>
-		<entity name="followerMedic03"/>
-		<entity name="followerMedic04"/>
-		<entity name="followerBittercup01"/>
-		<entity name="followerBittercup02"/>
-		<entity name="followerBittercup03"/>
-		<entity name="followerBittercup04"/>
-		<entity name="followerPilot01"/>
-		<entity name="followerPilot02"/>
-		<entity name="followerPilot03"/>
-		<entity name="followerPilot04"/>
-		<entity name="followerRambo01"/>
-		<entity name="followerRambo02"/>
-		<entity name="followerRambo03"/>
-		<entity name="followerRambo04"/>
-		<entity name="followerDeathskwad01"/>
-		<entity name="followerDeathskwad02"/>
-		<entity name="followerDeathskwad03"/>
-		<entity name="followerDeathskwad04"/>
-		<entity name="followerSargentRock01"/>
-		<entity name="followerSargentRock02"/>
-		<entity name="followerSargentRock03"/>
-		<entity name="followerSargentRock04"/>
-		<entity name="followerColonelKurtz01"/>
-		<entity name="followerColonelKurtz02"/>
-		<entity name="followerColonelKurtz03"/>
-		<entity name="followerColonelKurtz04"/>
-		<entity name="followerMajorPayne01"/>
-		<entity name="followerMajorPayne02"/>
-		<entity name="followerMajorPayne03"/>
-		<entity name="followerMajorPayne04"/>
-		<entity name="followerSwat101"/>
-		<entity name="followerSwat102"/>
-		<entity name="followerSwat103"/>
-		<entity name="followerSwat104"/>
-		<entity name="followerSwat201"/>
-		<entity name="followerSwat202"/>
-		<entity name="followerSwat203"/>
-		<entity name="followerSwat204"/>
-		<entity name="followerSwat301"/>
-		<entity name="followerSwat302"/>
-		<entity name="followerSwat303"/>
-		<entity name="followerSwat304"/>
-		<entity name="followerMedic01"/>
-		<entity name="followerMedic02"/>
-		<entity name="followerMedic03"/>
-		<entity name="followerMedic04"/>
-		<entity name="followerBittercup01"/>
-		<entity name="followerBittercup02"/>
-		<entity name="followerBittercup03"/>
-		<entity name="followerBittercup04"/>
-	</entitygroup>
+
 	<entitygroup name="ZombiesAll">
 		<entity name="zombieBoe"/>
 		<entity name="zombieJoe"/>
@@ -352,8 +279,6 @@
 		<entity name="sanZombieCannibalMale" prob="0.03"/>
 		<entity name="sanZombieBodyBuilder" prob="0.03"/>
 		<entity name="sanZombieCrazed" prob="0.03"/>
-		<entity name="zombieScared" prob="0.015"/>
-		<entity name="zombieCuriousGeorge" prob="0.015"/>
 	</entitygroup>
 	<entitygroup name="ZombiesFirstLineOfDefense">
 		<entity name="zombieBoe"/>
@@ -720,8 +645,6 @@
 		<entity name="sanZombieCannibalMale" prob="0.03"/>
 		<entity name="sanZombieBodyBuilder" prob="0.03"/>
 		<entity name="sanZombieCrazed" prob="0.03"/>
-		<entity name="zombieScared" prob="0.05"/>
-		<entity name="zombieCuriousGeorge" prob="0.01"/>
 		<entity name="zombieFatHawaiian" prob="0.3"/>
 	</entitygroup>
 	<entitygroup name="ZombiesWatelandBosses">
@@ -737,78 +660,6 @@
 		<entity name="zombieFatCop" prob="0.7"/>
 		<entity name="valZombieBruteBoss" prob="0.7"/>
 		<entity name="valZombieBrute" prob="0.7"/>
-		<entity name="followerSargentSlaughter01" prob="0.07"/>
-		<entity name="followerSargentSlaughter02" prob="0.05"/>
-		<entity name="followerSargentSlaughter03" prob="0.05"/>
-		<entity name="followerSargentSlaughter04" prob="0.02"/>
-		<entity name="followerArnold01" prob="0.07"/>
-		<entity name="followerArnold02" prob="0.05"/>
-		<entity name="followerArnold03" prob="0.05"/>
-		<entity name="followerArnold04" prob="0.02"/>
-		<entity name="followerCrossbowman01" prob="0.07"/>
-		<entity name="followerCrossbowman02" prob="0.05"/>
-		<entity name="followerCrossbowman03" prob="0.05"/>
-		<entity name="followerCrossbowman04" prob="0.02"/>
-		<entity name="followerTheEnd01" prob="0.07"/>
-		<entity name="followerTheEnd02" prob="0.05"/>
-		<entity name="followerTheEnd03" prob="0.05"/>
-		<entity name="followerTheEnd04" prob="0.02"/>
-		<entity name="followerPrivateChang01" prob="0.07"/>
-		<entity name="followerPrivateChang02" prob="0.05"/>
-		<entity name="followerPrivateChang03" prob="0.05"/>
-		<entity name="followerPrivateChang04" prob="0.02"/>
-		<entity name="followerMedic01" prob="0.07"/>
-		<entity name="followerMedic02" prob="0.05"/>
-		<entity name="followerMedic03" prob="0.05"/>
-		<entity name="followerMedic04" prob="0.02"/>
-		<entity name="followerBittercup01" prob="0.07"/>
-		<entity name="followerBittercup02" prob="0.05"/>
-		<entity name="followerBittercup03" prob="0.05"/>
-		<entity name="followerBittercup04" prob="0.02"/>
-		<entity name="followerPilot01" prob="0.07"/>
-		<entity name="followerPilot02" prob="0.05"/>
-		<entity name="followerPilot03" prob="0.05"/>
-		<entity name="followerPilot04" prob="0.02"/>
-		<entity name="followerRambo01" prob="0.07"/>
-		<entity name="followerRambo02" prob="0.05"/>
-		<entity name="followerRambo03" prob="0.05"/>
-		<entity name="followerRambo04" prob="0.02"/>
-		<entity name="followerDeathskwad01" prob="0.07"/>
-		<entity name="followerDeathskwad02" prob="0.05"/>
-		<entity name="followerDeathskwad03" prob="0.05"/>
-		<entity name="followerDeathskwad04" prob="0.02"/>
-		<entity name="followerSargentRock01" prob="0.07"/>
-		<entity name="followerSargentRock02" prob="0.05"/>
-		<entity name="followerSargentRock03" prob="0.05"/>
-		<entity name="followerSargentRock04" prob="0.02"/>
-		<entity name="followerColonelKurtz01" prob="0.07"/>
-		<entity name="followerColonelKurtz02" prob="0.05"/>
-		<entity name="followerColonelKurtz03" prob="0.05"/>
-		<entity name="followerColonelKurtz04" prob="0.02"/>
-		<entity name="followerMajorPayne01" prob="0.07"/>
-		<entity name="followerMajorPayne02" prob="0.05"/>
-		<entity name="followerMajorPayne03" prob="0.05"/>
-		<entity name="followerMajorPayne04" prob="0.02"/>
-		<entity name="followerSwat101" prob="0.07"/>
-		<entity name="followerSwat102" prob="0.05"/>
-		<entity name="followerSwat103" prob="0.05"/>
-		<entity name="followerSwat104" prob="0.02"/>
-		<entity name="followerSwat201" prob="0.07"/>
-		<entity name="followerSwat202" prob="0.05"/>
-		<entity name="followerSwat203" prob="0.05"/>
-		<entity name="followerSwat204" prob="0.02"/>
-		<entity name="followerSwat301" prob="0.07"/>
-		<entity name="followerSwat302" prob="0.05"/>
-		<entity name="followerSwat303" prob="0.05"/>
-		<entity name="followerSwat304" prob="0.02"/>
-		<entity name="followerMedic01" prob="0.07"/>
-		<entity name="followerMedic02" prob="0.05"/>
-		<entity name="followerMedic03" prob="0.05"/>
-		<entity name="followerMedic04" prob="0.02"/>
-		<entity name="followerBittercup01" prob="0.07"/>
-		<entity name="followerBittercup02" prob="0.05"/>
-		<entity name="followerBittercup03" prob="0.05"/>
-		<entity name="followerBittercup04" prob="0.02"/>
 	</entitygroup>
 	<entitygroup name="ZombiesWasteland">
 		<entity name="zombieSpider"/>
@@ -932,8 +783,6 @@
 		<entity name="sanZombieCannibalMale" prob="0.03"/>
 		<entity name="sanZombieBodyBuilder" prob="0.03"/>
 		<entity name="sanZombieCrazed" prob="0.03"/>
-		<entity name="zombieScared" prob="0.05"/>
-		<entity name="zombieCuriousGeorge" prob="0.01"/>
 	</entitygroup>
 	<entitygroup name="ZombiesWastelandNight2">
 		<entity name="zombieSpider"/>
@@ -980,8 +829,6 @@
 		<entity name="sanZombieCannibalMale" prob="0.03"/>
 		<entity name="sanZombieBodyBuilder" prob="0.03"/>
 		<entity name="sanZombieCrazed" prob="0.03"/>
-		<entity name="zombieScared" prob="0.05"/>
-		<entity name="zombieCuriousGeorge" prob="0.01"/>
 	</entitygroup>
 	<entitygroup name="ZombiesWastelandNight2NoBears">
 		<!--	Bears/Animals aren't controllable by the BloodMoon horde system  until Joe	refactors all the Animal code.	-->
@@ -1028,8 +875,6 @@
 		<entity name="sanZombieCannibalMale" prob="0.03"/>
 		<entity name="sanZombieBodyBuilder" prob="0.03"/>
 		<entity name="sanZombieCrazed" prob="0.03"/>
-		<entity name="zombieScared" prob="0.05"/>
-		<entity name="zombieCuriousGeorge" prob="0.01"/>
 	</entitygroup>
 	<entitygroup name="ZombiesHoard">
 		<entity name="zombieSpider"/>
@@ -1072,15 +917,13 @@
 		<entity name="sanZombieCannibalMale" prob="0.03"/>
 		<entity name="sanZombieBodyBuilder" prob="0.03"/>
 		<entity name="sanZombieCrazed" prob="0.03"/>
-		<entity name="zombieScared" prob="0.05"/>
-		<entity name="zombieCuriousGeorge" prob="0.01"/>
 		<entity name="valZombieBruteBoss" prob="0.03"/>
 		<entity name="valZombieBrute" prob="0.03"/>
 	</entitygroup>
 	<entitygroup name="ZombieScouts">
 		<entity name="zombieScreamer"/>
-		<entity name="zombieScreamerRadiated" prob="0.05"/>
-		<entity name="zombieScreamerFeralRadiated" prob="0.05"/>
+		<entity name="zombieScreamerRadiated" prob="0.0005"/>
+		<entity name="zombieScreamerFeralRadiated" prob="0.0005"/>
 	</entitygroup>
 	<entitygroup name="ZombiesCrawlers">
 		<entity name="zombieSteveCrawler" prob="1"/>
@@ -1237,9 +1080,6 @@
 		<entity name="animalZombieDog"/>
 		<entity name="animalZombieBear" prob="0.15"/>
 		<entity name="animalCrow"/>
-	</entitygroup>
-	<entitygroup name="EnemyAnimalsWater">
-		<entity name="animalShark"/>
 	</entitygroup>
 	<entitygroup name="ZombieDogGroup">
 		<entity name="animalZombieDog"/>
@@ -1444,7 +1284,7 @@
 	<entitygroup name="ZombieBikerBarGroup">
 		<!-- The Boobie Trap -->
 		<entity name="zombieBiker" prob="3"/>
-		<entity name="zombieBiker" prob="4"/>
+		<entity name="sanZombieBikerChick" prob="2"/>
 		<entity name="zombieUtilityWorker"/>
 		<entity name="zombieFarmer"/>
 		<entity name="zombieSkateboarder"/>

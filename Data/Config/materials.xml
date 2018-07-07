@@ -940,7 +940,7 @@
 		<property name="stepsound" value="stone"/>
 		<property name="stability_glue" value="1"/>
 		<property name="Mass" type="int" value="1"/>
-		<property name="MaxDamage" value="400"/>
+		<property name="MaxDamage" value="300"/>
 		<property name="Experience" value="2.0"/>
 	</material>
 	<material id="Mcobblestone">
@@ -1184,7 +1184,7 @@
 		<property name="Hardness" type="float" value="6"/>
 		<property name="stepsound" value="wood"/>
 		<property name="stability_glue" value="36"/>
-		<property name="Mass" type="int" value="36"/>
+		<property name="Mass" type="int" value="5"/>
 		<property name="MaxDamage" value="500"/>
 		<property name="Experience" value="3.0"/>
 	</material>
@@ -1194,7 +1194,7 @@
 		<property name="Hardness" type="float" value="8"/>
 		<property name="stepsound" value="wood"/>
 		<property name="stability_glue" value="36"/>
-		<property name="Mass" type="int" value="36"/>
+		<property name="Mass" type="int" value="10"/>
 		<property name="MaxDamage" value="1000"/>
 		<property name="Experience" value="3.0"/>
 	</material>
@@ -1204,7 +1204,7 @@
 		<property name="Hardness" type="float" value="20"/>
 		<property name="stepsound" value="wood"/>
 		<property name="stability_glue" value="56"/>
-		<property name="Mass" type="int" value="56"/>
+		<property name="Mass" type="int" value="20"/>
 		<property name="MaxDamage" value="2000"/>
 		<property name="Experience" value="3.0"/>
 	</material>

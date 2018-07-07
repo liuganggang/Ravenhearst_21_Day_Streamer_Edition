@@ -235,7 +235,7 @@
 				<buff id="sleepingBagTrigger" duration="1" actions="setvar(CTRbedroll, 10)" />
 				<buff id="sleepingBagEffect" duration="0" buffif="CTRbedroll greater 0" debuffif="CTRbedroll less 1" actions="increment(CTRbedroll, -3, 2, 0, 0)" 	icon="ui_game_symbol_map_bed" name_key="Restless Comfort" description_key="You are Relaxing as best as you can. Find a better bed to gain more comfort" tooltip_key="You are Relaxing as best as you can">
 					<modify id="0" stat="health" amount="1" rate="30" />
-					<modify id="0" stat="stamina" amount="1" rate="5" />
+					<modify id="0" stat="stamina" amount="1" rate="10" />
 				</buff>
 				<buff id="sleepingBedTrigger" duration="1" actions="setvar(CTRbed, 10)" />
 				<buff id="sleepingBedEffect" duration="0" buffif="CTRbed greater 0" debuffif="CTRbed less 1" actions="increment(CTRbed, -3, 2, 0, 0)" 	name_key="Moderate Comfort" description_key="You are getting decent rest in this bed. Find a better bed to maximize your comfort" tooltip_key="You are getting decent rest" icon="ui_game_symbol_map_bed">
@@ -474,7 +474,7 @@
 							<modify id="1" stat="health" amount="-5" rate="1"/>
 						</buff>
 						<buff id="trapBurning"  mutex="cannotBreath,drowning,burning,extinguishFireBuff" ffcheck="true" duration="5" name_key="burningSmall" description_key="burningSmallDesc" tooltip_key="burningSmallTooltip" actions="attach(ParticleEffects/p_onFire, @impact);damage(10,1,0,0)" icon="ui_game_symbol_fire">
-							<modify id="0" stat="coretemp" amount="1" rate="1" />
+                            <modify id="1" stat="health" amount="-8" rate="1"/>
 						</buff>
 						<buff id="SuicideBomber" duration="10" ffcheck="true" actions="attach(ParticleEffects/p_onFire, @impact)">
 							<modify id="0" stat="speedmodifier" modifyMaxValue="2.0"/>

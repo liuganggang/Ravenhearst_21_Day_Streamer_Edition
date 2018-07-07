@@ -131,8 +131,8 @@
 					<decoration type="prefab" name="xxx0Deko065" prob=".00005" rotatemax="3"/>
 					<decoration type="prefab" name="xxx0Deko066" prob=".00005" rotatemax="3"/>
 					<decoration type="prefab" name="xxx0Deko067" prob=".00005" rotatemax="3"/>
-					<decoration type="prefab" name="sinderrock" prob=".00009" rotatemax="3"/>
-					<decoration type="prefab" name="xcostum_forestTreasure" prob=".00009" rotatemax="3"/>
+					<decoration type="prefab" name="ravenhearst_Sinders_Rock_Base_(by_sinder)" prob=".00009" rotatemax="3"/>
+					<decoration type="prefab" name="ravenhearst_xcostum_forestTreasure_(by_dancapo)" prob=".00009" rotatemax="3"/>
 					<!-- ############################  SNOW ONLY  ####################################################################################### -->
 					<decoration type="prefab" name="xxx0Deko070" prob=".00005" rotatemax="3"/>
 					<!-- ################################################################################################################################ -->
@@ -140,8 +140,6 @@
 					<!-- #########################################################  MOD  ################################################################ -->
 					<!-- ################################################################################################################################ -->
 					<!-- ################################################################################################################################ -->
-					<decoration type="prefab" name="tinWolfDen" prob="0.00375" rotatemax="4"/>
-					<decoration type="prefab" name="tinWolfDen2" prob="0.00375" rotatemax="4"/>
 					<decoration type="prefab" name="resource_nitrate_pile" prob=".00007" rotatemax="7"/>
 					<decoration type="block" blockname="rock05" prob ="0.001"/>
 					<decoration type="block" blockname="rock06" prob ="0.001"/>
@@ -570,16 +568,14 @@
 				<decoration type="prefab" name="xxx0Deko065" prob=".00005" rotatemax="3"/>
 				<decoration type="prefab" name="xxx0Deko066" prob=".00005" rotatemax="3"/>
 				<decoration type="prefab" name="xxx0Deko067" prob=".00005" rotatemax="3"/>
-				<decoration type="prefab" name="sinderrock" prob=".00009" rotatemax="3"/>
-				<decoration type="prefab" name="xcostum_forestTreasure" prob=".00009" rotatemax="3"/>
+				<decoration type="prefab" name="ravenhearst_Sinders_Rock_Base_(by_sinder)" prob=".00009" rotatemax="3"/>
+				<decoration type="prefab" name="ravenhearst_xcostum_forestTreasure_(by_dancapo)" prob=".00009" rotatemax="3"/>
 				<!-- ################################################################################################################################ -->
 				<!-- ################################################################################################################################ -->
 				<!-- #########################################################  MOD  ################################################################ -->
 				<!-- ################################################################################################################################ -->
 				<!-- ################################################################################################################################ -->
 				<decoration type="block" blockname="lootForestHelper" prob="0.00025"/>
-				<decoration type="prefab" name="tinWolfDen" prob="0.00075" rotatemax="4"/>
-				<decoration type="prefab" name="tinWolfDen2" prob="0.00075" rotatemax="4"/>
 				<decoration type="prefab" name="rock_form02" prob="0.0001" rotatemax="3"/>
 				<decoration type="prefab" name="rock_form01" prob="0.001" rotatemax="3"/>
 				<decoration type="block" blockname="plantedCotton3Harvest" prob="0.005" rotatemax="3"/>
@@ -874,16 +870,14 @@
 				<decoration type="prefab" name="xxx0Deko065" prob=".00005" rotatemax="3"/>
 				<decoration type="prefab" name="xxx0Deko066" prob=".00005" rotatemax="3"/>
 				<decoration type="prefab" name="xxx0Deko067" prob=".00005" rotatemax="3"/>
-				<decoration type="prefab" name="sinderrock" prob=".00009" rotatemax="3"/>
-				<decoration type="prefab" name="xcostum_forestTreasure" prob=".00009" rotatemax="3"/>
+				<decoration type="prefab" name="ravenhearst_Sinders_Rock_Base_(by_sinder)" prob=".00009" rotatemax="3"/>
+				<decoration type="prefab" name="ravenhearst_xcostum_forestTreasure_(by_dancapo)" prob=".00009" rotatemax="3"/>
 				<!-- ################################################################################################################################ -->
 				<!-- ################################################################################################################################ -->
 				<!-- #########################################################  MOD  ################################################################ -->
 				<!-- ################################################################################################################################ -->
 				<!-- ################################################################################################################################ -->
 				<decoration type="block" blockname="lootForestHelper" prob="0.00025"/>
-				<decoration type="prefab" name="tinWolfDen" prob="0.00075" rotatemax="4"/>
-				<decoration type="prefab" name="tinWolfDen2" prob="0.00075" rotatemax="4"/>
 				<decoration type="prefab" name="rock_form02" prob="0.0007" rotatemax="3"/>
 				<decoration type="prefab" name="rock_form01" prob="0.0007" rotatemax="3"/>
 				<decoration type="prefab" name="resource_iron_pile" prob=".00007" rotatemax="7"/>
@@ -1173,8 +1167,8 @@
 				<decoration type="prefab" name="xxx0Deko065" prob=".00005" rotatemax="3"/>
 				<decoration type="prefab" name="xxx0Deko066" prob=".00005" rotatemax="3"/>
 				<decoration type="prefab" name="xxx0Deko067" prob=".00005" rotatemax="3"/>
-				<decoration type="prefab" name="sinderrock" prob=".00009" rotatemax="3"/>
-				<decoration type="prefab" name="xcostum_forestTreasure" prob=".00009" rotatemax="3"/>
+				<decoration type="prefab" name="ravenhearst_Sinders_Rock_Base_(by_sinder)" prob=".00009" rotatemax="3"/>
+				<decoration type="prefab" name="ravenhearst_xcostum_forestTreasure_(by_dancapo)" prob=".00009" rotatemax="3"/>
 				<!-- ################################################################################################################################ -->
 				<!-- ################################################################################################################################ -->
 				<!-- #########################################################  MOD  ################################################################ -->
@@ -1401,8 +1395,8 @@
 				<decoration type="prefab" name="xxx0Deko065" prob=".00005" rotatemax="3"/>
 				<decoration type="prefab" name="xxx0Deko066" prob=".00005" rotatemax="3"/>
 				<decoration type="prefab" name="xxx0Deko067" prob=".00005" rotatemax="3"/>
-				<decoration type="prefab" name="sinderrock" prob=".00009" rotatemax="3"/>
-				<decoration type="prefab" name="xcostum_forestTreasure" prob=".00009" rotatemax="3"/>
+				<decoration type="prefab" name="ravenhearst_Sinders_Rock_Base_(by_sinder)" prob=".00009" rotatemax="3"/>
+				<decoration type="prefab" name="ravenhearst_xcostum_forestTreasure_(by_dancapo)" prob=".00009" rotatemax="3"/>
 				<!-- ################################################################################################################################ -->
 				<!-- ################################################################################################################################ -->
 				<!-- #########################################################  MOD  ################################################################ -->
@@ -1758,29 +1752,6 @@
 				<decoration type="prefab" name="mp_waste_pile_03" prob="0.0005" rotatemax="3"/>
 				<decoration type="prefab" name="mp_waste_pile_04" prob="0.0005" rotatemax="3"/>
 				<decoration type="prefab" name="mp_waste_pile_05" prob="0.0005" rotatemax="3"/>
-				<decoration type="prefab" name="xcostum_ZombieZoo(by_Wsiegel)" prob="0.0007" rotatemax="3"/>
-				<decoration type="prefab" name="xcostum_TittyTwister(by_Sorrowthief)" prob="0.0007" rotatemax="3"/>
-				<decoration type="prefab" name="xcostum_TheSect_Followers-of-M(by_magoli)" prob="0.0007" rotatemax="3"/>
-				<decoration type="prefab" name="xcostum_RocketLaunchPad(by_Saeid)" prob="0.0007" rotatemax="3"/>
-				<decoration type="prefab" name="xcostum_Prison(by_Limodur)" prob="0.0007" rotatemax="3"/>
-				<decoration type="prefab" name="xcostum_pistol_gunshop(by_magoli)" prob="0.0007" rotatemax="3"/>
-				<decoration type="prefab" name="xcostum_PersianMansion(by_saeid)" prob="0.0007" rotatemax="3"/>
-				<decoration type="prefab" name="xcostum_Nuclear_Powerplant(by_Rocky)" prob="0.0007" rotatemax="3"/>
-				<decoration type="prefab" name="xcostum_NSiteMissileSilo(byEphoie)" prob="0.0007" rotatemax="3"/>
-				<decoration type="prefab" name="xcostum_Dark_Mausoleum32(by_LuckyStar)" prob="0.0007" rotatemax="3"/>
-				<decoration type="prefab" name="xcostum_CrashedAirplane(by_LazMan)" prob="0.0007" rotatemax="3"/>
-				<decoration type="prefab" name="xcostum_circus(by_magoli)" prob="0.0007" rotatemax="3"/>
-				<decoration type="prefab" name="xcostum_Chernobyl(by_Maz_Burt)" prob="0.0007" rotatemax="3"/>
-				<decoration type="prefab" name="xcostum_Asylum(by_Wsiegel)" prob="0.0007" rotatemax="3"/>
-				<decoration type="prefab" name="Tom_Stonehouse" prob="0.0007" rotatemax="3"/>
-				<decoration type="prefab" name="Tom_Spirallibrary" prob="0.0007" rotatemax="3"/>
-				<decoration type="prefab" name="Tom_Hostel_destroyed" prob="0.0007" rotatemax="3"/>
-				<decoration type="prefab" name="ThePyramid" prob="0.0007" rotatemax="3"/>
-				<decoration type="prefab" name="police_station2" prob="0.0007" rotatemax="3"/>
-				<decoration type="prefab" name="kam_powerplant" prob="0.0007" rotatemax="3"/>
-				<decoration type="prefab" name="junkyard_lg_01" prob="0.0007" rotatemax="3"/>
-				<decoration type="prefab" name="Giant_Mart" prob="0.0007" rotatemax="3"/>
-				<decoration type="prefab" name="Altenburg" prob="0.0007" rotatemax="3"/>
 				<decoration type="block" blockname="mineCandyTin" prob="0.00015"/>
 				<decoration type="block" blockname="mineHubcap" prob="0.00015"/>
 				<decoration type="block" blockname="hubcapNoMine" prob="0.00011"/>
@@ -2105,8 +2076,8 @@
 				<decoration type="prefab" name="xxx0Deko065" prob=".00005" rotatemax="3"/>
 				<decoration type="prefab" name="xxx0Deko066" prob=".00005" rotatemax="3"/>
 				<decoration type="prefab" name="xxx0Deko067" prob=".00005" rotatemax="3"/>
-				<decoration type="prefab" name="sinderrock" prob=".00009" rotatemax="3"/>
-				<decoration type="prefab" name="xcostum_forestTreasure" prob=".00009" rotatemax="3"/>
+				<decoration type="prefab" name="ravenhearst_Sinders_Rock_Base_(by_sinder)" prob=".00009" rotatemax="3"/>
+				<decoration type="prefab" name="ravenhearst_xcostum_forestTreasure_(by_dancapo)" prob=".00009" rotatemax="3"/>
 				<!-- ################################################################################################################################ -->
 				<!-- ################################################################################################################################ -->
 				<!-- #########################################################  MOD  ################################################################ -->

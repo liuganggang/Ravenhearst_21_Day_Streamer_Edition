@@ -7691,14 +7691,14 @@
 	<SoundDataNode name="mg_fire_start">
 		<AudioSource name="Sounds/AudioSource_WeaponFire"/>
 		<NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
-		<Noise range="50" prio="1" time="1" heat_map_strength="0.3" heat_map_time="120"/>
+		<Noise range="50" prio="1"  volume="11" time="1" muffled_when_crouched="0.5" heat_map_strength="0.3" heat_map_time="120"/>
 		<Sequence />
 		<AudioClip ClipName="#sfx?MG_single"/>
 		<AudioClip ClipName="#sfx?MG_single"/>
 		<AudioClip ClipName="Sounds/Weapons/Ranged/AK47/ak47_fire_end"/>
 		<LocalCrouchVolumeScale name="1"/>
 		<CrouchNoiseScale name="1"/>
-		<NoiseScale name="1"/>
+		<NoiseScale name="5"/>
 		<MaxVoices name="5"/>
 		<MaxEntities name="30"/>
 		<MaxRepeatRate name="0.001"/>
@@ -7740,11 +7740,11 @@
 	<SoundDataNode name="coltPythonShoot">
 		<AudioSource name="Sounds/AudioSource_WeaponFire"/>
 		<NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
-		<Noise range="15" prio="1" time="1" heat_map_strength="0.3" heat_map_time="120"/>
+		<Noise range="15" prio="1" volume="11"  time="1"  muffled_when_crouched="0.5" heat_map_strength="0.3" heat_map_time="120"/>
 		<AudioClip ClipName="#coltPythonAudio?coltPythonShoot"/>
 		<LocalCrouchVolumeScale name="1"/>
 		<CrouchNoiseScale name="1"/>
-		<NoiseScale name="1"/>
+		<NoiseScale name="4"/>
 		<MaxVoices name="6"/>
 		<MaxEntities name="30"/>
 		<MaxRepeatRate name="0.001"/>

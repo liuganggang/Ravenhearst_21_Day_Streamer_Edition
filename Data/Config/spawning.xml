@@ -11,6 +11,7 @@
 		<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="ZombieDogGroup"/>
 		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="NightHerd"/>
 		<spawn maxcount="1" respawndelay="2" time="Night" entitygroup="ZombiesWatelandBosses"/>
+		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="NightTerrors"/>
 	</biome>
 	<!-- Not Used anymore in Navezgane-->
 	<biome name="city_wasteland">
@@ -21,6 +22,7 @@
 		<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="EnemyAnimalsWasteland"/>
 		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="NightHerd"/>
 		<spawn maxcount="1" respawndelay="2" time="Night" entitygroup="ZombiesWatelandBosses"/>
+		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="NightTerrors"/>
 	</biome>
 	<!-- Random gen city not used anymore-->
 	<biome name="wasteland_hub">
@@ -29,13 +31,14 @@
 		<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="EnemyAnimalsWasteland"/>
 		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="NightHerd"/>
 		<spawn maxcount="1" respawndelay="2" time="Night" entitygroup="ZombiesWatelandBosses"/>
+		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="NightTerrors"/>
 	</biome>
 	<biome name="forest">
 		<spawn maxcount="4" respawndelay="1.5" time="Any" entitygroup="ZombiesAll"/>
 		<spawn maxcount="1" respawndelay="2" time="Day" entitygroup="ZombiesAll"/>
 		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="EnemyAnimalsForest" spawnDeadChance="0"/>
 		<spawn maxcount="2" respawndelay="7" time="Any" entitygroup="FriendlyAnimalsForest" spawnDeadChance="0"/>
-		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="Herd"/>
+		<spawn maxcount="1" respawndelay="3" time="Night" entitygroup="Herd"/>
 	</biome>
 	<biome name="pine_forest">
 		<spawn maxcount="4" respawndelay="1.5" time="Any" entitygroup="ZombiesAll"/>
@@ -43,6 +46,7 @@
 		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="EnemyAnimalsForest" spawnDeadChance="0"/>
 		<spawn maxcount="2" respawndelay="7" time="Any" entitygroup="FriendlyAnimalsForest" spawnDeadChance="0"/>
 		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="Herd"/>
+		<spawn maxcount="1" respawndelay="3" time="Night" entitygroup="NightTerrors"/>
 	</biome>
 	<biome name="plains">
 		<spawn maxcount="4" respawndelay="1.5" time="Any" entitygroup="ZombiesAll"/>
@@ -50,6 +54,7 @@
 		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="EnemyAnimalsPlains" spawnDeadChance="0"/>
 		<spawn maxcount="2" respawndelay="7" time="Any" entitygroup="FriendlyAnimalsPlains" spawnDeadChance="0"/>
 		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="Herd"/>
+		<spawn maxcount="1" respawndelay="3" time="Night" entitygroup="NightTerrors"/>
 	</biome>
 	<biome name="desert">
 		<spawn maxcount="4" respawndelay="1.5" time="Any" entitygroup="ZombiesAll"/>
@@ -57,6 +62,7 @@
 		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="EnemyAnimalsDesert" spawnDeadChance="0"/>
 		<spawn maxcount="2" respawndelay="7" time="Any" entitygroup="FriendlyAnimalsDesert" spawnDeadChance="0"/>
 		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="Herd"/>
+		<spawn maxcount="1" respawndelay="3" time="Night" entitygroup="NightTerrors"/>
 	</biome>
 	<biome name="wasteland">
 		<spawn maxcount="1" respawndelay="1" time="Any"   entitygroup="EnemyAnimalsWasteland" spawnDeadChance="0"/>
@@ -64,12 +70,14 @@
 		<spawn maxcount="5" respawndelay="1" time="Day" entitygroup="ZombiesWasteland" />
 		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="NightHerd"/>
 		<spawn maxcount="1" respawndelay="2" time="Night" entitygroup="ZombiesWatelandBosses"/>
+		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="NightTerrors"/>
 	</biome>
 	<biome name="burnt_forest">
 		<spawn maxcount="4" respawndelay="1.5" time="Any" entitygroup="ZombiesBurntForest"/>
 		<spawn maxcount="1" respawndelay="2" time="Day" entitygroup="ZombiesAll"/>
 		<spawn maxcount="1" respawndelay="7" time="Any"   entitygroup="EnemyAnimalsBurntForest" spawnDeadChance="0"/>
 		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="NightHerd"/>
+		<spawn maxcount="1" respawndelay="1" time="Night" entitygroup="NightTerrors"/>
 	</biome>
 	<biome name="snow">
 		<spawn maxcount="2" respawndelay="1.5" time="Any" entitygroup="SnowZombies"/>
@@ -77,12 +85,11 @@
 		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="EnemyAnimalsSnow" spawnDeadChance="0"/>
 		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="FriendlyAnimalsSnow" spawnDeadChance="0"/>
 		<spawn maxcount="4" respawndelay="1" time="Night" entitygroup="Herd"/>
+		<spawn maxcount="1" respawndelay="3" time="Night" entitygroup="NightTerrors"/>
 	</biome>
 	<biome name="radiated">
 		<spawn maxcount="5" respawndelay="1" time="Any" entitygroup="ZombieRadZoneGroup" />
-	</biome>
-	<biome name="water">
-		<spawn maxcount="1" respawndelay="5" time="Any" entitygroup="ZombiesAll" />
+		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="NightTerrors"/>
 	</biome>
 	<!-- Entity spawner classes -->
 	<!-- Dogs Barns -->

@@ -31,7 +31,7 @@
 				<setvalue skill_level="90,100" value="57,60"/>
 			</effect>
 		</player_skill>
-		<perk name="Deep Diving" icon="ui_game_symbol_oxygen" description_key="deepDivingDesc" title_key="deep Diving" max_level="5" skill_point_cost_multiplier="1.4" passive_effect="true" skill_point_cost_per_level="3" always_fire="true" group="health">
+		<perk name="Deep Diving" icon="ui_game_symbol_oxygen" description_key="deepDivingDesc" title_key="deepDiving" max_level="5" skill_point_cost_multiplier="1.4" passive_effect="true" skill_point_cost_per_level="3" always_fire="true" group="health">
 			<requirement perk_level="1" required_skill_name="Athletics" required_skill_level="20"/>
 			<requirement perk_level="2" required_skill_name="Athletics" required_skill_level="40"/>
 			<requirement perk_level="3" required_skill_name="Athletics" required_skill_level="60"/>
@@ -123,7 +123,7 @@
 				<multiply perk_level="5" value="0.5"/>
 			</effect>
 		</perk>
-		<crafting_skill name="Cooking"   icon="run" description_key="The higher your skill in cooking the faster you can craft meals." title_key="Cooking"  max_level="10" skill_point_cost_multiplier="0" skill_point_cost_per_level="3"  exp_to_level="5000000" group="crafting">
+		<crafting_skill name="Cooking"   icon="run" description_key="cookingDesc" title_key="cooking"  max_level="10" skill_point_cost_multiplier="0" skill_point_cost_per_level="3"  exp_to_level="5000000" group="crafting">
 			<effect name="CraftingTime">
 				<multiply skill_level="0,1" value="1.0,0.95"/>
 				<multiply skill_level="1,2" value="0.95,0.90"/>
@@ -137,7 +137,7 @@
 				<multiply skill_level="9,10" value="0.55,0.50"/>
 			</effect>
 		</crafting_skill>
-		<perk name="Advanced Cooking"  icon="run" description_key="Learn new recipes from buying this perk." title_key="Advanced Cooking" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5"  exp_to_level="5000000" group="crafting">
+		<perk name="Advanced Cooking"  icon="run" description_key="advancedCookingDesc" title_key="advancedCooking" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5"  exp_to_level="5000000" group="crafting">
 			<requirement perk_level="1" required_skill_name="Cooking" required_skill_level="1"/>
 			<requirement perk_level="2" required_skill_name="Cooking" required_skill_level="2"/>
 			<requirement perk_level="3" required_skill_name="Cooking" required_skill_level="3"/>
@@ -248,7 +248,7 @@
 				<add skill_level="70,100" value="0.16,0.2"/>
 			</effect>
 		</action_skill>
-		<perk name="Tailor Station" icon="resource" description_key="The Tailoring Station is where you can craft all clothing and armor. It requires a sewing kit and welding torch to craft items." title_key="Tailor Station" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="clothing">
+		<perk name="Tailor Station" icon="resource" description_key="tailorSDesc" title_key="tailorS" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="clothing">
 			<requirement skill_level="1" required_skill_name="Clothing/Armor" required_skill_level="10"/>
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="20"/>
 			<recipe name="tailorStation" unlock_level="1"/>
@@ -317,7 +317,7 @@
 				<multiply skill_level="9,10" value="0.0086,0.0068"/>
 			</effect>
 		</perk>
-		<perk name="Animal Hide Armor" icon="armor_iron" description_key="Purchase this perk to unlock the set of armor listed below" title_key="Animal Hide Armor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="armor_iron">
+		<perk name="Animal Hide Armor" icon="armor_iron" description_key="animalHideADesc" title_key="animalHideA" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
 			<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="2"/>
 			<recipe name="animalHideBoots" unlock_level="1"/>
 			<recipe name="animalHideLegArmor" unlock_level="1"/>
@@ -326,7 +326,7 @@
 			<recipe name="animalHideGloves" unlock_level="1"/>
 			<recipe name="animalHidePoncho" unlock_level="1"/>
 		</perk>
-		<perk name="Leather Armor" icon="armor_iron" description_key="Purchase this perk to unlock the set of armor listed below" title_key="Leather Armor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="armor_iron">
+		<perk name="Leather Armor" icon="armor_iron" description_key="armorPerkDesc" title_key="leatherA" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
 			<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="3"/>
 			<recipe name="leatherBoots" unlock_level="1"/>
 			<recipe name="leatherPants" unlock_level="1"/>
@@ -334,7 +334,7 @@
 			<recipe name="leatherHood" unlock_level="1"/>
 			<recipe name="leatherGloves" unlock_level="1"/>
 		</perk>
-		<perk name="Scrap Armor" icon="armor_iron" description_key="Purchase this perk to unlock the set of armor listed below" title_key="Scrap Armor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="armor_iron">
+		<perk name="Scrap Armor" icon="armor_iron" description_key="armorPerkDesc" title_key="scrapA" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="clothing">
 			<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="4"/>
 			<recipe name="scrapBoots" unlock_level="1"/>
 			<recipe name="scrapLegArmor" unlock_level="1"/>
@@ -342,7 +342,7 @@
 			<recipe name="scrapHelmet" unlock_level="1"/>
 			<recipe name="scrapGloves" unlock_level="1"/>
 		</perk>
-		<perk name="Iron Armor" icon="armor_iron" description_key="Purchase this perk to unlock the set of armor listed below" title_key="Iron Armor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="armor_iron">
+		<perk name="Iron Armor" icon="armor_iron" description_key="armorPerkDesc" title_key="ironA" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="clothing">
 			<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="5"/>
 			<recipe name="ironHelmet" unlock_level="1"/>
 			<recipe name="ironChestArmor" unlock_level="1"/>
@@ -350,7 +350,7 @@
 			<recipe name="ironBoots" unlock_level="1"/>
 			<recipe name="ironGloves" unlock_level="1"/>
 		</perk>
-		<perk name="Steel Armor" icon="armor_iron" description_key="Purchase this perk to unlock the set of armor listed below" title_key="Steel Armor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="armor_iron">
+		<perk name="Steel Armor" icon="armor_iron" description_key="armorPerkDesc" title_key="steelA" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="clothing">
 			<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="7"/>
 			<recipe name="steelBoots" unlock_level="1"/>
 			<recipe name="steelLegs" unlock_level="1"/>
@@ -358,7 +358,7 @@
 			<recipe name="steelHelmet" unlock_level="1"/>
 			<recipe name="steelGloves" unlock_level="1"/>
 		</perk>
-		<perk name="Military Armor" icon="armor_iron" description_key="Purchase this perk to unlock the set of armor listed below" title_key="Military Armor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="armor_iron">
+		<perk name="Military Armor" icon="armor_iron" description_key="armorPerkDesc" title_key="militaryA" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="clothing">
 			<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="8"/>
 			<recipe name="militaryFiber" unlock_level="1"/>
 			<recipe name="militaryHelmet" unlock_level="1"/>
@@ -367,7 +367,7 @@
 			<recipe name="militaryLegArmor" unlock_level="1"/>
 			<recipe name="militaryVest" unlock_level="1"/>
 		</perk>
-		<perk name="Diamond Armor" icon="armor_iron" description_key="Purchase this perk to unlock the set of armor listed below" title_key="Diamond Armor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="150" group="armor_iron">
+		<perk name="Diamond Armor" icon="armor_iron" description_key="armorPerkDesc" title_key="diamondA" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="150" group="clothing">
 			<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="10"/>
 			<recipe name="diamondGloves" unlock_level="1"/>
 			<recipe name="diamondMask" unlock_level="1"/>
@@ -375,7 +375,7 @@
 			<recipe name="diamondLegs" unlock_level="1"/>
 			<recipe name="diamondChest" unlock_level="1"/>
 		</perk>
-		<action_skill name="Radiation" icon="armor_iron" description_key="This skill does nothing but absorb the Radiation Damage" title_key="Radiation" exp_to_level="999" experience_multiplier="0" skill_point_cost_per_level="0" skill_point_cost_multiplier="0"  group="clothing"/>
+		<action_skill name="Radiation" icon="armor_iron" description_key="radiationPerkDesc" title_key="radiationPerk" exp_to_level="999" experience_multiplier="0" skill_point_cost_per_level="0" skill_point_cost_multiplier="0"  group="clothing"/>
 		<!-- Item Usage Skills -->
 		<action_skill name="Blunt Weapons" exp_to_level="250" icon="club" description_key="bluntWeaponsDesc" title_key="bluntWeapons" group="weapons">
 			<effect name="EntityDamage">
@@ -391,7 +391,7 @@
 				<multiply skill_level="1,100" value="0,0"/>
 			</effect>
 		</action_skill>
-		<perk name="Advanced Blunt Weapons" icon="club" description_key="Buying skills in this perk will unlock more Blunt Weapons that you can craft." title_key="Advanced Blunt Weapons" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
+		<perk name="Advanced Blunt Weapons" icon="club" description_key="advancedBluntWDesc" title_key="advancedBluntW" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
 			<requirement skill_level="1" required_skill_name="Blunt Weapons" required_skill_level="10"/>
 			<recipe name="clubIron" unlock_level="1"/>
 			<requirement skill_level="2" required_skill_name="Blunt Weapons" required_skill_level="20"/>
@@ -460,7 +460,7 @@
 				<multiply skill_level="70,100" value="1.23,1.28"/>
 			</effect>
 		</action_skill>
-		<perk name="Advanced Blade Weapons" icon="knife" description_key="Buying skills in this perk will unlock more Blade Weapons that you can craft." title_key="Advanced Blade Weapons" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
+		<perk name="Advanced Blade Weapons" icon="knife" description_key="advancedBladeWDesc" title_key="advancedBladeW" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
 			<requirement skill_level="1" required_skill_name="Blade Weapons" required_skill_level="10"/>
 			<recipe name="butcherKnife" unlock_level="1"/>
 			<recipe name="skinningKnife" unlock_level="1"/>
@@ -468,10 +468,10 @@
 			<recipe name="ironTippedSpear" unlock_level="2"/>
 			<requirement skill_level="3" required_skill_name="Blade Weapons" required_skill_level="30"/>
 			<recipe name="steelTippedSpear" unlock_level="3"/>
-			<requirement skill_level="4" required_skill_name="Blade Weapons" required_skill_level="60"/>
+			<requirement skill_level="4" required_skill_name="Blade Weapons" required_skill_level="40"/>
 			<recipe name="battleAxe" unlock_level="4"/>
 			<recipe name="machete" unlock_level="4"/>
-			<requirement skill_level="5" required_skill_name="Blade Weapons" required_skill_level="30"/>
+			<requirement skill_level="5" required_skill_name="Blade Weapons" required_skill_level="60"/>
 			<recipe name="electricMachete" unlock_level="5"/>
 		</perk>
 		<perk name="Knife Guy" icon="knife" description_key="knifeGuyDesc" title_key="knifeGuy" max_level="5" skill_point_cost_multiplier="1.43" skill_point_cost_per_level="5" group="weapons">
@@ -535,7 +535,7 @@
 				<multiply skill_level="70,100" value="1.23,1.28"/>
 			</effect>
 		</action_skill>
-		<perk name="Advanced Bows" icon="archery" description_key="Buying skills in this perk will unlock more Bows that you can craft." title_key="Advanced Bows" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
+		<perk name="Advanced Bows" icon="archery" description_key="advancedBowWDesc" title_key="advancedBowW" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
 			<requirement skill_level="1" required_skill_name="Archery" required_skill_level="15"/>
 			<recipe name="ironBow" unlock_level="1"/>
 			<requirement skill_level="2" required_skill_name="Archery" required_skill_level="30"/>
@@ -543,7 +543,7 @@
 			<requirement skill_level="3" required_skill_name="Archery" required_skill_level="60"/>
 			<recipe name="compoundBow" unlock_level="3"/>
 		</perk>
-		<perk name="Legolas" icon="archery" description_key="Increases chance to dismember or decapitate a zombie with each rank, using a Bow." title_key="legolas" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
+		<perk name="Legolas" icon="archery" description_key="legolasDesc" title_key="legolas" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
 			<requirement perk_level="1" required_skill_name="Archery" required_skill_level="50"/>
 			<requirement perk_level="2" required_skill_name="Archery" required_skill_level="75"/>
 			<requirement perk_level="3" required_skill_name="Archery" required_skill_level="100"/>
@@ -602,7 +602,7 @@
 				<multiply perk_level="5" value="1.50"/>
 			</effect>
 		</perk>
-		<action_skill name="Electric Tools" exp_to_level="999" icon="mining" description_key="You can swing that electric tool like a boss. Increase this by using electric tools" title_key="Electric Tools" group="tools">
+		<action_skill name="Electric Tools" exp_to_level="999" icon="mining" description_key="electricToolsPerkDesc" title_key="electricToolsPerk" group="tools">
 			<effect name="BlockDamage">
 				<multiply skill_level="1,10" value="1.00,1.32"/>
 				<multiply skill_level="10,20" value="1.32,1.45"/>
@@ -676,22 +676,22 @@
 			<requirement skill_level="2" required_skill_name="Construction Tools" required_skill_level="30"/>
 			<recipe name="advancedWorkbench" unlock_level="2"/>
 		</perk>
-		<perk name="Advanced Forge" icon="resource" description_key="The Advanced Forge is used to make more recipes than a regular forge" title_key="Advanced Forge" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
+		<perk name="Advanced Forge" icon="resource" description_key="advancedForgePerkDesc" title_key="advancedForgePerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="20"/>
 			<recipe name="advancedForge" unlock_level="1"/>
 		</perk>
-		<perk name="Blacksmith Station" icon="resource" description_key="The Blacksmith Station allows you to make metal items using a Blacksmith Hammer and Welding Torch. Tool Heads to make weapons and tools can be acquired by buying level 1 of the Iron and Steel Tools Skill." title_key="Blacksmith Station" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
+		<perk name="Blacksmith Station" icon="resource" description_key="blacksmithStationPerkDesc" title_key="blacksmithStationPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="30"/>
 			<requirement skill_level="1" required_skill_name="craftSkillPrimitiveTools" required_skill_level="1"/>
 			<recipe name="anvil" unlock_level="1"/>
 			<recipe name="blacksmithHammer" unlock_level="1"/>
 			<recipe name="blacksmithStation" unlock_level="1"/>
 		</perk>
-		<perk name="Decoration Station" icon="resource" description_key="A decoration station is where you can find all the new decorative items as well as some of the older ones" title_key="Decoration Station" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
+		<perk name="Decoration Station" icon="resource" description_key="decorationStationPerkDesc" title_key="decorationStationPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="40"/>
 			<recipe name="decoStation" unlock_level="1"/>
 		</perk>
-		<perk name="Elevators" icon="tool_smithing" description_key="Learn to make Basic and Working Elevators buy purchasing this perk" title_key="Elevators" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="tools">
+		<perk name="Elevators" icon="tool_smithing" description_key="elevatorsPerkDesc" title_key="elevatorsPerk" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="tools">
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="20"/>
 			<recipe name="elevatorTest" unlock_level="1"/>
 			<requirement skill_level="2" required_skill_name="Construction Tools" required_skill_level="50"/>
@@ -703,7 +703,7 @@
 			<recipe name="ElevatorShaft" unlock_level="3"/>
 			<recipe name="ElevatorShaftSmall" unlock_level="3"/>
 		</perk>
-		<perk name="Basic Storage" icon="tool_smithing" description_key="Unlock bigger and more variety of storage options" title_key="Basic Storage" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
+		<perk name="Basic Storage" icon="tool_smithing" description_key="storagePerkDesc" title_key="basicStoragePerk" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="10"/>
 			<recipe name="cntEPSDuffle01" unlock_level="1"/>
 			<recipe name="cntEPSSuitcase" unlock_level="1"/>
@@ -715,7 +715,7 @@
 			<recipe name="shed" unlock_level="2"/>
 			<recipe name="toolChest" unlock_level="2"/>
 		</perk>
-		<perk name="Appliance Storage" icon="tool_smithing" description_key="Unlock bigger and more variety of storage options" title_key="Appliance Storage" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
+		<perk name="Appliance Storage" icon="tool_smithing" description_key="storagePerkDesc" title_key="applianceStoragePerk" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="10"/>
 			<requirement skill_level="1" required_skill_name="Basic Storage" required_skill_level="1"/>
 			<recipe name="cntEPSCooler" unlock_level="1"/>
@@ -731,7 +731,7 @@
 			<recipe name="oldFridge2" unlock_level="3"/>
 			<recipe name="fridgeStainlessSteel" unlock_level="3"/>
 		</perk>
-		<perk name="Medical Storage" icon="tool_smithing" description_key="Unlock bigger and more variety of storage options" title_key="Medical Storage" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
+		<perk name="Medical Storage" icon="tool_smithing" description_key="storagePerkDesc" title_key="medicalStoragePerk" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="10"/>
 			<requirement skill_level="1" required_skill_name="Basic Storage" required_skill_level="1"/>
 			<recipe name="medicalStorage" unlock_level="1"/>
@@ -741,7 +741,7 @@
 			<recipe name="cntEPSMedicineCabinet" unlock_level="2"/>
 			<recipe name="mirrorBath" unlock_level="2"/>
 		</perk>
-		<perk name="Gun Storage" icon="tool_smithing" description_key="Unlock bigger and more variety of storage options" title_key="Gun Storage" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
+		<perk name="Gun Storage" icon="tool_smithing" description_key="storagePerkDesc" title_key="gunStoragePerk" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="20"/>
 			<requirement skill_level="1" required_skill_name="Basic Storage" required_skill_level="1"/>
 			<recipe name="cntEPSDeskSafe" unlock_level="1"/>
@@ -751,7 +751,7 @@
 			<recipe name="cntEPSGunSafe" unlock_level="2"/>
 			<recipe name="gunLocker" unlock_level="2"/>
 		</perk>
-		<perk name="Unique Storage" icon="tool_smithing" description_key="Unlock bigger and more variety of storage options" title_key="Unique Storage" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
+		<perk name="Unique Storage" icon="tool_smithing" description_key="storagePerkDesc" title_key="uniqueStoragePerk" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="10"/>
 			<requirement skill_level="1" required_skill_name="Basic Storage" required_skill_level="1"/>
 			<recipe name="cntEPSMailBox01" unlock_level="1"/>
@@ -779,7 +779,7 @@
 			<recipe name="cntEPSFurnaceDrawerSecure" unlock_level="5"/>
 			<recipe name="cntEPSMorticianDrawerSecure" unlock_level="5"/>
 		</perk>
-		<perk name="Counter Storage" icon="tool_smithing" description_key="Unlock bigger and more variety of storage options" title_key="Counter Storage" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
+		<perk name="Counter Storage" icon="tool_smithing" description_key="storagePerkDesc" title_key="counterStoragePerk" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="10"/>
 			<requirement skill_level="1" required_skill_name="Basic Storage" required_skill_level="1"/>
 			<recipe name="cntEPSCabinet" unlock_level="1"/>
@@ -795,7 +795,7 @@
 			<recipe name="cntEPSGraniteSink" unlock_level="2"/>
 			<recipe name="woodSink01" unlock_level="2"/>
 		</perk>
-		<perk name="Shelf Storage" icon="tool_smithing" description_key="Unlock bigger and more variety of storage options" title_key="Shelf Storage" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
+		<perk name="Shelf Storage" icon="tool_smithing" description_key="storagePerkDesc" title_key="shelfStoragePerk" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="10"/>
 			<requirement skill_level="1" required_skill_name="Basic Storage" required_skill_level="1"/>
 			<recipe name="cntEPSBookcase" unlock_level="1"/>
@@ -819,7 +819,7 @@
 			<recipe name="woodenDresser1" unlock_level="4"/>
 			<recipe name="nightStand" unlock_level="4"/>
 		</perk>
-		<perk name="Office Storage" icon="tool_smithing" description_key="Unlock bigger and more variety of storage options" title_key="Office Storage" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
+		<perk name="Office Storage" icon="tool_smithing" description_key="storagePerkDesc" title_key="officeStoragePerk" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="10"/>
 			<requirement skill_level="1" required_skill_name="Basic Storage" required_skill_level="1"/>
 			<recipe name="cntEPSFileCabinet" unlock_level="1"/>
@@ -831,13 +831,13 @@
 			<recipe name="cntEPSDesk02" unlock_level="2"/>
 			<recipe name="cntEPSLockers" unlock_level="2"/>
 		</perk>
-		<perk name="Fuel Storage" icon="tool_smithing" description_key="Unlock bigger and more variety of storage options" title_key="Fuel Storage" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
+		<perk name="Fuel Storage" icon="tool_smithing" description_key="storagePerkDesc" title_key="fuelStoragePerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="20"/>
 			<requirement skill_level="1" required_skill_name="Basic Storage" required_skill_level="1"/>
 			<recipe name="cntEPSGasPump" unlock_level="1"/>
 			<recipe name="fuelStorage" unlock_level="1"/>
 		</perk>
-		<perk name="Ammo Storage" icon="tool_smithing" description_key="Unlock bigger and more variety of storage options" title_key="Ammo Storage" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
+		<perk name="Ammo Storage" icon="tool_smithing" description_key="storagePerkDesc" title_key="ammoStoragePerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="10"/>
 			<requirement skill_level="1" required_skill_name="Basic Storage" required_skill_level="1"/>
 			<recipe name="ammoBox" unlock_level="1"/>
@@ -845,7 +845,7 @@
 			<requirement skill_level="2" required_skill_name="Basic Storage" required_skill_level="1"/>
 			<recipe name="cntEPSMunitionsBox" unlock_level="1"/>
 		</perk>
-		<perk name="Ore Storage" icon="tool_smithing" description_key="Unlock bigger and more variety of storage options" title_key="Ore Storage" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
+		<perk name="Ore Storage" icon="tool_smithing" description_key="storagePerkDesc" title_key="oreStoragePerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="10"/>
 			<requirement skill_level="1" required_skill_name="Basic Storage" required_skill_level="1"/>
 			<recipe name="mineCart" unlock_level="1"/>
@@ -1308,7 +1308,7 @@
 			<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="7"/>
 			<recipe name="chemistryStation" unlock_level="1"/>
 		</perk>
-		<perk name="Brewery Station" icon="resource" description_key="The Brewery Station allows you to make fertilizer, grain alcohol and beer as well as other various items" title_key="Brewery Station" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
+		<perk name="Brewery Station" icon="resource" description_key="breweryStationPerkDesc" title_key="breweryStationPerk" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
 			<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="3"/>
 			<recipe name="breweryStation" unlock_level="1"/>
 			<requirement skill_level="2" required_skill_name="craftSkillScience" required_skill_level="5"/>
@@ -1316,7 +1316,7 @@
 			<recipe name="whiskey" unlock_level="2"/>
 			<recipe name="vodka" unlock_level="2"/>
 		</perk>
-		<perk name="Oil Refinery" icon="resource" description_key="The oil refinery is used to make gas, oil and all forms of fuel" title_key="Oil Refinery" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
+		<perk name="Oil Refinery" icon="resource" description_key="oilRefineryPerkDesc" title_key="oilRefineryPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
 			<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="3"/>
 			<recipe name="oilRefinery" unlock_level="1"/>
 		</perk>
@@ -1374,21 +1374,21 @@
 			<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="4"/>
 			<recipe name="batterybank" unlock_level="1"/>
 		</perk>
-		<perk name="Plumbing" icon="misc_crafting" description_key="Max out this perk to learn how to craft plumbing kits to repair sinks for a clean source of drinking water." title_key="Plumbing" max_level="2" skill_point_cost_multiplier="1.4" skill_point_cost_per_level="3" group="crafting">
+		<perk name="Plumbing" icon="misc_crafting" description_key="plumbingPerkDesc" title_key="plumbingPerk" max_level="2" skill_point_cost_multiplier="1.4" skill_point_cost_per_level="3" group="crafting">
 			<requirement perk_level="1" required_skill_name="craftSkillScience" required_skill_level="4"/>
 			<requirement perk_level="2" required_skill_name="craftSkillScience" required_skill_level="7"/>
 			<recipe name="plumbingKit" unlock_level="1"/>
 			<recipe name="workingCabinetSink" unlock_level="2"/>
 			<recipe name="workingGranitSink" unlock_level="2"/>
 		</perk>
-		<perk name="Oven Repair" icon="misc_crafting" description_key="Max out this perk to learn how to craft Oven Repair kits to repair ovens for cooking without needing fuel." title_key="Oven Repair" max_level="2" skill_point_cost_multiplier="1.4" skill_point_cost_per_level="3" group="crafting">
+		<perk name="Oven Repair" icon="misc_crafting" description_key="ovenRepairPerkDesc" title_key="ovenRepairPerk" max_level="2" skill_point_cost_multiplier="1.4" skill_point_cost_per_level="3" group="crafting">
 			<requirement perk_level="1" required_skill_name="craftSkillScience" required_skill_level="4"/>
 			<requirement perk_level="2" required_skill_name="craftSkillScience" required_skill_level="7"/>
 			<recipe name="ovenKit" unlock_level="1"/>
 			<recipe name="cntworkingOven" unlock_level="2"/>
 			<recipe name="cntworkingWallOven" unlock_level="2"/>
 		</perk>
-		<perk name="Research Desk" icon="resource" description_key="Buying the Research Desk allows you to craft skill books and additional classes using Ink, Knowledge Points and an Ink Pen." title_key="Research Desk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
+		<perk name="Research Desk" icon="resource" description_key="researchDeskPerkDesc" title_key="researchDeskPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
 			<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="4"/>
 			<recipe name="ResearchDesk" unlock_level="1"/>
 		</perk>
@@ -1410,7 +1410,7 @@
 			<requirement skill_level="1" required_player_level="5"/>
 			<recipe name="mortarAndPestle" unlock_level="1"/>
 		</perk>
-		<perk name="Anti Radiation Pills" icon="medical" description_key="Anti Radiation Pills are required to explore the Radiation Zones." title_key="Anti Radiation Pills" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="science">
+		<perk name="Anti Radiation Pills" icon="medical" description_key="antiRadiationPillsPerkDesc" title_key="antiRadiationPillsPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="science">
 			<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="10"/>
 			<recipe name="antiRad" unlock_level="1"/>
 		</perk>
@@ -1502,13 +1502,14 @@
 				<multiply skill_level="4,5" value="0.0108,0.0068"/>
 			</effect>
 		</perk>
-		<perk name="RiflesClass" icon="ui_game_symbol_famas" description_key="You will receive an SMG, 150 9mm bullets and an SMG schematic.Exclusive Access to the M25 Sniper Rifle and Vintorez. This also unlocks the Ammo Class." title_key="RiflesClass" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="firearms"/>
-		<perk name="Rifle Exclusive" icon="ui_game_symbol_famas" description_key="The rifle expert gains access to the exclusive M25 Sniper" title_key="Rifle Exclusive" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="firearms">
+		<perk name="RiflesClass" icon="ui_game_symbol_famas" description_key="riflesClassPerkDesc" title_key="riflesClassPerk" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="firearms"/>
+		<perk name="Rifle Exclusive" icon="ui_game_symbol_famas" description_key="rifleExclusivePerkDesc" title_key="rifleExclusivePerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="firearms">
 			<requirement skill_level="1" required_skill_name="RiflesClass" required_skill_level="1"/>
 			<recipe name="M25SniperRifle" unlock_level="1"/>
 			<recipe name="M25SniperRifleLongScoped" unlock_level="1"/>
 			<recipe name="M25SniperRifleExtendedMagazine" unlock_level="1"/>
 			<recipe name="M25SniperRifleLongScopedExtendedMagazine" unlock_level="1"/>
+			<recipe name="vSSVintorez" unlock_level="1"/>
 		</perk>
 		<perk name="craftSkillRifles" max_level="10" skill_point_cost_multiplier="1.06" skill_point_cost_per_level="3" exp_to_level="5000000" 	icon="rifle" description_key="craftSkillRiflesDesc" title_key="craftSkillRifles" group="firearms" exp_gain_multiplier="0">
 			<requirement skill_level="1" required_skill_name="RiflesClass" required_skill_level="1"/>
@@ -1585,8 +1586,8 @@
 				<multiply skill_level="9,10" value="0.0067,0.0053"/>
 			</effect>
 		</perk>
-		<perk name="HandgunsClass" icon="ui_game_symbol_pistol" description_key="You will receive a pistol, 200 9mm bullets and a pistol schematic. Exclusive Access to Desert Eagle. This also unlocks the Ammo Class." title_key="HandgunsClass" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="firearms"/>
-		<perk name="Handgun Exclusive" icon="ui_game_symbol_pistol" description_key="The handgun expert gains access to the exclusive Desert Eagle" title_key="Handgun Exclusive" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="firearms">
+		<perk name="HandgunsClass" icon="ui_game_symbol_pistol" description_key="handgunsClassPerkDesc" title_key="handgunsClassPerk" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="firearms"/>
+		<perk name="Handgun Exclusive" icon="ui_game_symbol_pistol" description_key="handgunExclusivePerkDesc" title_key="handgunExclusivePerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="firearms">
 			<requirement skill_level="1" required_skill_name="HandgunsClass" required_skill_level="1"/>
 			<recipe name="DesertEagle" unlock_level="1"/>
 		</perk>
@@ -1665,10 +1666,11 @@
 				<multiply skill_level="9,10" value="0.0067,0.0053"/>
 			</effect>
 		</perk>
-		<perk name="ShotgunsClass" icon="ui_game_symbol_shotgun" description_key="You will receive a pump shotgun, 150 shotgun shells and a pump shotgun schematic. Exclusive Access to Boomstick Shotgun. This also unlocks the Ammo Class." title_key="ShotgunsClass" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="firearms"/>
-		<perk name="Shotgun Exclusive" icon="ui_game_symbol_shotgun" description_key="The shotgun expert gains access to the exclusive Boomstick" title_key="Shotgun Exclusive" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="firearms">
+		<perk name="ShotgunsClass" icon="ui_game_symbol_shotgun" description_key="shotgunsClassPerkDesc" title_key="shotgunsClassPerk" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="firearms"/>
+		<perk name="Shotgun Exclusive" icon="ui_game_symbol_shotgun" description_key="shotgunExclusivePerkDesc" title_key="shotgunExclusivePerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="firearms">
 			<requirement skill_level="1" required_skill_name="ShotgunsClass" required_skill_level="1"/>
 			<recipe name="DoubleBarrel" unlock_level="1"/>
+			<recipe name="reggieSpecial" unlock_level="1"/>
 		</perk>
 		<perk name="craftSkillShotguns" max_level="10" skill_point_cost_multiplier="1.06" skill_point_cost_per_level="3" exp_to_level="5000000" 	icon="shotgun" description_key="craftSkillShotgunsDesc" title_key="craftSkillShotguns" group="firearms" exp_gain_multiplier="0">
 			<requirement skill_level="1" required_skill_name="ShotgunsClass" required_skill_level="1"/>
@@ -1745,15 +1747,15 @@
 				<multiply skill_level="9,10" value="0.0067,0.0053"/>
 			</effect>
 		</perk>
-		<perk name="SurvivorClass" icon="ui_game_symbol_thesurvivor" description_key="With this skill you will receive a wooden bow, 100 arrows, a claw hammer, skills in cooking as well as extra supplies. Exclusive Access to making Jars and the Chicken Coop and Rain Catcher." title_key="SurvivorClass" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="health"/>
-		<perk name="Survival Skills" icon="ui_game_symbol_thesurvivor" description_key="The survivor excels at cooking and nourishment and can have access to makeshift survival equipment" title_key="Survival Skills" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="health">
+		<perk name="SurvivorClass" icon="ui_game_symbol_thesurvivor" description_key="survivorClassPerkDesc" title_key="survivorClassPerk" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="health"/>
+		<perk name="Survival Skills" icon="ui_game_symbol_thesurvivor" description_key="survivalSkillsPerkDesc" title_key="survivalSkillsPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="health">
 			<requirement skill_level="1" required_skill_name="SurvivorClass" required_skill_level="1"/>
 			<recipe name="cookingpot" unlock_level="1"/>
 			<recipe name="cookingGrill" unlock_level="1"/>
 			<recipe name="emptyJar" unlock_level="1"/>
 			<recipe name="bowl" unlock_level="1"/>
 		</perk>
-		<perk name="Self Sufficient" icon="run" description_key="Now that you live in this horrible world you better learn how to feed and water yourself too" title_key="Self Sufficient" max_level="4" skill_point_cost_multiplier="1.4" skill_point_cost_per_level="5" group="health">
+		<perk name="Self Sufficient" icon="run" description_key="selfSufficientPerkDesc" title_key="selfSufficientPerk" max_level="4" skill_point_cost_multiplier="1.4" skill_point_cost_per_level="5" group="health">
 			<requirement skill_level="1" required_skill_name="SurvivorClass" required_skill_level="1" required_player_level="5"/>
 			<recipe name="bbqgrill" unlock_level="1"/>
 			<recipe name="bbqGrill01" unlock_level="1"/>
@@ -1845,8 +1847,8 @@
 				<multiply skill_level="9,10" value="0.0067,0.0053"/>
 			</effect>
 		</perk>
-		<perk name="BladesClass" icon="ui_game_symbol_knife" description_key="With this skill you will receive a hunting knife, 3 forged iron and a hunting knife schematic. Exclusive Access to the Katana." title_key="BladesClass" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="crafting"/>
-		<perk name="Blades Exclusive" icon="ui_game_symbol_knife" description_key="The blade weapons expert gains access to the exclusive Katana" title_key="Blades Exclusive" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="firearms">
+		<perk name="BladesClass" icon="ui_game_symbol_knife" description_key="bladesClassPerkDesc" title_key="bladesClassPerk" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="crafting"/>
+		<perk name="Blades Exclusive" icon="ui_game_symbol_knife" description_key="bladesExclusivePerkDesc" title_key="bladesExclusivePerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="firearms">
 			<requirement skill_level="1" required_skill_name="BladesClass" required_skill_level="1"/>
 			<recipe name="katanamichonne" unlock_level="1"/>
 		</perk>
@@ -1928,8 +1930,8 @@
 			<requirement skill_level="1" required_skill_name="craftSkillBladeWeapons" required_skill_level="7"/>
 			<recipe name="macheteBlade" unlock_level="1"/>
 		</perk>
-		<perk name="BowsClass" icon="ui_game_symbol_archery" description_key="With this skill you will receive a crossbow, 250 stone crossbow bolts and a crossbow schematic. Exclusive Access to the Repeating Crossbow. This also unlocks Arrow Crafting." title_key="BowsClass" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="weapons"/>
-		<perk name="Bow Exclusive" icon="ui_game_symbol_archery" description_key="The bow expert gains access to the exclusive Repeating Crossbow" title_key="Bow Exclusive" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
+		<perk name="BowsClass" icon="ui_game_symbol_archery" description_key="archerClassPerkDesc" title_key="archerClassPerk" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="weapons"/>
+		<perk name="Bow Exclusive" icon="ui_game_symbol_archery" description_key="bowExclusivePerkDesc" title_key="bowExclusivePerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
 			<requirement skill_level="1" required_skill_name="BowsClass" required_skill_level="1"/>
 			<recipe name="crossbowRepeater" unlock_level="1"/>
 		</perk>
@@ -2006,11 +2008,11 @@
 				<multiply skill_level="9,10" value="0.0086,0.0068"/>
 			</effect>
 		</perk>
-		<perk name="Stone Crossbow Bolt" icon="archery" description_key="Stone crossbow bolts are crude and cheap but not as accurate" title_key="Stone Crossbow Bolt" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
+		<perk name="Stone Crossbow Bolt" icon="archery" description_key="stoneCrossbowBoltPerkDesc" title_key="stoneCrossbowBoltPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
 			<requirement skill_level="1" required_skill_name="BowsClass" required_skill_level="1"/>
 			<recipe name="stonecrossbowBolt" unlock_level="1"/>
 		</perk>
-		<perk name="Arrow Crafting" icon="archery" description_key="Learn to craft Iron and Steel Arrows and Bolts" title_key="Arrow Crafting" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
+		<perk name="Arrow Crafting" icon="archery" description_key="arrowCraftingPerkDesc" title_key="arrowCraftingPerk" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
 			<requirement perk_level="1" required_skill_name="BowsClass" required_skill_level="1"/>
 			<requirement perk_level="1" required_skill_name="Archery" required_skill_level="10"/>
 			<recipe name="ironArrow" unlock_level="1"/>
@@ -2032,8 +2034,8 @@
 			<recipe name="firestormArrow" unlock_level="5"/>
 			<recipe name="shockCrossbowBolt" unlock_level="5"/>
 		</perk>
-		<perk name="BluntClass" icon="ui_game_symbol_club" description_key="With this skill you will receive a spiked club, 3 forged iron and a spiked club schematic. Exclusive access to Lucille." title_key="BluntClass" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="weapons"/>
-		<perk name="Blunt Exclusive" icon="ui_game_symbol_club" description_key="The blunt weapon expert gains access to the exclusive Lucille Baseball Bat" title_key="Blunt Exclusive" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
+		<perk name="BluntClass" icon="ui_game_symbol_club" description_key="bluntClassPerkDesc" title_key="bluntClassPerk" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="weapons"/>
+		<perk name="Blunt Exclusive" icon="ui_game_symbol_club" description_key="bluntExclusivePerkDesc" title_key="bluntExclusivePerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
 			<requirement skill_level="1" required_skill_name="BluntClass" required_skill_level="1"/>
 			<recipe name="lucille" unlock_level="1"/>
 		</perk>
@@ -2110,8 +2112,8 @@
 				<multiply skill_level="9,10" value="0.0086,0.0068"/>
 			</effect>
 		</perk>
-		<perk name="MedicalClass" icon="ui_game_symbol_medical" description_key="With this class you will receive a scalpel, 3 forged iron, some medical supplies and exclusive medical recipes. Exclusive Access to First Aid Kits, Antibiotics, Advanced Splints, Disinfectant Bandages and Blue Ice." title_key="Medical Class" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="health"/>
-		<perk name="Medical Skills" icon="ui_game_symbol_medical" description_key="The medic excels at creating health items" title_key="Medical Skills" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="health">
+		<perk name="MedicalClass" icon="ui_game_symbol_medical" description_key="medicalClassPerkDesc" title_key="medicalClassPerk" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="health"/>
+		<perk name="Medical Skills" icon="ui_game_symbol_medical" description_key="medicalSkillsPerkDesc" title_key="medicalSkillsPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="health">
 			<requirement skill_level="1" required_skill_name="MedicalClass" required_skill_level="1"/>
 			<recipe name="antibiotics" unlock_level="1"/>
 			<recipe name="reinforcedSplint" unlock_level="1"/>
@@ -2119,19 +2121,19 @@
 			<recipe name="disinfectantBandage" unlock_level="1"/>
 			<recipe name="scalpel" unlock_level="1"/>
 		</perk>
-		<perk name="Alternative Medicine" icon="medical" description_key="altmeddesc" title_key="Alt Medicine" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="health">
+		<perk name="Alternative Medicine" icon="medical" description_key="altmeddesc" title_key="altMedicinePerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="health">
 			<requirement skill_level="1" required_skill_name="MedicalClass" required_skill_level="1"/>
-			<recipe name="Joint" unlock_level="1"/>
+			<recipe name="plantedWeed1" unlock_level="1"/>
 		</perk>
-		<perk name="FarmerClass" icon="ui_game_symbol_Farming" description_key="With this class you will receive a Blunderbuss with 100 ammo, some fertilizer, recipe for hoe and sickle and ability to craft some seeds. Exclusive Access to the Compost Bin, Water Well and Double Blunderbuss." title_key="Farming Class" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="health"/>
-		<perk name="Farming Skills" icon="ui_game_symbol_Farming" description_key="The farmer excels at planting and maintaining a garden" title_key="Farming Skills" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="health">
+		<perk name="FarmerClass" icon="ui_game_symbol_Farming" description_key="farmingClassPerkDesc" title_key="farmingClassPerk" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="health"/>
+		<perk name="Farming Skills" icon="ui_game_symbol_Farming" description_key="farmingSkillsPerkDesc" title_key="farmingSkillsPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="health">
 			<requirement skill_level="1" required_skill_name="FarmerClass" required_skill_level="1"/>
 			<recipe name="Empty_Composter" unlock_level="1"/>
 			<recipe name="compost" unlock_level="1"/>
 			<recipe name="doubleBlunderbuss" unlock_level="1"/>
 			<recipe name="Pitchfork" unlock_level="1"/>
 		</perk>
-		<perk name="Advanced Farming" icon="misc_crafting" description_key="Learn how to break down grown plants into seeds. Breaking down seeds requires a Mortar and Pestle." title_key="Advanced Farming" max_level="4" skill_point_cost_multiplier="1.4" skill_point_cost_per_level="3" group="science">
+		<perk name="Advanced Farming" icon="misc_crafting" description_key="advancedFarmingPerkDesc" title_key="advancedFarmingPerk" max_level="4" skill_point_cost_multiplier="1.4" skill_point_cost_per_level="3" group="science">
 			<requirement skill_level="1" required_skill_name="FarmerClass" required_skill_level="1"/>
 			<recipe name="plantedChrysanthemum1" unlock_level="1"/>
 			<recipe name="plantedCotton1" unlock_level="1"/>
@@ -2155,12 +2157,12 @@
 			<recipe name="plantedOnion1" unlock_level="4"/>
 			<recipe name="plantedCabbage1" unlock_level="4"/>
 		</perk>
-		<perk name="Water Well" icon="resource" description_key="A water well can be used to keep your stock of water replenished" title_key="Water Well" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="tools">
+		<perk name="Water Well" icon="resource" description_key="waterWellPerkDesc" title_key="waterWellPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="tools">
 			<requirement skill_level="1" required_skill_name="FarmerClass" required_skill_level="1"/>
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="60"/>
 			<recipe name="waterWell" unlock_level="1"/>
 		</perk>
-		<perk name="AmmoClass" icon="ui_game_symbol_classSurvivalist1" description_key="With this skill you will receive the knowledge to craft ammo for guns. This skill can not be purchased, it will unlock with any gun class purchase." title_key="Ammo Class" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="crafting"/>
+		<perk name="AmmoClass" icon="ui_game_symbol_classSurvivalist1" description_key="ammoClassPerkDesc" title_key="ammoClassPerk" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="crafting"/>
 		<perk name="9mm Round Crafting" icon="gunsmithing" description_key="9mmRoundCraftingDesc" title_key="9mmRoundCrafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="2" group="firearms">
 			<requirement skill_level="1" required_skill_name="AmmoClass" required_skill_level="1"/>
 			<recipe name="9mmBullet" unlock_level="1"/>
@@ -2177,11 +2179,11 @@
 			<requirement skill_level="1" required_skill_name="AmmoClass" required_skill_level="1"/>
 			<recipe name="762mmBullet" unlock_level="1"/>
 		</perk>
-		<perk name="32mm Round Crafting" icon="gunsmithing" description_key="Learn to craft 32mm rounds at a workbench" title_key="32mm Round Crafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="2" group="firearms">
+		<perk name="32mm Round Crafting" icon="gunsmithing" description_key="32mmRoundCraftingPerkDesc" title_key="32mmRoundCraftingPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="2" group="firearms">
 			<requirement skill_level="1" required_skill_name="AmmoClass" required_skill_level="1"/>
 			<recipe name="32mmBullet" unlock_level="1"/>
 		</perk>
-		<perk name="556mm Round Crafting" icon="gunsmithing" description_key="Learn to craft 556mm rounds at a workbench" title_key="556mm Round Crafting" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="2" group="firearms">
+		<perk name="556mm Round Crafting" icon="gunsmithing" description_key="556mmRoundCraftingPerkDesc" title_key="556mmRoundCraftingPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="2" group="firearms">
 			<requirement skill_level="1" required_skill_name="AmmoClass" required_skill_level="1"/>
 			<recipe name="556mmBullet" unlock_level="1"/>
 		</perk>

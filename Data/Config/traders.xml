@@ -764,6 +764,9 @@
 			<item name="sewingKit" count="1" prob="0.2"/>
 			<item name="blacksmithHammer" count="1" prob="0.2"/>
 			<item name="beaker" count="1" prob="0.2"/>
+			<item name="forgeCrucible" count="1" prob="0.2"/>
+			<item name="pan" count="1" prob="0.2"/>
+			<item name="tenderizer" count="1" prob="0.2"/>
 			<item name="toolHeadSteelAxe" count="1"/>
 			<item name="toolHeadSteelPickaxe" count="1"/>
 			<item name="toolHeadSteelShovel" count="1"/>
@@ -854,10 +857,6 @@
 			<item name="solarCell" count="1,4"/>
 			<item name="batterybankSchematic" count="1"/>
 			<item group="stashOnlyItemsHigh" count="3,5"/>
-			<item name="Empty_Composter" count="1"/>
-			<item name="rainCatcherEmpty" count="1"/>
-			<item name="windmill" count="1"/>
-			<item name="chickenCoopEmpty" count="1"/>
 			<item name="hamburger" count="1"/>
 			<item name="cheeseburger" count="1"/>
 			<item name="yogurt" count="1,2"/>

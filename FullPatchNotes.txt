@@ -1674,3 +1674,363 @@ Patch 3.0RC1  Release Date 2/9/2018
 -Adjusted Shotgun Skill Leveling
 
 -Adjusted chance of Sink Tools
+
+
+
+------------------------------------------------------------------
+
+
+
+
+**Patch 3.1 Release Patch Notes  Release Date 04/5/2018**
+
+
+
+-Removed 2 Load Heavy POIs from the Mixer to accomodate servers and lower end systems
+
+-Fixed Blunt Class Perk from saying 4 to 3 levels
+
+-Cold drinks can now be warmed in microwave
+
+-Localization for drinks fixed
+
+-Localization-Quest updated with new opening text
+
+-Updated lockpick description
+
+-Fixed all Progression descriptions for classes
+
+-Fixed Jerky Description
+
+-You can no longer get a Class Paper from destroying a Kit
+
+-More German Translations
+
+-Farmer Weapons Dropped to 200
+
+-Farmer Ammo dropped to 100
+
+-Farmer now gets 2 repair kits and 3 forged iron
+
+-Class Crates will no longer destroy into a class crate
+
+-Removed burning effect when walking on open station flames (was causing glitches that would set you on fire)
+
+-Added Weight of 1 to both nails
+
+-Added spring and cloth to wrench as repair items
+
+-Increased Probability of Resident Evil Mansion
+
+-Fixed models for Kukri Variants Not Showing
+
+-Fixed Tailor Station Model
+
+-Increased Class KP Cost to 300 Points
+
+-Class Papers and Class Selection had its exploits removed
+
+-Fixed multiple Localizations
+
+-Removed Crows from the sleeper spawn list.
+
+-Removed multiple large POIs like the Hospital, the Hotel, The 2 gas stations, nepa, apartments, bridgeside.
+
+-Removed Wolf Dens from Biomes
+
+-Changed all attack tasks for animals to match timid or hostile
+
+-Rearranged several POIs into different groups for better spawning
+
+-Removed All Bandits and Bandit POIs
+
+-Removed Shark From Entity Classes
+
+-Removed Bandit POIs
+
+-Fixed Fishing Pole Recipe
+
+-Removed All Bandit Weapons
+
+-Removed Windmill
+
+-Lowered XP on Shotguns
+
+-Lowered Chance of Crowbar
+
+-Increased Probabilities on Sink Tools
+
+-Decreased Probabilities on Household Quest Items
+
+-Increased Probailities on Household Quests
+
+-Fishing Rod Schematic Added to Survival Class
+
+-Rest Added to Mattress
+
+-Localization Fixes
+
+-Made terrain slighlty hilly (Cuts down on large cities)
+
+-Removed Movement collision from Yucca and Aloe
+
+-Lowered Temporary Storage to 4x3 
+
+-Added Metal Trussing Sheet
+
+-Fixed Steel Chansaw Volume Recipe
+
+-Removed Yucca from Blender out of fear of voodoo shenanigans
+
+-Fixed Reload on Benelli
+
+-Reverted Treasure and APache Chests back to vanilla model (causing world gen issues)
+
+-Fixed loot list for Storage chest found in the world.
+
+-Greatly reduced chances of Radiated Screamers Spawning
+
+-Added proper formatting to Localizxation-Quests thanks to Scomar
+
+-Added more German Translations thanks to Scomar
+
+-Reduced pig health (oink oink)
+
+-Fixed tagging on Animals so they wont throw Alloc Errors
+
+-Added a fix by Sphereii to Animations.css that fixes custom animals not taking damage on Spikes and crashing servers (major thank you to him for this)
+
+-Removed Curious Geroge and other silly zombies who gave way too much loot.
+
+-Removed vehicle collision from smal cacti
+
+-Replaced all Ravenhearst edited POI names with our tag. Also replaced all named pois with the new tagged ones
+
+-Added all of dancapos fixed POIs to the folder, but did not add back the pois with the assumed sleeper issues
+
+-Added all armor perks to clothing in Progression
+
+-Increased rate of stamina gain on Sleeping Bag (Instead of 1 every 5 seconds it is now 1 every 10 seconds to prevent exploit)
+
+-Fixed Fire Spike downgrading into a steel spike in backpack but NOT destroying.
+
+-Added weight to main clothing for scrapping the dyed clothing
+
+-Fixed Adhesive Spike Trap being upgradeable to wood spike by accident.
+
+-Clarified that Advanced Farming is needed to craft seeds.
+
+-Removed material from scrap nails and changed it to organic to combat iron exploit
+
+-Radiation Suit rebalanced. Now you wont die if you have FULLY REPAIRED Hazmat clothing. The suit WILL take damage over time so you need to repair it every now and then or it will lose radiation protection. You can check your radiation protection level in the Character screen and on each piece of clothing.
+
+-Binoculars Icon Fixed
+
+-Oil recipes and description changed
+
+-Removed Medieval Tower from towns
+
+-Added Reggie Special to Shotgun Exclusive
+
+-Added Quest for Reggie Shotgun
+
+-Added Galil and HK to Rifles Schematic
+
+-Added Vintorez to Rifle Exclusive
+
+-Added multiple new schematics for deco items
+
+-Added a few more food recipes to various cookbooks
+
+-All craftable items are no longer able to be sold to trader (may be adjusted a bit in future updates)
+
+-Added more German Translations thanks to Scomar
+
+-Fixed Extended Magazine Icons
+
+-Added Biker Lady to Biker Group.
+
+-Cleaned up Items.xml numbering
+
+-Added fixed mcDowells and Manor Household
+
+------------------------------------------------------------------------
+
+Patch 3.1.1 Release Patch Notes  Release Date 04/7/2018
+
+-Added Sell Value back to all guns
+
+-Reduced Pistol Sell Price
+
+-Lowered Gamestage Multiplier
+
+-Added More German Translation
+
+-Removed Unneeded Commas from Blocks.xml
+
+-Slightly raised Stamina Drain on Pitchfork.
+
+-------------------------------------------------------------------------
+
+Patch 3.1.2 Release Patch Notes  Release Date 04/10/2018
+
+
+-Removed Corporate Secrets Items that did not belong in the loot list.
+
+-Added fix for Reggie Special Quest
+
+-Added back Hidden Juntion Block for better wiring
+
+-Set a time craft on Reggie Special
+
+-Increased food and water values SLIGHTLY on corn on the cob and boiled egg since they consume a water bottle to make
+
+-Made bullet crafting ingredients sellable again
+
+-Fixed Flour Icon
+
+-Fixed Missing Icons for all Extended and Scoped Guns
+
+-Fixed Iron Bow to Crossbow wording in Crossbow Quest
+
+-All Temporary Storage can now be picked up by destroying it again.
+
+-Added Poncho to Animal Hide Perk Description
+
+-Added Gas Can recipe from Oil Barrel to Oil Refinery
+
+-Added Bundle Size limit to raw diamonds
+
+
+------------------------------------------------------------------
+
+Patch 3.1.3 Release Patch Notes  Release Date 04/10/2018
+
+
+-Fixed Capitalization Error in Blender
+
+-More German Translations thanks to Scomar
+
+-Added missing Localization descriptions thanks to Makabriel
+
+-Mushrooms now have a chance to give a seed back when using the hoe
+
+-Looted Colored clothing and armor can now be sold
+
+-Engines can now be scrapped for Car Parts
+
+-Fixed LSAT magazine sizes
+
+-Buckets now stack to 10 and Buckets of water (required for Concrete Mix) now stack to 5
+
+-Concrete Mix has been completely revamped with a new recipe that requires buckets of water and increased mats.
+
+-Additional classes now require 1 forged steel to craft
+
+-Trail Mix is now made in the Mortar and Pestle
+
+-Cheese recipe fixed 
+
+-Added a second skyscraper group so more skyscraper varieties will spawn (May require map reset or unexplored areas of map to be uncovered to notice)
+
+-Herd Zombies hitboxes redone to be tighter and more fluid. Animations worked on a bit but still require work (2 glitched Herd Zombies with white textures are still spawning and can not be removed without breaking the quest)
+
+
+------------------------------------------------------------
+
+Patch 3.1.4 Release Patch Notes  Release Date 04/24/2018
+
+
+-Added Wood Pillar 50 upgrades to recipes
+
+-Fixed Advanced Forge Quest asking for 5 pipes when 6 are needed
+
+-Fixed Description on Metal Siding
+
+-Recipe of Shock Trap now yields 5
+
+-Zombie Bear No Longer Attacks Zombies Out of Professional Courtesy
+
+-All fridges now cool drinks
+
+-Changed weight of WoodHard Mass to 10 from 36
+
+-Changed weight of Wood Medium Mass to 5 from 36
+
+-Train Cars no longer destroy into itself.
+
+-Added canned food to shamway loot
+
+-Fixed hops plant when harvested with hoe giving back potato seeds
+
+-Scrap Iron Blocks that can be Crafted Increased to 30 each to make the wood upgrade path more cost efficient
+
+-Scrap Iron Frames increased to 20 scrap iron
+
+-Buckets can now be filled in wells
+
+-Added Wood Pyramid Recipe
+
+-Fully edited Progression,Quest and Localization files for German Translations
+
+-Changed Rare Book to prob 0.2
+
+-Dirt and Grass fall traps Hay Trap requirement removed and replaced by dirt fragments
+
+-Increased chance of 5-7 drops
+
+-Added Colt Python to Rare Guns Loot
+
+-Increased Damage done by Colt Python
+
+-Added Wood Counter 2 and 3
+
+-Added Storage Shed to Advanced Workbench
+
+-Fixed some descriptions
+
+-Removed Snowberry Juice from Stoves
+
+-Added Volume to LSAT
+
+-Fishing Rod now Stacks to 1
+
+-Bread Stove Recipe now requires 1 Dough
+
+-Tree Growth times lowered from 420 to 360
+
+-Increased Crowbar Chance Slightly
+
+-Added Pan, Crucible and Tenderizer to Traders
+
+-Adjusted some loot for junk food and seeds.
+
+-Added Poured Concrete Stairs 50
+
+-Added Redone RE Mansion
+
+-All junk food now will reduce wellness by 0.01 (candy bars, soda, chips)
+
+-Fixed Adhesive and Fire Traps
+
+-Fixed improper loot list when breaking open a Secure Storage Chest
+
+-Added Dancapos fixed Prison
+
+-Fixed Spawning of Sinder and Dex houses (requires unexplored area)
+
+-Painkillers now remove 0.1 wellness when taken and only remove 5 Hydration
+
+-Adjusted Wellness and Hydration on serveral food items for better balance and to combat exploits
+
+-Fixed Streamer Versions not having the corrected Zombie Hitbox Models
+
+-Adjusted Boomstick and Reggie Special Damage
+
+-Removed Class Only Stations from Traders
+
+
+Patch 3.1.5 Release Patch Notes  Release Date 04/25/2018
+
+
+-Fixed Boulders and Underground Stone giving less material

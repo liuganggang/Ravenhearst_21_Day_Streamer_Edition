@@ -7,7 +7,7 @@
 	warriorGameDifficultyBonus="0.6"  	 	
 	survivalistGameDifficultyBonus="1"	 	 	
 	insaneGameDifficultyBonus="1.5"	 	 	
-	daysAliveDifficultyBonus="0.9"	 	 	
+	daysAliveDifficultyBonus="0.2"	 	 	
 	daysAliveChangeWhenKilled ="1"	 	 	
 	diminishingReturns ="0.2" 	/>
 	<spawner name="WanderingHorde">
@@ -1549,12 +1549,12 @@
 		<gamestage stage="5800">
 			<spawn group="ZombiesScoutsStage10" num="8" maxAlive="8" interval="10"/>
 			<spawn group="ZombiesScoutsStage10" num="7" maxAlive="7" interval="10"/>
-			<spawn group="ZombiesScoutsStage11" num="8" maxAlive="8" interval="20"/>
+			<spawn group="ZombiesScoutsStage10" num="8" maxAlive="8" interval="20"/>
 		</gamestage>
 		<gamestage stage="6000">
-			<spawn group="ZombiesScoutsStage11" num="10" maxAlive="10" interval="10"/>
-			<spawn group="ZombiesScoutsStage11" num="10" maxAlive="10" interval="10"/>
-			<spawn group="ZombiesScoutsStage11" num="10" maxAlive="10" interval="20"/>
+			<spawn group="ZombiesScoutsStage10" num="10" maxAlive="10" interval="10"/>
+			<spawn group="ZombiesScoutsStage10" num="10" maxAlive="10" interval="10"/>
+			<spawn group="ZombiesScoutsStage10" num="10" maxAlive="10" interval="20"/>
 		</gamestage>
 	</spawner>
 	<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX  end: auto generated screamer / scout horde gamestages  XXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
