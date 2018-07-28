@@ -7,7 +7,6 @@
 	<property name="Zoning" value="ResidentialOld"/>
 	<property name="RotationToFaceNorth" value="3"/>
 	<property name="DistantPOIYOffset" value="0"/>
-	<property name="AllowedBiomes" value="radiated,wasteland"/>
-	<property name="AllowedTownships" value="rural,town,wilderness"/>
-	<property name="DisallowedBiomes" value="snow,plains,pine_forest,forest,desert,burnt_forest,wasteland_hub"/>
+	<property name="AllowedBiomes" value="burnt_forest,snow,plains,pine_forest,forest,desert,wasteland"/>
+	<property name="AllowedTownships" value="city,rural,town,wilderness"/>
 </prefab>

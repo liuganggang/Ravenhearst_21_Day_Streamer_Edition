@@ -4,10 +4,11 @@
 	<property name="AllowTopSoilDecorations" value="True"/>
 	<property name="TraderArea" value="False"/>
 	<property name="ExcludeDistantPOIMesh" value="False"/>
-	<property name="Zoning" value="ResidentialNew"/>
+	<property name="Zoning" value="any"/>
 	<property name="RotationToFaceNorth" value="2"/>
 	<property name="YOffset" value="-1"/>
 	<property name="DistantPOIYOffset" value="0"/>
+	<property name="AllowedBiomes" value="burnt_forest,snow,plains,pine_forest,forest,desert,wasteland"/>
 	<property name="AllowedTownships" value="city,rural,town"/>
 	<property name="SleeperVolumeStart" value="9,1,12#9,6,12#9,10,12"/>
 	<property name="SleeperVolumeSize" value="27,3,24#27,3,24#27,3,24"/>

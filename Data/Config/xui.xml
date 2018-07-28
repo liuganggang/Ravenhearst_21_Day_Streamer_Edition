@@ -37,6 +37,7 @@
 			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
 			<!--		<window name="windowCraftingList" /> -->
 			<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
+			<window name="windowToolsCement"/>
 			<window name="craftingInfoPanel" />
 			<window name="SMXCraftingQueue" />
 			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
@@ -44,6 +45,7 @@
 			<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
 			<window name="windowOutput2" />
 			<window name="windowNonPagingHeader" />
+			<window name="windowFuel" />
 		</window_group>
 		<window_group name="workstation_workbench" controller="XUiC_WorkstationWindowGroup">
 			<window name="SMXCraftingList" />
@@ -77,19 +79,6 @@
 			<window name="windowOutput2" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
-		<window_group name="workstation_townMixer" controller="XUiC_WorkstationWindowGroup">
-			<window name="SMXCraftingList" />
-			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
-			<!--		<window name="windowCraftingList" /> -->
-			<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
-			<window name="craftingInfoPanel"/>
-			<window name="SMXCraftingQueue" />
-			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
-			<!--		<window name="windowCraftingQueue" /> -->
-			<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
-			<window name="windowOutput2"/>
-			<window name="windowNonPagingHeader"/>
-		</window_group>
 		<window_group name="workstation_cntworkingOven" controller="XUiC_WorkstationWindowGroup">
 			<window name="SMXCraftingList" />
 			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
@@ -120,19 +109,6 @@
 			<window name="windowNonPagingHeader"/>
 			<window name="windowFuel"/>
 		</window_group>
-		<window_group name="workstation_traderTable" controller="XUiC_WorkstationWindowGroup">
-			<window name="SMXCraftingList" />
-			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
-			<!--		<window name="windowCraftingList" /> -->
-			<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
-			<window name="craftingInfoPanel"/>
-			<window name="SMXCraftingQueue" />
-			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
-			<!--		<window name="windowCraftingQueue" /> -->
-			<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
-			<window name="windowOutput2"/>
-			<window name="windowNonPagingHeader"/>
-		</window_group>
 		<window_group name="workstation_bbqgrill" controller="XUiC_WorkstationWindowGroup">
 			<window name="SMXCraftingList" />
 			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
@@ -143,7 +119,7 @@
 			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
 			<!--		<window name="windowCraftingQueue" /> -->
 			<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
-			<window name="windowFuel"/>
+			<window name="windowFuel" />
 			<window name="windowOutput2"/>
 			<window name="windowNonPagingHeader"/>
 		</window_group>
@@ -157,7 +133,7 @@
 			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
 			<!--		<window name="windowCraftingQueue" /> -->
 			<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
-			<window name="windowFuel"/>
+			<window name="windowFuel" />
 			<window name="windowOutput2"/>
 			<window name="windowNonPagingHeader"/>
 		</window_group>
@@ -171,7 +147,7 @@
 			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
 			<!--		<window name="windowCraftingQueue" /> -->
 			<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
-			<window name="windowFuel"/>
+			<window name="windowFuel" />
 			<window name="windowOutput2"/>
 			<window name="windowNonPagingHeader"/>
 		</window_group>
@@ -185,7 +161,7 @@
 			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
 			<!--		<window name="windowCraftingQueue" /> -->
 			<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
-			<window name="windowFuel"/>
+			<window name="windowFuel" />
 			<window name="windowOutput2"/>
 			<window name="windowNonPagingHeader"/>
 		</window_group>
@@ -260,22 +236,6 @@
 			<window name="windowOutput2"/>
 			<window name="windowNonPagingHeader"/>
 		</window_group>
-		<window_group name="workstation_advancedForge" controller="XUiC_WorkstationWindowGroup">
-			<window name="SMXCraftingList" />
-			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
-			<!--		<window name="windowCraftingList" /> -->
-			<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
-			<window name="craftingInfoPanel"/>
-			<window name="SMXCraftingQueue" />
-			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
-			<!--		<window name="windowCraftingQueue" /> -->
-			<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
-			<window name="windowToolsAdvancedForge"/>
-			<window name="windowFuel"/>
-			<window name="windowForgeInput"/>
-			<window name="windowForgeOutput"/>
-			<window name="windowNonPagingHeader"/>
-		</window_group>
 		<window_group name="workstation_forge" controller="XUiC_WorkstationWindowGroup">
 			<window name="SMXCraftingList" />
 			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
@@ -287,22 +247,6 @@
 			<!--		<window name="windowCraftingQueue" /> -->
 			<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
 			<window name="windowToolsForge"/>
-			<window name="windowFuel"/>
-			<window name="windowForgeInput"/>
-			<window name="windowForgeOutput"/>
-			<window name="windowNonPagingHeader"/>
-		</window_group>
-		<window_group name="workstation_blacksmithStation" controller="XUiC_WorkstationWindowGroup">
-			<window name="SMXCraftingList" />
-			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
-			<!--		<window name="windowCraftingList" /> -->
-			<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
-			<window name="craftingInfoPanel"/>
-			<window name="SMXCraftingQueue" />
-			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
-			<!--		<window name="windowCraftingQueue" /> -->
-			<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
-			<window name="windowToolsBlacksmith"/>
 			<window name="windowFuel"/>
 			<window name="windowForgeInput"/>
 			<window name="windowForgeOutput"/>
@@ -478,7 +422,7 @@
 			<window name="windowOutput"/>
 			<window name="windowNonPagingHeader"/>
 		</window_group>
-		<window_group name="workstation_treeCutter" controller="XUiC_WorkstationWindowGroup">
+		<window_group name="workstation_applianceTable" controller="XUiC_WorkstationWindowGroup">
 			<window name="SMXCraftingList" />
 			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
 			<!--		<window name="windowCraftingList" /> -->
@@ -491,33 +435,35 @@
 			<window name="windowOutput"/>
 			<window name="windowNonPagingHeader"/>
 		</window_group>
-		<window_group name="workstation_microwave" controller="XUiC_WorkstationWindowGroup">
+		<window_group name="workstation_stoneGrinder" controller="XUiC_WorkstationWindowGroup">
 			<window name="SMXCraftingList" />
 			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
 			<!--		<window name="windowCraftingList" /> -->
 			<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
-			<window name="craftingInfoPanel"/>
+			<window name="craftingInfoPanel" />
 			<window name="SMXCraftingQueue" />
 			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
 			<!--		<window name="windowCraftingQueue" /> -->
 			<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
-			<window name="windowOutput"/>
-			<window name="windowNonPagingHeader"/>
+			<window name="windowOutput2" />
+			<window name="windowNonPagingHeader" />
+			<window name="windowFuel" />
 		</window_group>
-		<window_group name="workstation_blender" controller="XUiC_WorkstationWindowGroup">
+		<window_group name="workstation_carpentryStation" controller="XUiC_WorkstationWindowGroup">
 			<window name="SMXCraftingList" />
 			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
 			<!--		<window name="windowCraftingList" /> -->
 			<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
-			<window name="craftingInfoPanel"/>
+			<window name="craftingInfoPanel" />
 			<window name="SMXCraftingQueue" />
 			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
 			<!--		<window name="windowCraftingQueue" /> -->
 			<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
-			<window name="windowOutput"/>
-			<window name="windowNonPagingHeader"/>
+			<window name="windowToolsCarpentryBench"/>
+			<window name="windowOutput2" />
+			<window name="windowNonPagingHeader" />
 		</window_group>
-		<window_group name="workstation_Coffeemaker" controller="XUiC_WorkstationWindowGroup">
+		<window_group name="workstation_blacksmithsForge" controller="XUiC_WorkstationWindowGroup">
 			<window name="SMXCraftingList" />
 			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
 			<!--		<window name="windowCraftingList" /> -->
@@ -527,7 +473,10 @@
 			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
 			<!--		<window name="windowCraftingQueue" /> -->
 			<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
-			<window name="windowOutput"/>
+			<window name="windowToolsblacksmithsForge"/>
+			<window name="windowFuel"/>
+			<window name="windowForgeInput2"/>
+			<window name="windowForgeOutput"/>
 			<window name="windowNonPagingHeader"/>
 		</window_group>
 		<!-- <<< SMX A16.4B8R2 END - BY SIRILLION >>> -->
@@ -588,9 +537,6 @@
 			<!--		<window name="CRAFTWORX" anchor="RightTop" /> -->
 			<!-- Craftworx UI -->
 			<!-- Disable this if you don't want the Craftworx logo  -->
-			<window name="RAVENHEARST" anchor="RightTop" />
-			<!-- SMX UI -->
-			<!-- Disable this if you don't want the Ravenhearst logo -->
 			<!--		<window name="SMXLevelXPUF1SMX" anchor="LeftTop" /> -->
 			<!-- SMX UI -->
 			<!-- Disable this if you want to use the CRAFTWORX, VALMOD or SIRMOD designs -->
@@ -621,6 +567,7 @@
 		<!-- <<< SMX A16.4B8R2 START - BY SIRILLION >>> -->
 		<window_group name="toolbelt" actionSet="false">
 			<window name="SMXToolbelt1SMX" anchor="CenterBottom" />
+			<window name="SMXHUDLogo" anchor="RightTop" />
 			<!-- SMX UI -->
 			<!-- Disable this if you want to use the VALMOD or SIRMOD designs -->
 			<!--		<window name="SMXToolbelt2VALMOD" anchor="CenterBottom" /> -->
@@ -807,14 +754,7 @@
 		</window_group>
 		<!-- <<< SMX A16.4B8R2 START - BY SIRILLION >>> -->
 		<window_group name="ingameMenu">
-			<!--		<window name="ingameMenu" /> -->
-			<!--		<window name="SMXingameMenu" /> -->
-			<!--		<window name="SIRMODingameMenu" /> -->
-			<!--		<window name="VALMODingameMenu" /> -->
-			<!--		<window name="TRUESURVIVALingameMenu" /> -->
-			<!--		<window name="WotWingameMenu" /> -->
-			<!--		<window name="CRAFTWORXingameMenu" /> -->
-			<window name="RAVENHEARSTingameMenu" />
+			<window name="SMXIngameMenu" anchor="CenterCenter" />
 		</window_group>
 		<!-- <<< SMX A16.4B8R2 END - BY SIRILLION >>> -->
 		<window_group name="woPropsSleeperVolume">

@@ -1,0 +1,1 @@
+You will notice an extra folder in your zip file. Copy and paste the entire contents of this folder as is to play Single Player or as the client/player on a server. If you are setting up a server you will want to go inside the Extra Files folder and unzip the 7DaystoDie_ServerData folder. This folder contains the zip that servers need to operate.

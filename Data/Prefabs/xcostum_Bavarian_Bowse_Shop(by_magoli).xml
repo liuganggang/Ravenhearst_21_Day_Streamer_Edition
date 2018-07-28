@@ -14,5 +14,4 @@
 	<property name="SleeperVolumeGroup" value="S_LootRoom_Med"/>
 	<property name="SleeperVolumeGameStageAdjust" value=""/>
 	<property name="SleeperIsLootVolume" value="False"/>
-	<property name="DisallowedBiomes" value="radiated"/>
 </prefab>

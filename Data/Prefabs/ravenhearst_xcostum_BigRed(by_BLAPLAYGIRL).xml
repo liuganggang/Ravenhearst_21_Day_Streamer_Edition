@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+    <property name="CopyAirBlocks" value="True"/>
+    <property name="AllowTopSoilDecorations" value="False"/>
+    <property name="TraderArea" value="False"/>
+    <property name="ExcludeDistantPOIMesh" value="False"/>
+    <property name="Zoning" value="Commercial,Downtown,Industrial,ResidentialNew,ResidentialOld"/>
+    <property name="RotationToFaceNorth" value="2"/>
+    <property name="YOffset" value="-2"/>
+    <property name="DistantPOIYOffset" value="0"/>
+    <property name="AllowedBiomes" value="burnt_forest,snow,plains,pine_forest,forest,desert,wasteland_hub,wasteland,city,city_wasteland"/>
+    <property name="AllowedTownships" value="city,rural,town,wilderness"/>
+    <property name="SleeperVolumeStart" value="0,1,0#3,2,12#9,3,22#12,3,22#16,2,11#22,3,22#22,3,17#22,3,4#3,5,11#9,7,11#11,9,21#0,6,0#5,15,13#5,15,12"/>
+    <property name="SleeperVolumeSize" value="26,6,12#14,6,10#3,12,3#4,12,3#7,6,11#3,12,3#4,12,5#4,6,21#13,11,11#14,9,11#13,6,4#26,9,12#14,4,7#17,4,9"/>
+    <property name="SleeperVolumeGroup" value="S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_Default_S"/>
+    <property name="SleeperVolumeGameStageAdjust" value="medium,medium,400,250,250,200,medium,250,200,250,250,medium,250,medium"/>
+    <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,True,False,False,True"/>
+</prefab>

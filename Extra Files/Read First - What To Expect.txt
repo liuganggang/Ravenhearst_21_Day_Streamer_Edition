@@ -1,0 +1,183 @@
+While I want to keep some things secret, there are some important changes you should know before hopping in.
+
+1. Building has completely changed. Now you MUST start with wood frames for ALL shapes. I have added a frame for every piece. There is one upgrade path. From Wood to Steel. 
+
+2. There is a Stone Hammer that harvests...but it is Survivor Class Only. Other classes CAN earn one by completing the Jax hates you Quest but only survivors can create them
+
+3. There are hidden Hive Buildings. They look like harmless vanilla POIs but they contain a MOB of Hive Zombies. Hive Zombies look like ferals, but they walk and have very low HP. Their danger is in overwhelming you! These houses have a hidden Emergency Supplies crate somewhere in them either in cellars or attics.
+
+4. Cooking is now a Class and gets exclusive cooking recipes
+
+5. The world is more dangerous. You will notice a LOT more zombies. They are Hive zeds and have no loot and vey low xp. They are mixed in with normal zombies.
+
+6. Gamestages may rise a bit quicker
+
+7. Engines and Tires work different now. Now you must assemble engines, and tires have to be made from found rubber
+
+8. There are now multiple repair kits for each type of weapon and tool.
+
+9. Quests have been redone so make sure to pay attention and if you feel we need them to be more specific don't hesitate to tell us. We want this mod to basically be able to instruct its player on what to expect from major changes.
+
+10. When you die, it HURTS. Now minimum Wellness is 50 and when you respawn it is with 25 percent food and hunger!
+
+11. Encumbrance is a thing, but its not too punishing. Keep an eye on what you carry and we are open to feedback on how to make it better.
+
+12. Buffs have changed dramatically. Searching corpses now gets you bloody, zombies can get you dirty and you will need to submerge to clean up, snake bites are more deadly and Infection... well lets just say you do NOT want to let anything get to infection!
+
+13. Rad zones are now sporadically around the map as well as the border! Trioxin can now be made by level 80. But requires medic. Haz Mat suits are now ALSO rewarded by completing each weapon quest. You can also still find them in loot.
+
+14. 100 level skills can no longer be purchased and must be levelled through activity.
+
+15. Safes can no longer be easily cracked open with a pickaxe but we now have a lockpicking skill that is available  for all to level. Doors can also be lock picked.
+
+16.  Crates and boarded doors can now be opened with a hammer or crowbar by removing the boards. Health has been increased a bit on these crates to make using the hammer and crowbar a better alternative to whacking at it.
+There is a LOT more but i want some of it to be secret to both surprise you and to also see how well we explain ourselves in the mod.
+
+17. You will frind Prisoners around the world. Do your best to avoid them at first they are very tough to kill. Prisoners can fight zombies fgor you.
+
+18. There are now Bosses on Blood Moon so beware!
+
+19. Scavenging is now gone as a skill, which makes loot progression flow more natural by actually looting.
+
+
+
+
+
+Buffs
+
+
+
+Tiredness
+
+Rest at your bedroll/bed once every 24 hours.  If you don't you'll get debuffs
+
+Hygiene
+
+Dunk yourself in a body of water, or use towels to get clean.  The longer you wait, the worse it gets, up to being infectious
+
+Infections
+
+Use antibiotics or medicines to remove. This takes time.  Resting in a bedroll/bed helps.
+
+
+
+
+An Overview of Buffs
+
+
+
+Tired
+
+-You will now have to find a bed to sleep in even if it's not your own
+
+-After 24 hours of staying "awake" you will become tired, every 24 hours your fatigue will increase to a progressive stage of tiredness.
+
+-End of Day 1 Tired - 0.75 stamina / sec
+-End of Day 2 Pretty Tired -decreases movement speed by 10% and -0.75 stamina / sec
+-End of Day 3 Very Tired -decreases movement speed by 20% and -0.75 stamina / sec
+-End of Day 4 Extremely Tired -Decreases movement speed by 30% and -1 stamina / sec
+-End of Day 5 Insanely Tired -Decreases movement speed by 40% and -1 stamina per second
+-End of Day 6 Dead Tired -Decreases movement speed by 50% and -1 stamina per second
+-End of Day 7 Death!
+
+-After 6 full days without sleep on the 7th day you will die of sleep deprivation. Standing on a sleeping bag, bed, or mattress for 24 seconds will decrease your tiredness state by one stage (Unless you are infected in which case it will take longer)
+
+-Once you have slept for long enough you will become well rested and the well rested buff will be applied to you, notifying you of this state which lasts for about 8 hours before it will fade leaving you with 16 in game hours before you become tired again.
+
+-For every hour you remain awake you will have to stand on a bed / sleeping bag for 1 second, 24 hours of being awake requires 24 seconds of rest to become well rested
+Treading Water
+
+After treading water for two real time minutes or 40 in game minutes you will begin to hear splashing sounds and are then struggling to swim, after you start to hear the splashing sounds you will have 30 seconds to get to shore before you begin to start losing oxygen, you will then start drowning after 20 seconds of losing oxygen regardless of whether or not your head's under water
+
+After you have become exhausted from swimming you have to remain out of the water for a minimum of 30 seconds before re-entering, re-entering the water after becoming exhausted from swimming will immediately count down your oxygen over 20 seconds and will play the splashing sounds while you are in the water, buffs will indicate when you can safely re-enter the water.
+
+
+
+Blood Draw Kit
+
+You can safely use a blood draw kit 2 times in a row and will get minor blood loss which only makes you lose a bit of stamina, upon the third use you will have lost enough blood to start losing wellness, upon the fourth use you will become slower and lose wellness at a faster rate, upon a fifth use you will die.
+
+You naturally slowly recover from blood loss, it takes 6 in game hours to recover from one use of the blood draw kit, so you can safely use it twice in a row every 12 in game hours, the blood loss buffs will indicate this when they are no longer present.
+
+You will have 0 chance of infection so long as you are clean when using the blood draw kit chances of infection goes up as you get dirtier.
+
+Consuming a blood bag will restore half of one use of a blood draw kit and will take half the time to recover from one use of a blood draw kit if you accidentally used it too much.(edited)
+
+
+
+Infection
+
+Curing an infection now takes time.
+
+1 antibiotic per day will reduce infection stage by 1 each day, take only one antibiotic per day to reduce infection by one full stage, taking more will do nothing but reset the timer and waste antibiotics, you will see the buff wear off so you can know when another dose is needed.
+
+1 herbal antibiotic only lasts for 12 hours and so it is only half as effective and will require 2 per day to reduce infection by one full stage, you will see the buff wear off so you can know when another dose is needed.
+
+1 honeycomb, vitamin, jar of honey or painkiller only lasts for 6 hours and so it is only half as effective as herbal antibiotics and will require 4 per day to reduce infection by one full stage, you will see the buff wear off so you can know when another dose is needed.
+
+You can not combine different antibiotics, after taking one type of antibiotic you must wait for it to wear off before taking a different type otherwise you will waste antibiotics.
+
+Resting on a sleeping bag or bed will have increased recovery time and speed up curing an infection, better beds have a better impact on curing infection.
+Stage 0 infection, initial contact, is not visible but now causes you to get tired faster and lose wellness by 0.1 every in game hour
+
+Stage 1 infection will now cause you to get tired at the same rate as stage 0, lose 1 Health every 60 seconds, 1 food every 60 sec, 1 water every 30 sec, as well as the continued loss of 0.1 wellness every in game hour, but sleeping on a sleeping bag gives 1 health for every 60 seconds provided you have antibiotics in your system while infected
+
+Stage 2 infection will now cause you to get tired at the same rate as stage 0, cause you to lose 1 Health every 30 seconds, 1 food every 30 sec, 1 water every 30 sec, as well as the continued loss of 0.1 wellness every in game hour, but sleeping on a small bed or flat mattress gives 1 health for every 30 seconds provided you have antibiotics in your system while infected
+
+Stage 3 infection will now cause you to get tired at the same rate as stage 0, cause you to take damage for 2 health every in game hour up to a max of 60 health lost, lose 1 Health every 15 seconds, 1 food every 30 sec, 1 water every 30 sec, as well as the continued loss of 0.1 wellness every in game hour, but sleeping on a king size bed gives 1 health for every 15 seconds provided you have antibiotics in your system while infected
+
+Stage 4 infection will now cause you to get tired at the same rate as stage 0, cause you to take damage for 5 health every in game hour up to a max of 75 health lost, lose 1 Health every 5 seconds, 1 food every 30 sec, 1 water every 30 sec, as well as the continued loss of 0.1 wellness every in game hour, but sleeping on a king size bed gives 1 health for every 15 seconds provided you have antibiotics in your system while infected
+
+Stage 5 Death
+
+These added buffs of health and stamina while sleeping on a bed are only applied if you are infected and under the influence of antibiotics, beds will not give any health or stamina buffs unless these two conditions are met.
+Broken legs will become infected if left untreated for 60 seconds, bleeding wounds will become infected if not treated before they expire. Bleeding will also increase your dirtiness the longer you bleed for the dirtier you get. And the dirtier you are will increase chance for infection.
+
+
+
+Hygiene
+
+Added Hygiene which makes you smell progressively worse and the dirtier you are the more likely you will become infected, and the easier it is for zombies to find you.
+
+There are multiple factors at play, for eg. being hit by zombies will make you dirtier and bleeding will make you dirtier, the more you get hit and the longer you bleed out the dirtier you get.
+
+Stage 1 Hygiene is Clean and you will only have a 1% chance of being infected so long as you are clean or fully clean.
+
+Bleeding out for 20 seconds will cause infection if not bandaged or tended to before then
+
+Stage 2 Hygiene is Dirty and becomes active after 8 - 24 in game hours without cleaning yourself, being dirty has a 20% chance of being infected when being wounded by zombies
+
+Stage 3 Hygiene is Grimy and becomes active after 24 - 48 in game hours without cleaning yourself, being grimy has a 30% chance of being infected when being wounded by zombies
+
+Stage 4 Hygiene is Filthy and becomes active after 48 - 72 in game hours without cleaning yourself, being grimy has a 40% chance of being infected when being wounded by zombies
+
+Stage 5 Hygiene is Infectious and becomes active after 72 - 96 in game hours without cleaning yourself, being Infectious has a 50% chance of being infected when being wounded by zombies
+
+You have a few options in how to clean yourself:
+(Bathing) in water after 5 seconds will start to reduce your hygiene, every 24 seconds spent in water will reduce your hygiene by 1 stage
+
+(Rinsing Off) with a wet soapy towel will reduce your hygiene by 12 per wet towel used requiring 2 soapy wet towels to reduce hygiene by 1 stage.
+
+(Rinsing Off Small) with some wet towels will reduce your hygiene by 6 per wet towel used requiring 4 wet towels to reduce hygiene by 1 stage.
+
+
+
+Snake Bites
+
+Snakes can bite you and have a 30% chance to poison you with venom.
+
+There is no cure for the venomous poison however you can build up a permanent immunity to it by enduring the poison for up to 5 days these days need to be fairly consecutive since you will metabolize immunity slowly by 1 day's worth every 4 days.
+
+One poisonous bite or eating one venom gland will poison you for 24 hours during that time you will slowly build up immunity to the poison, you can craft Anti-Venom by killing a snake and retrieving the Venom Gland from it. You can inject Anti-Venom once a day for 5 days to become immune to its effects, this immunity will last forever or until you die.
+
+After you are poisoned by either a snake or by eating one venom gland you can easily become sick from poison by being bitten by a snake or by eating another poison gland, eating 4 poison glands in a row will kill you instantly, and being poisoned by a snake four times in a row will kill you instantly as well.
+
+Venomous poison has 4 stages the 4 stage is death the other 3 stages are as follows:
+
+Stage 1 Venomous Poison: You will have a small wellness loss of 1.2 over the 24 hour period and a small stamina loss of 1 every 3 seconds and a small dehydration of 1 every 60 seconds and be damaged for 1 health every in game half hour and this lasts for 24 hours so it will do a total of 48 damage over its duration
+
+Stage 2 Venom Sickness: You will have a larger wellness loss of 2.5 over the 5 hour period and will lose stamina slightly faster of 2 every 3 seconds and have dehydration of 1 every 30 seconds and will only move at 90% speed and will do 5 damage to you every in game half hour but this poison effect gets metabolized over 5 in game hours so it will only do a total of 50 damage to you
+
+Stage 3 Venom Extreme Sickness: You will have a larger wellness loss of 2.5 over the 5 hour period and will lose stamina slightly faster of 1 every 3 seconds from base poisoning plus 1 every 2 seconds from sickness poisoning and have dehydration of 2 every 30 seconds and will only move at 60% speed and will do 10 damage to you every in game half hour but this poison effect gets metabolized over 5 in game hours so it will only do a total of 100 damage to you over the course of those 5 hours, after it is metabolized for 5 hours it will regress into the stage 2 where it will take another 5 hours to metabolize that buff and it will do its 50 damage to you as well as the 5 wellness loss.
+
+Stage 4 is death(edited)

@@ -1,5 +1,182 @@
 <styles>
-	<!-- <<< SMX A16.4B8R1 START - BY SIRILLION >>> -->
+	<!-- <<< SMX A16.4B8R2 START - BY SIRILLION >>> -->
+	<!-- The following section handles: The SHARED ASSETS -->
+	<!-- TEXTURES -->
+	<style name="SMXBackgroundDimmer" type="texture">
+		<style_entry name="texture" value="@file:Mods/SMX/Textures/misc/smxbgdim.png" />
+		<!--	// SMX // Background Dimmer -->
+		<style_entry name="material" value="Materials/Transparent Colored" />
+		<style_entry name="type" value="sliced" />
+		<style_entry name="size" value="5000,5000" />
+	</style>
+	<style name="SMXMainMenuBG" type="texture">
+		<style_entry name="texture" value="@file:Mods/SMX/Textures/menu/smxmenubg.png" />
+		<!--	// SMX // MAIN MENU // Background -->
+		<style_entry name="material" value="Materials/Transparent Colored" />
+		<style_entry name="type" value="sliced" />
+		<style_entry name="size" value="408,1080" />
+	</style>
+	<style name="SMXInfoHeader" type="texture">
+		<style_entry name="texture" value="@file:Mods/SMX/Textures/menu/smxmenuinfo.png" />
+		<!--	// SMX // MAIN MENU // Information Header -->
+		<style_entry name="material" value="Materials/Transparent Colored" />
+		<style_entry name="type" value="sliced" />
+		<style_entry name="size" value="750,200" />
+	</style>
+	<style name="SMXChangeLog" type="texture">
+		<style_entry name="texture" value="@file:Mods/SMX/Textures/menu/smxmenuchangelog.png" />
+		<!--	// SMX // MAIN MENU // Changelog Placeholder -->
+		<style_entry name="material" value="Materials/Transparent Colored" />
+		<style_entry name="type" value="sliced" />
+		<style_entry name="size" value="700,500" />
+	</style>
+	<style name="SMXServerInfo" type="texture">
+		<style_entry name="texture" value="@file:Mods/SMX/Textures/menu/smxmenuserverinfo.png" />
+		<!--	// SMX // MAIN MENU // ServerInfoBanner Placeholder -->
+		<style_entry name="material" value="Materials/Transparent Colored" />
+		<style_entry name="type" value="sliced" />
+		<style_entry name="size" value="700,180" />
+	</style>
+	<!-- The following section handles: The INGAME MAIN MENU -->
+	<style name="SMXMainMenuLogo1" type="texture">
+		<style_entry name="texture" value="@file:Mods/SMX/Textures/menu/smxmenulogo.png" />
+		<!--	// SMX // MAIN MENU // Logo -->
+		<style_entry name="material" value="Materials/Transparent Colored" />
+		<style_entry name="type" value="sliced" />
+		<style_entry name="size" value="788,788" />
+	</style>
+	<style name="SMXMainMenuLogo4" type="texture">
+		<style_entry name="texture" value="@file:Mods/SMX/Textures/menu/vmmenulogo.png" />
+		<!--	// VALMAR // VALMOD MAIN MENU // Logo -->
+		<style_entry name="material" value="Materials/Transparent Colored" />
+		<style_entry name="type" value="sliced" />
+		<style_entry name="size" value="788,788" />
+	</style>
+	<style name="SMXMainMenuLogo5" type="texture">
+		<style_entry name="texture" value="@file:Mods/SMX/Textures/menu/tsmenulogo.png" />
+		<!--	// SPIDER // TRUE SURVIVAL MAIN MENU // Logo -->
+		<style_entry name="material" value="Materials/Transparent Colored" />
+		<style_entry name="type" value="sliced" />
+		<style_entry name="size" value="600,200" />
+	</style>
+	<style name="SMXMainMenuLogo6" type="texture">
+		<style_entry name="texture" value="@file:Mods/SMX/Textures/menu/wwmenulogo.png" />
+		<!--	// DWALLORDE // WAR OF THE WALKERS MAIN MENU // Logo -->
+		<style_entry name="material" value="Materials/Transparent Colored" />
+		<style_entry name="type" value="sliced" />
+		<style_entry name="size" value="788,788" />
+	</style>
+	<style name="SMXMainMenuLogo7" type="texture">
+		<style_entry name="texture" value="@file:Mods/SMX/Textures/menu/cwmenulogo.png" />
+		<!--	// LATHEOS // CRAFTWORX MAIN MENU // Logo -->
+		<style_entry name="material" value="Materials/Transparent Colored" />
+		<style_entry name="type" value="sliced" />
+		<style_entry name="size" value="788,788" />
+	</style>
+	<style name="SMXMainMenuLogo8" type="texture">
+		<style_entry name="texture" value="@file:Mods/SMX/Textures/menu/rhmenulogo2.png" />
+		<!--	// JAXTELLER718 // RAVENHEARST MAIN MENU // Logo -->
+		<style_entry name="material" value="Materials/Transparent Colored" />
+		<style_entry name="type" value="sliced" />
+		<style_entry name="size" value="788,788" />
+	</style>
+	<style name="SMXMainMenuLogo9" type="texture">
+		<style_entry name="texture" value="@file:Mods/SMX/Textures/menu/fmmenulogo.png" />
+		<!--	// MDF25 // FENNECMOD MAIN MENU // Logo -->
+		<style_entry name="material" value="Materials/Transparent Colored" />
+		<style_entry name="type" value="sliced" />
+		<style_entry name="size" value="788,788" />
+	</style>
+	<!-- The following section handles: The INGAME HUD MENU -->
+	<style name="SMXHUDLogo1" type="texture">
+		<style_entry name="texture" value="@file:Mods/SMX/Textures/menu/smxhudlogo.png" />
+		<!--	// SMX // HUD // Logo -->
+		<style_entry name="material" value="Materials/Transparent Colored" />
+		<style_entry name="type" value="sliced" />
+		<style_entry name="size" value="250,40" />
+	</style>
+	<style name="SMXHUDLogo4" type="texture">
+		<style_entry name="texture" value="@file:Mods/SMX/Textures/menu/vmhudlogo.png" />
+		<!--	// VALMAR // VALMOD HUD // Logo -->
+		<style_entry name="material" value="Materials/Transparent Colored" />
+		<style_entry name="type" value="sliced" />
+		<style_entry name="size" value="250,40" />
+	</style>
+	<style name="SMXHUDLogo5" type="texture">
+		<style_entry name="texture" value="@file:Mods/SMX/Textures/menu/tshudlogo.png" />
+		<!--	// SPIDER // TRUE SURVIVAL HUD // Logo -->
+		<style_entry name="material" value="Materials/Transparent Colored" />
+		<style_entry name="type" value="sliced" />
+		<style_entry name="size" value="250,40" />
+	</style>
+	<style name="SMXHUDLogo6" type="texture">
+		<style_entry name="texture" value="@file:Mods/SMX/Textures/menu/wwhudlogo.png" />
+		<!--	// DWALLORDE // WAR OF THE WALKERS HUD // Logo -->
+		<style_entry name="material" value="Materials/Transparent Colored" />
+		<style_entry name="type" value="sliced" />
+		<style_entry name="size" value="250,40" />
+	</style>
+	<style name="SMXHUDLogo7" type="texture">
+		<style_entry name="texture" value="@file:Mods/SMX/Textures/menu/cwhudlogo.png" />
+		<!--	// LATHEOS // CRAFTWORX HUD // Logo -->
+		<style_entry name="material" value="Materials/Transparent Colored" />
+		<style_entry name="type" value="sliced" />
+		<style_entry name="size" value="250,40" />
+	</style>
+	<style name="SMXHUDLogo8" type="texture">
+		<style_entry name="texture" value="@file:Mods/SMX/Textures/menu/rhhudlogo.png" />
+		<!--	// JAXTELLER718 // RAVENHEARST HUD // Logo -->
+		<style_entry name="material" value="Materials/Transparent Colored" />
+		<style_entry name="type" value="sliced" />
+		<style_entry name="size" value="250,40" />
+	</style>
+	<style name="SMXHUDLogo9" type="texture">
+		<style_entry name="texture" value="@file:Mods/SMX/Textures/menu/fmhudlogo.png" />
+		<!--	// MDF25 // FENNECMOD HUD // Logo -->
+		<style_entry name="material" value="Materials/Transparent Colored" />
+		<style_entry name="type" value="sliced" />
+		<style_entry name="size" value="250,40" />
+	</style>
+	<!-- The following section handles: The INGAME MAIN MENU BUTTONS -->
+	<style name="SMXButton1" type="sprite">
+		<!--	// MAIN MENU // Normal Button -->
+		<style_entry name="atlas" value="ItemIconAtlas" />
+		<style_entry name="sprite" value="smxbutton1" />
+		<style_entry name="type" value="sliced" />
+		<style_entry name="size" value="243,85" />
+	</style>
+	<style name="SMXButton2" type="sprite">
+		<!--	// MAIN MENU // Inverted Button -->
+		<style_entry name="atlas" value="ItemIconAtlas" />
+		<style_entry name="sprite" value="smxbutton2" />
+		<style_entry name="type" value="sliced" />
+		<style_entry name="size" value="243,85" />
+	</style>
+	<style name="SMXButton3" type="sprite">
+		<!--	// MAIN MENU // Small Button -->
+		<style_entry name="atlas" value="ItemIconAtlas" />
+		<style_entry name="sprite" value="smxbutton3" />
+		<style_entry name="type" value="sliced" />
+		<style_entry name="size" value="206,85" />
+	</style>
+	<style name="SMXButtonHover1" type="button">
+		<!--	// MAIN MENU // Normal Button // Hover -->
+		<style_entry name="atlas" value="ItemIconAtlas" />
+		<style_entry name="sprite" value="menu_empty" />
+		<style_entry name="hoversprite" value="smxbuttonhover" />
+		<style_entry name="hoverscale" value="1.0" />
+		<style_entry name="type" value="sliced" />
+		<style_entry name="size" value="197,52" />
+	</style>
+	<style name="SMXButtonHover2" type="button">
+		<!--	// MAIN MENU // Small Button // Hover -->
+		<style_entry name="atlas" value="ItemIconAtlas" />
+		<style_entry name="sprite" value="menu_empty" />
+		<style_entry name="hoversprite" value="smxbuttonhover" />
+		<style_entry name="hoverscale" value="1.0" />
+		<style_entry name="type" value="sliced" />
+		<style_entry name="size" value="160,52" />
+	</style>
 	<style name="SMXUnitFrameWindow" type="window">
 		<style_entry name="pos" value="9,20" />
 		<style_entry name="size" value="140,96" />
@@ -186,12 +363,12 @@
 	<style type="label">
 		<style_entry name="color" value="[labelColor]"/>
 		<style_entry name="font_face" value="AgencyB_32p"/>
-		<style_entry name="font_size" value="28"/>
+		<style_entry name="font_size" value="26"/>
 		<style_entry name="justify" value="left"/>
 		<style_entry name="effect" value="none"/>
 		<style_entry name="pivot" value="topleft"/>
 		<style_entry name="text" value=""/>
-		<style_entry name="upper_case" value="true" />
+		<style_entry name="upper_case" value="false" />
 	</style>
 	<style type="label" name="protection">
 		<style_entry name="width" value="50"/>

@@ -15,5 +15,4 @@
 	<property name="SleeperVolumeGroup" value="S_Default_Med,S_FootballStadium_Med"/>
 	<property name="SleeperVolumeGameStageAdjust" value=","/>
 	<property name="SleeperIsLootVolume" value="False,False"/>
-	<property name="DisallowedBiomes" value="radiated"/>
 </prefab>

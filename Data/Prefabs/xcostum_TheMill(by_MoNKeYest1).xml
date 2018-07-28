@@ -8,9 +8,4 @@
 	<property name="YOffset" value="-5"/>
 	<property name="DistantPOIYOffset" value="0"/>
 	<property name="AllowedBiomes" value="pine_forest,forest"/>
-	<property name="SleeperVolumeStart" value="7,3,9"/>
-	<property name="SleeperVolumeSize" value="86,7,83"/>
-	<property name="SleeperVolumeGroup" value="S_Default_XL"/>
-	<property name="SleeperVolumeGameStageAdjust" value=""/>
-	<property name="SleeperIsLootVolume" value="False"/>
 </prefab>

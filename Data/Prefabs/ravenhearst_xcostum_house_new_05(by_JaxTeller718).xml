@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+	<property name="CopyAirBlocks" value="True"/>
+	<property name="AllowTopSoilDecorations" value="True"/>
+	<property name="TraderArea" value="False"/>
+	<property name="ExcludeDistantPOIMesh" value="False"/>
+	<property name="Zoning" value="ResidentialNew"/>
+	<property name="RotationToFaceNorth" value="2"/>
+	<property name="YOffset" value="-1"/>
+	<property name="DistantPOIYOffset" value="0"/>
+	<property name="AllowedTownships" value="city,rural,town,wilderness"/>
+	<property name="SleeperVolumeStart" value="0,0,35#1,0,0#2,0,45#3,0,0#40,0,4#4,1,27#9,1,19#9,1,32#19,1,20#17,1,25#21,1,21#34,1,15#34,0,26#9,6,40#19,6,10"/>
+	<property name="SleeperVolumeSize" value="10,18,15#23,18,28#40,18,24#38,18,21#3,9,20#7,9,14#15,11,21#15,6,21#9,6,8#19,13,28#16,6,5#7,10,12#9,18,27#11,7,6#14,7,17"/>
+	<property name="SleeperVolumeGroup" value="S_MobHorde_XL,S_MobHorde_XL,S_MobHorde_XL,S_MobHorde_XL,S_MobHorde_XL,S_MobHorde_XL,S_MobHorde_XL,S_MobHorde_XL,S_MobHorde_XL,S_MobHorde_XL,S_MobHorde_XL,S_MobHorde_XL,S_MobHorde_XL,S_MobHorde_XL,S_MobHorde_XL"/>
+	<property name="SleeperVolumeGameStageAdjust" value="medium,200,350,350,medium,350,200,250,250,250,250,medium,200,medium,easy"/>
+	<property name="SleeperIsLootVolume" value="False,False,False,False,False,False,True,False,True,False,False,False,False,False,True"/>
+</prefab>

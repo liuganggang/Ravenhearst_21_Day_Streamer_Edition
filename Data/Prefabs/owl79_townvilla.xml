@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+	<property name="CopyAirBlocks" value="True"/>
+	<property name="AllowTopSoilDecorations" value="True"/>
+	<property name="TraderArea" value="False"/>
+	<property name="ExcludeDistantPOIMesh" value="False"/>
+	<property name="Zoning" value="ResidentialNew,ResidentialOld"/>
+	<property name="RotationToFaceNorth" value="0"/>
+	<property name="YOffset" value="-7"/>
+	<property name="DistantPOIYOffset" value="0"/>
+	<property name="MaxPerHub" value="1"/>
+	<property name="StaticSpawner.Size" value="70, 2, 100"/>
+	<property name="AllowedBiomes" value="snow,plains,pine_forest,forest,desert,wasteland_hub,wasteland,city,city_wasteland,water"/>
+	<property name="AllowedTownships" value="city,town"/>
+	<property name="SleeperVolumeStart" value="1,1,13#1,7,0"/>
+	<property name="SleeperVolumeSize" value="20,20,18#23,4,13"/>
+	<property name="SleeperVolumeGroup" value="S_LootRoom_XL,S_ZombieDogs_S"/>
+	<property name="SleeperVolumeGameStageAdjust" value="medium,"/>
+	<property name="SleeperIsLootVolume" value="False,False"/>
+</prefab>

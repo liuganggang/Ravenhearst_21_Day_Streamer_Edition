@@ -15,5 +15,4 @@
 	<property name="SleeperVolumeGroup" value="S_Default_Med,S_Default_Med,S_BusinessMan_Med,S_BikerBar_Med,S_Default_Med,S_BusinessMan_Med,S_Default_Med,S_ZomSoldier_Med,S_Default_Med,S_FeralZombies_S"/>
 	<property name="SleeperVolumeGameStageAdjust" value=",,,,,,,,,"/>
 	<property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False"/>
-	<property name="DisallowedBiomes" value="radiated"/>
 </prefab>

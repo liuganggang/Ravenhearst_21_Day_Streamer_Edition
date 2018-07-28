@@ -5,9 +5,13 @@
 	<property name="TraderArea" value="False"/>
 	<property name="ExcludeDistantPOIMesh" value="False"/>
 	<property name="Zoning" value="Commercial"/>
-	<property name="AllowedTownships" value="city,rural,town,wilderness"/>
 	<property name="RotationToFaceNorth" value="2"/>
 	<property name="YOffset" value="-5"/>
 	<property name="DistantPOIYOffset" value="0"/>
 	<property name="AllowedBiomes" value="snow,pine_forest,forest"/>
+	<property name="SleeperVolumeStart" value="5,9,9"/>
+	<property name="SleeperVolumeSize" value="21,3,15"/>
+	<property name="SleeperVolumeGroup" value="S_SnowZombies_Med"/>
+	<property name="SleeperVolumeGameStageAdjust" value=""/>
+	<property name="SleeperIsLootVolume" value="False"/>
 </prefab>

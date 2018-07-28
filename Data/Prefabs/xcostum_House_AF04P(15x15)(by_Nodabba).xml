@@ -8,7 +8,6 @@
 	<property name="RotationToFaceNorth" value="0"/>
 	<property name="YOffset" value="-1"/>
 	<property name="DistantPOIYOffset" value="0"/>
-	<property name="AllowedBiomes" value="radiated,wasteland"/>
-	<property name="AllowedTownships" value="rural,town,wilderness"/>
-	<property name="DisallowedBiomes" value="snow,plains,pine_forest,forest,desert,burnt_forest,wasteland_hub"/>
+	<property name="AllowedBiomes" value="burnt_forest,snow,plains,pine_forest,forest,desert,wasteland_hub,wasteland"/>
+	<property name="AllowedTownships" value="city,rural,town,wilderness"/>
 </prefab>

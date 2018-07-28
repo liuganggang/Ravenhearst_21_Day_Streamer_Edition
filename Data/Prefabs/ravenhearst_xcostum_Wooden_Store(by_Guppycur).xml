@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+	<property name="CopyAirBlocks" value="False"/>
+	<property name="AllowTopSoilDecorations" value="True"/>
+	<property name="TraderArea" value="False"/>
+	<property name="ExcludeDistantPOIMesh" value="False"/>
+	<property name="Zoning" value="Commercial"/>
+	<property name="RotationToFaceNorth" value="1"/>
+	<property name="YOffset" value="-5"/>
+	<property name="DistantPOIYOffset" value="0"/>
+	<property name="AllowedBiomes" value="burnt_forest,snow,plains,pine_forest,forest,desert,wasteland"/>
+	<property name="AllowedTownships" value="rural,town"/>
+	<property name="SleeperVolumeStart" value="4,7,2#24,10,19#1,5,1#0,4,0#24,10,19#24,10,19#0,5,11#1,5,13#24,10,19#24,10,19#24,10,19#24,10,19#24,10,19#24,10,19#24,10,19#24,10,19#24,10,19#24,10,19#24,10,19#24,10,19#24,10,19#23,5,13#24,10,19#24,10,19#24,10,19#24,10,19#24,10,19#16,5,0#24,10,19#23,5,1#23,5,17#24,10,19#24,10,19"/>
+	<property name="SleeperVolumeSize" value="20,3,17#-22,-8,-17#3,8,3#12,7,3#-22,-8,-17#-22,-8,-17#4,8,4#5,8,5#-22,-8,-17#-22,-8,-17#-22,-8,-17#-22,-8,-17#-22,-8,-17#-22,-8,-17#-22,-8,-17#-22,-8,-17#-22,-8,-17#-22,-8,-17#-22,-8,-17#-22,-8,-17#-22,-8,-17#3,6,3#-22,-8,-17#-22,-8,-17#-22,-8,-17#-22,-8,-17#-22,-8,-17#7,6,3#-22,-8,-17#3,6,3#3,6,3#-22,-8,-17#-22,-8,-17"/>
+	<property name="SleeperVolumeGroup" value="S_Default_Med,S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_ZombieDogs_Med,S_ZombieDogs_Med,S_ZombieDogs_Med,S_ZombieDogs_Med,S_ZombieDogs_Med,S_ZombieDogs_Med,S_ZombieDogs_Med,S_ZombieDogs_Med,S_ZombieDogs_Med,S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_Default_S,S_Default_S"/>
+	<property name="SleeperVolumeGameStageAdjust" value=",350,200,250,medium,250,350,medium,200,medium,350,200,200,350,250,200,200,350,400,medium,200,200,250,medium,medium,medium,medium,easy,250,200,200,200,medium"/>
+	<property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False"/>
+</prefab>
